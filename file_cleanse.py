@@ -6,8 +6,8 @@ from openpyxl import Workbook
 
 class FileCleanse:
     # Properties
-    def __init__(self):
-        self.all_years_df = pd.DataFrame()
+    def __init__(self, dataframe=pd.DataFrame()):
+        self.all_years_df = dataframe
         self.outputs_info = pd.DataFrame()
         self.separated_crops = {}
         self.changes_made = defaultdict(list)
@@ -16,6 +16,7 @@ class FileCleanse:
         self.directory = ""
         self.mandatory_headings = ["seed", "fertiliser", "herbicide", "output"]
         self.dvf = DataVerificationFile()
+        self.validity = True
 
     @property
     def all_years_df(self):
@@ -23,14 +24,17 @@ class FileCleanse:
 
     @all_years_df.setter
     def all_years_df(self, new_df):
-        if 'Quantity' in new_df.columns:
+        new_df, validity = self.column_name_checks(new_df)
+        self.validity = validity
+        print(validity)
+        if validity:
             new_df.dropna(inplace=True)
             new_df.drop(new_df[new_df["Quantity"] == 0].index, inplace=True)
             new_df.drop(new_df[new_df["Heading Category"] ==
-                               "Fixed Costs"].index, inplace=True)
+                            "Fixed Costs"].index, inplace=True)
             self.outputs_info = new_df[new_df["Heading Category"] == "Outputs"]
             new_df.drop(self.outputs_info.index, inplace=True)
-        self._all_years_df = new_df
+            self._all_years_df = new_df
 
     # properties of the farm
     def get_croplist(self):
@@ -54,6 +58,30 @@ class FileCleanse:
     years = property(get_all_years)
     separated_crops_list = property(get_separated_crops_list)
 
+    def column_name_checks(self, dataframe):
+        mandatory_columns = [
+            "Quantity",
+            "Heading Category",
+            "Product Name",
+            "Field Group",
+            "Crop Group",
+            "Variety",
+            "Rate per Application Area ha",
+            "Av Field Unit Price GBP"
+        ]
+        for name in mandatory_columns:
+            if name not in dataframe.columns:
+                if name == "Av Field Unit Price GBP":
+                    if "Unit Price GBP" in dataframe.columns:
+                        dataframe.rename(columns={"Unit Price GBP": "Av Field Unit Price GBP"})
+                        continue
+                elif name == "Rate per Application Area ha":
+                    if "Quantity per Application Area ha" in dataframe.columns:
+                        dataframe.rename(columns={"Quantity per Application Area ha": "Rate per Application Area ha"})
+                        continue
+                return dataframe, False
+        return dataframe, True
+
     def adjust_df_for_year(self, year):
         return self.all_years_df[self.all_years_df["Year"] == year]
 
@@ -67,11 +95,13 @@ class FileCleanse:
 
             working_df = SingleYearFile(self.adjust_df_for_year(year))
 
-            filename = self.filename + " - FPU - " + \
+            farm_name = self.filename
+
+            macro_filename = farm_name + " - FPU - " + \
                 str(round(year)) + " - MACRO.xlsx"
 
             book = Workbook()
-            writer = pd.ExcelWriter(filename, engine='openpyxl')
+            writer = pd.ExcelWriter(macro_filename, engine='openpyxl')
             writer.book = book
 
             writer.sheets = dict((ws.title, ws) for ws in book.worksheets)
@@ -90,18 +120,17 @@ class FileCleanse:
                 writer, "Products Missing Price")
             working_df.original_data.to_excel(writer, "Original Data")
 
-            book = working_df.summary_page_format(book, year)
+            book = working_df.summary_page_format(book)
+            book = working_df.change_logs_format(book)
             book, writer = working_df.inputs_page_format(book, year, writer)
 
-            self.dvf.add_year(year, working_df.get_data_for_verification())
+            self.dvf.add_year(year, working_df.get_data_for_verification(), working_df.field_analysis)
+            self.dvf.save(farm_name)
 
             std = book['Sheet']
             book.remove(std)
 
             writer.save()
-
-        # dvf_filename = self.filename + " - Data Verification.xlsx"
-        # DVF_book.save(dvf_filename)
 
     # Crop Separation
 

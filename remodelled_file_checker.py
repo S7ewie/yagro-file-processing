@@ -5,15 +5,15 @@ from tkinter import ttk
 import pandas as pd
 from file_cleanse import FileCleanse
 from sample_files import SampleFiles
+from styles_and_what_not import YAGRO_GREEN
 
 
 class GuiApplication:
     def __init__(self, root):
         self.master = root
-        self.YAGRO_GREEN = '#006838'
         self.dataframeObj = FileCleanse()
 
-        root.configure(background=self.YAGRO_GREEN)
+        root.configure(background=YAGRO_GREEN.colour)
 
         images_frame = tk.Frame(self.master)
         images_frame.pack(padx=0, pady=0, fill='x')
@@ -21,11 +21,19 @@ class GuiApplication:
         images_inner_frame = tk.Frame(images_frame)
         images_inner_frame.pack()
 
-        path = 'YAGROPLSLOGO.png'
-        im = Image.open(path)
-        img = ImageTk.PhotoImage(im, master=root)
-        panel = tk.Label(images_inner_frame, image=img)
-        panel.grid(row=0, column=1)
+        yagro_lbl = tk.Label(images_inner_frame, text="YAGRO")
+        yagro_lbl.config(font=("Comic Sans MS", 44))
+        yagro_lbl.grid(row=0, column=0)
+
+        yagro_power_lbl = tk.Label(images_inner_frame, text="powered by YOGRI")
+        yagro_power_lbl.config(font=("Comic Sans MS", 9))
+        yagro_power_lbl.grid(row=1, column=0)
+
+        # path = 'YAGROPLSLOGO.png'
+        # im = Image.open(path)
+        # img = ImageTk.PhotoImage(im, master=root)
+        # panel = tk.Label(images_inner_frame, image=img)
+        # panel.grid(row=0, column=1)
 
         # Choose file
 
@@ -39,7 +47,7 @@ class GuiApplication:
         choose_file_lbl.grid(row=0, column=0, padx=5, pady=15)
 
         open_csv_button = tk.Button(file_inner_frame, text='Upload csv', command=self.UploadAction,
-                                    activebackground=self.YAGRO_GREEN, activeforeground="#fff")
+                                    activebackground=YAGRO_GREEN.colour, activeforeground="#fff")
         open_csv_button.grid(row=0, column=1, padx=5, pady=5)
 
         file_entry_lbl = tk.Label(file_inner_frame, text="Enter Farm Name")
@@ -140,7 +148,7 @@ class GuiApplication:
                 },
                 "map": {
                     # Tab color when selected
-                    "background": [("selected", self.YAGRO_GREEN)],
+                    "background": [("selected", YAGRO_GREEN.colour)],
                     "expand": [("selected", [1, 1, 1, 0])],  # text margins
                     "foreground": [("selected", "#fff")],
                 }
@@ -302,10 +310,8 @@ class GuiApplication:
     def UploadAction(self, event=None):
         self.reset_listbox()
         filename = tkinter.filedialog.askopenfilename()
-        # directory = tkinter.filedialog.askdirectory()
         df = pd.read_csv(filename)
-        self.dataframeObj.all_years_df = df
-        # self.dataframeObj.filename = directory
+        self.dataframeObj = FileCleanse(dataframe=df)
         self.file_name_label.config(text=filename)
         self.completeness_check_lbl.config(
             text="Waiting to check...")

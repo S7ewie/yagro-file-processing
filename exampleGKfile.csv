@@ -1,4 +1,4 @@
-Field Group,Heading Category,Heading,Status,Product Name,Quantity,Units,Value GBP,Actual/Issued Date,Application Area ha,Av Field Unit Price GBP,Crop Group,Field Defined Name,Rate per Application Area ha,Variety,Year
+Field Group,Heading Category,Heading,Status,Product Name,Quantity,Units,Value GBP,Actual/Issued Date,Application Area ha,Av Field Unit Price GBP,Crop Group,Field Defined Name,Quantity per Application Area ha,Variety,Year
 Contract Godfrey FGrp,Variable Costs,Seed / Plants,Completed,Special Sauce,1.686,L,0,10/04/2018,8.31,0,NEW YEAR NEW CROP,SUPER GRASS FIELD,0.203,Maize thing,2018
 Contract Godfrey FGrp,Variable Costs,Adjuvants,Completed,Special Sauce,1.686,L,0,10/04/2018,8.31,0,Grass,SUPER GRASS FIELD,0.203,Maize thing,2019
 Contract Godfrey FGrp,Variable Costs,Adjuvants,Completed,Special Sauce,1.686,L,0,10/04/2018,8.31,0,Maize Forage,SUPER MAIZE FIELD,0.203,Maize thing,2019

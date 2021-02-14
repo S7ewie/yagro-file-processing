@@ -303,7 +303,7 @@ class SingleYearFile:
         self.df = df3
         self.missing_prices = missing_prices
 
-    def summary_page_format(self, book, year):
+    def summary_page_format(self, book):
         no_of_fields = self.fields.size
 
         summary_sheet = book.create_sheet("Summary Page", 0)
@@ -342,29 +342,21 @@ class SingleYearFile:
             row += 1
 
         summary_sheet['E1'] = "Fields missing seed"
-
-        row = 2
-        col = 5
-        for key in self.fields_missing_seed_list:
-            summary_sheet.cell(column=col, row=row, value=key)
-            row += 1
-
-        summary_sheet['G1'] = "Fields missing fert"
-
-        row = 2
-        col = 7
-        for key in self.fields_missing_fert_list:
-            summary_sheet.cell(column=col, row=row, value=key)
-            row += 1
-
+        summary_sheet['G1'] = "Fields missing fert"   
         summary_sheet['I1'] = "Fields missing chem"
 
         row = 2
-        col = 9
-        for key in self.fields_missing_chem_list:
-            summary_sheet.cell(column=col, row=row, value=key)
-            row += 1
+        col = 5
+        for key in self.fields_missing_item:
+            for item in self.fields_missing_item[key]:
+                summary_sheet.cell(column=col, row=row, value=item)
+                row += 1
+            row = 2
+            col += 2
 
+        return book
+
+    def change_logs_format(self, book):
         change_logs = book.create_sheet("Change Logs", 1)
         change_logs['A1'] = "Data Adjustment Logs"
         change_logs['A2'] = "The following changes were made to the data:"
@@ -390,7 +382,6 @@ class SingleYearFile:
                     column = 1
                 column = 1
                 row += 2
-        row += 2
 
         return book
 
@@ -440,4 +431,14 @@ class SingleYearFile:
         return book, writer
 
     def get_data_for_verification(self):
-        data_obj = {}
+        data_list = []
+        for key in self.fields_missing_item:
+            data_list.append({
+                "name": key,
+                "fields": self.fields_missing_item[key]
+            })
+        data_list.append({
+            "name": "missing_product_price",
+            "products": self.missing_prices["Product Name"].unique()
+        })
+        return data_list
