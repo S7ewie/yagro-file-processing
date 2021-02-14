@@ -9,6 +9,7 @@ class SingleYearFile:
         self.original_data = dataframe
         self.missing_prices = pd.DataFrame()
         self.fields_with_problems = []
+        self.fields_missing_item = defaultdict(list)
         self.fields_missing_seed_list = []
         self.fields_missing_fert_list = []
         self.fields_missing_chem_list = []
@@ -112,6 +113,7 @@ class SingleYearFile:
             if "Seed / Plants" not in headings_present:
                 self.append_list_to_problem_list(field)
                 self.fields_missing_seed_list.append(field)
+                self.fields_missing_item["missing_seed"].append(field)
                 fields_missing_seed_df = fields_missing_seed_df.append(
                     field_df)
             else:
@@ -180,6 +182,7 @@ class SingleYearFile:
                 if should_there_be_fert:
                     self.append_list_to_problem_list(field)
                     self.fields_missing_fert_list.append(field)
+                    self.fields_missing_item["missing_fert"].append(field)
                     fields_missing_fert_df = fields_missing_fert_df.append(
                         field_df)
 
@@ -197,6 +200,7 @@ class SingleYearFile:
             if not (("Herbicides" in headings_present) or ("Fungicides" in headings_present)):
                 self.append_list_to_problem_list(field)
                 self.fields_missing_chem_list.append(field)
+                self.fields_missing_item["missing_chem"].append(field)
                 fields_missing_chem_df = fields_missing_chem_df.append(
                     field_df)
 
@@ -308,21 +312,21 @@ class SingleYearFile:
         summary_sheet['B2'] = no_of_fields
 
         summary_sheet['A4'] = "Number of fields missing seed:"
-        no_miss_seed = len(self.fields_missing_seed_list)
+        no_miss_seed = len(self.fields_missing_item["missing_seed"])
         perc_miss_seed = (no_miss_seed / no_of_fields)
         summary_sheet['B4'] = no_miss_seed
         summary_sheet['B5'] = perc_miss_seed
         summary_sheet['B5'].number_format = '0%'
 
         summary_sheet['A7'] = "Number of fields missing fert:"
-        no_miss_fert = len(self.fields_missing_fert_list)
+        no_miss_fert = len(self.fields_missing_item["missing_fert"])
         perc_miss_fert = (no_miss_fert / no_of_fields)
         summary_sheet['B7'] = no_miss_fert
         summary_sheet['B8'] = perc_miss_fert
         summary_sheet['B8'].number_format = '0%'
 
         summary_sheet['A10'] = "Number of fields missing chem:"
-        no_miss_chem = len(self.fields_missing_chem_list)
+        no_miss_chem = len(self.fields_missing_item["missing_chem"])
         perc_miss_chem = (no_miss_chem / no_of_fields)
         summary_sheet['B10'] = no_miss_chem
         summary_sheet['B11'] = perc_miss_chem
@@ -434,3 +438,6 @@ class SingleYearFile:
         inputs_df.to_excel(writer, "Inputs Page")
 
         return book, writer
+
+    def get_data_for_verification(self):
+        data_obj = {}

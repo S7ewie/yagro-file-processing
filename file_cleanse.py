@@ -93,7 +93,7 @@ class FileCleanse:
             book = working_df.summary_page_format(book, year)
             book, writer = working_df.inputs_page_format(book, year, writer)
 
-            # self.dvf.add_year(working_df.get_data_for_verification())
+            self.dvf.add_year(year, working_df.get_data_for_verification())
 
             std = book['Sheet']
             book.remove(std)
