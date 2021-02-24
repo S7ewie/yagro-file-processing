@@ -235,6 +235,9 @@ class SingleYearFile:
                 "variety": VARIETY,
                 "name": field
             }
+        # TODO:- marge the field analysis objects into a dataframe for better analysis later on, such as area calculations
+
+        self.field_analysis_df = pd.Dataframe.from_dict(self.field_analysis, orient="index")
 
     # Error Logging
 
@@ -342,7 +345,7 @@ class SingleYearFile:
             row += 1
 
         summary_sheet['E1'] = "Fields missing seed"
-        summary_sheet['G1'] = "Fields missing fert"   
+        summary_sheet['G1'] = "Fields missing fert"
         summary_sheet['I1'] = "Fields missing chem"
 
         row = 2
@@ -353,6 +356,14 @@ class SingleYearFile:
                 row += 1
             row = 2
             col += 2
+
+        # TODO: add in field area sum for whole farm, by crop, by field group and by variety
+
+        col = 1
+        row += 2
+
+        summary_sheet.cell(row=row, column=column, value="Area summary")
+        
 
         return book
 

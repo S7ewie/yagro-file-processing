@@ -22,12 +22,12 @@ class GuiApplication:
         images_inner_frame.pack()
 
         yagro_lbl = tk.Label(images_inner_frame, text="YAGRO")
-        yagro_lbl.config(font=("Comic Sans MS", 44))
+        yagro_lbl.config(font=("Arial", 44))
         yagro_lbl.grid(row=0, column=0)
 
-        yagro_power_lbl = tk.Label(images_inner_frame, text="powered by YOGRI")
-        yagro_power_lbl.config(font=("Comic Sans MS", 9))
-        yagro_power_lbl.grid(row=1, column=0)
+        # yagro_power_lbl = tk.Label(images_inner_frame, text="powered by YOGRI")
+        # yagro_power_lbl.config(font=("Comic Sans MS", 9))
+        # yagro_power_lbl.grid(row=1, column=0)
 
         # path = 'YAGROPLSLOGO.png'
         # im = Image.open(path)
@@ -284,7 +284,7 @@ class GuiApplication:
         self.product_entry.grid(row=0, column=0)
 
         self.product_btn = tk.Button(product_editing_inner_frame,
-                                     text="Submit new product name")
+                                     text="Submit new product name", command=self.rename_product)
         self.product_btn.grid(row=1, column=0, pady=5)
 
         # Check commands
@@ -317,15 +317,17 @@ class GuiApplication:
             text="Waiting to check...")
         self.prime_listboxes_for_liftoff()
 
-    def prime_listboxes_for_liftoff(self):
+    def prime_listboxes_for_liftoff(self, invalidate=True):
         self.universal_listbox_update(
-            self.my_listbox, self.dataframeObj.croplist)
+            self.my_listbox, self.dataframeObj.croplist, invalidate=invalidate)
         self.universal_listbox_update(
-            self.product_listbox, self.dataframeObj.productlist)
+            self.product_listbox, self.dataframeObj.productlist, invalidate=invalidate)
         self.universal_listbox_update(
-            self.fgroup_listbox, self.dataframeObj.fgroups)
+            self.fgroup_listbox, self.dataframeObj.fgroups, invalidate=invalidate)
 
-    def universal_listbox_update(self, listbox, list_to_add):
+    def universal_listbox_update(self, listbox, list_to_add, invalidate=False):
+        if invalidate:
+            listbox.delete(0,tk.END)
         for item in sorted(list_to_add):
             listbox.insert(tk.END, item)
 

@@ -3,6 +3,7 @@ from data_verification_file import DataVerificationFile
 from single_year_file import SingleYearFile
 from collections import defaultdict
 from openpyxl import Workbook
+from database_operations import DatabaseOperations
 
 class FileCleanse:
     # Properties
@@ -17,6 +18,7 @@ class FileCleanse:
         self.mandatory_headings = ["seed", "fertiliser", "herbicide", "output"]
         self.dvf = DataVerificationFile()
         self.validity = True
+        self.database_ops = DatabaseOperations()
 
     @property
     def all_years_df(self):
@@ -26,7 +28,7 @@ class FileCleanse:
     def all_years_df(self, new_df):
         new_df, validity = self.column_name_checks(new_df)
         self.validity = validity
-        print(validity)
+        print("File is valid: ", validity)
         if validity:
             new_df.dropna(inplace=True)
             new_df.drop(new_df[new_df["Quantity"] == 0].index, inplace=True)
@@ -73,11 +75,11 @@ class FileCleanse:
             if name not in dataframe.columns:
                 if name == "Av Field Unit Price GBP":
                     if "Unit Price GBP" in dataframe.columns:
-                        dataframe.rename(columns={"Unit Price GBP": "Av Field Unit Price GBP"})
+                        dataframe.rename(columns={"Unit Price GBP": "Av Field Unit Price GBP"}, inplace=True)
                         continue
                 elif name == "Rate per Application Area ha":
                     if "Quantity per Application Area ha" in dataframe.columns:
-                        dataframe.rename(columns={"Quantity per Application Area ha": "Rate per Application Area ha"})
+                        dataframe.rename(columns={"Quantity per Application Area ha": "Rate per Application Area ha"}, inplace=True)
                         continue
                 return dataframe, False
         return dataframe, True
@@ -85,11 +87,10 @@ class FileCleanse:
     def adjust_df_for_year(self, year):
         return self.all_years_df[self.all_years_df["Year"] == year]
 
-    def add_to_dvf_file(self, dvf, stuff):
-        pass
-
     def do_checks(self):
         print("I'ma doing the checks :angry-italian-hand-gestures:")
+
+        self.dvf.add_problem_products(self.database_ops.compare_products_with_rules(self.productlist))
 
         for year in self.years:
 
@@ -119,6 +120,8 @@ class FileCleanse:
             working_df.missing_prices.to_excel(
                 writer, "Products Missing Price")
             working_df.original_data.to_excel(writer, "Original Data")
+
+            
 
             book = working_df.summary_page_format(book)
             book = working_df.change_logs_format(book)
@@ -158,6 +161,7 @@ class FileCleanse:
             (round(year), heading_missing.capitalize()))
 
     def rename_product(self, old_product, new_product):
+        print("renaming your god damn product from ", old_product, " to ", new_product)
         self.all_years_df.loc[self.all_years_df[self.all_years_df["Product Name"]
                                                 == old_product].index, 'Product Name'] = new_product
 
