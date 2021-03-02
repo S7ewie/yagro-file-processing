@@ -1,6 +1,6 @@
 import pandas as pd
 from collections import defaultdict
-
+import copy
 
 class SingleYearFile:
 
@@ -15,6 +15,7 @@ class SingleYearFile:
         self.fields_missing_chem_list = []
         self.changes_made = defaultdict(list)
         self.field_analysis = {}
+        self.field_analysis_df = pd.DataFrame()
         self.problem_units = [
             {
                 "old_unit": "Seed",
@@ -75,7 +76,10 @@ class SingleYearFile:
         ]
 
     def get_croplist(self):
-        return self.df["Crop Group"].unique()
+        return sorted(self.df["Crop Group"].unique())
+
+    def get_varietylist(self):
+        return sorted(self.df["Variety"].unique())
 
     def get_crop_variety_obj(self):
         crop_varieties = {}
@@ -93,6 +97,7 @@ class SingleYearFile:
     year = property(get_file_year)
     fields = property(get_fields)
     croplist = property(get_croplist)
+    varietylist = property(get_varietylist)
     crop_variety_obj = property(get_crop_variety_obj)
 
     # missing data properties
@@ -237,7 +242,7 @@ class SingleYearFile:
             }
         # TODO:- marge the field analysis objects into a dataframe for better analysis later on, such as area calculations
 
-        self.field_analysis_df = pd.Dataframe.from_dict(self.field_analysis, orient="index")
+        self.field_analysis_df = pd.DataFrame.from_dict(self.field_analysis, orient="index")
 
     # Error Logging
 
@@ -344,26 +349,49 @@ class SingleYearFile:
             summary_sheet.cell(column=col+1, row=row, value=col_value)
             row += 1
 
-        summary_sheet['E1'] = "Fields missing seed"
-        summary_sheet['G1'] = "Fields missing fert"
-        summary_sheet['I1'] = "Fields missing chem"
-
-        row = 2
-        col = 5
-        for key in self.fields_missing_item:
-            for item in self.fields_missing_item[key]:
-                summary_sheet.cell(column=col, row=row, value=item)
-                row += 1
-            row = 2
-            col += 2
-
-        # TODO: add in field area sum for whole farm, by crop, by field group and by variety
+        # List the areas associated with crops etc
 
         col = 1
         row += 2
 
-        summary_sheet.cell(row=row, column=column, value="Area summary")
-        
+        summary_sheet.cell(row=row, column=col, value="Area summary")
+        row += 1
+
+        summary_sheet.cell(row=row, column=col, value="By Crop")
+        summary_sheet.cell(row=row, column=col+1, value="Area (ha)")
+        row += 1 
+        for crop in self.croplist:
+            summary_sheet.cell(row=row, column=col, value=crop)
+            col += 1
+            summary_sheet.cell(row=row, column=col, value=self.field_analysis_df[self.field_analysis_df["crop"] == crop]['area'].sum())
+            row += 1
+            col += -1
+
+        row += 1
+        col = 1
+
+        summary_sheet.cell(row=row, column=col, value="By Variety")
+        summary_sheet.cell(row=row, column=col+1, value="Area (ha)")
+        row += 1 
+        for variety in self.varietylist:
+            summary_sheet.cell(row=row, column=col, value=variety)
+            summary_sheet.cell(row=row, column=col + 1, value=self.field_analysis_df[self.field_analysis_df["variety"] == variety]['area'].sum())
+            row += 1
+
+
+        # List problem field off to the side
+
+        row = 1
+        col = 5
+        for key in self.fields_missing_item:
+            # if len(self.fields_missing_item[key]) > 0:
+            summary_sheet.cell(row=row, column=col, value=key)
+            row += 1
+            for item in self.fields_missing_item[key]:
+                summary_sheet.cell(column=col, row=row, value=item)
+                row += 1
+            row = 1
+            col += 2
 
         return book
 

@@ -6,7 +6,7 @@ import pandas as pd
 from file_cleanse import FileCleanse
 from sample_files import SampleFiles
 from styles_and_what_not import YAGRO_GREEN
-
+from online_farm_check_gui import OnlineChecker
 
 class GuiApplication:
     def __init__(self, root):
@@ -15,7 +15,7 @@ class GuiApplication:
 
         root.configure(background=YAGRO_GREEN.colour)
 
-        images_frame = tk.Frame(self.master)
+        images_frame = tk.Frame(root)
         images_frame.pack(padx=0, pady=0, fill='x')
 
         images_inner_frame = tk.Frame(images_frame)
@@ -34,10 +34,24 @@ class GuiApplication:
         # img = ImageTk.PhotoImage(im, master=root)
         # panel = tk.Label(images_inner_frame, image=img)
         # panel.grid(row=0, column=1)
+        
+        master_notebook = tk.Frame(root)
+        master_notebook.pack(padx=0, pady=5, fill='x')
 
+        main_tab_control = ttk.Notebook(master_notebook)
+        main_tab_control.pack(fill='x')
+
+        file_checking_tab = ttk.Frame(main_tab_control)
+        main_tab_control.add(file_checking_tab, text='File Checking')
+
+        oneline_farm_tab = ttk.Frame(main_tab_control)
+        main_tab_control.add(oneline_farm_tab, text='Online Farm Checking')
+
+        # self.online_checking = OnlineChecker(oneline_farm_tab)
+        
         # Choose file
 
-        file_choose_frame = tk.Frame(root)
+        file_choose_frame = tk.Frame(file_checking_tab)
         file_choose_frame.pack(padx=0, pady=0, fill='x')
 
         file_inner_frame = tk.Frame(file_choose_frame)
@@ -56,9 +70,13 @@ class GuiApplication:
         self.filename_entry = tk.Entry(file_inner_frame, exportselection=0)
         self.filename_entry.grid(row=0, column=3, padx=5, pady=5)
 
+        open_multifile_button = tk.Button(file_inner_frame, text='Upload multi-file', command=self.MultiUploadAction,
+                                    activebackground=YAGRO_GREEN.colour, activeforeground="#fff")
+        open_multifile_button.grid(row=1, column=2, padx=5, pady=5)
+
         # File Details
 
-        file_details = tk.Frame(root)
+        file_details = tk.Frame(file_checking_tab)
         file_details.pack(padx=0, pady=0, fill='x')
 
         file_details_holder = tk.Frame(file_details)
@@ -116,8 +134,8 @@ class GuiApplication:
 
         # List Boxes
 
-        box_frames = tk.Frame(root)
-        box_frames.pack(padx=0, pady=10, fill="x")
+        box_frames = tk.Frame(file_checking_tab)
+        box_frames.pack(padx=0, pady=0, fill="x")
 
         style = ttk.Style()
         style.theme_create('pastel', settings={
@@ -262,6 +280,52 @@ class GuiApplication:
                                             text="Move Field Group Back")
         self.fgroup_removed_btn.grid(row=1, column=1, pady=5)
 
+        # Field Name Management
+
+        field_name_tab = ttk.Frame(tab_control)
+        tab_control.add(field_name_tab, text="Field Names")
+
+        fname_inner_frame = tk.Frame(field_name_tab)
+        fname_inner_frame.pack()
+
+        self.fname_listbox = tk.Listbox(
+            fname_inner_frame, selectmode=tk.SINGLE)
+        self.fname_listbox.grid(row=0, column=0, padx=5, pady=5)
+
+        self.fname_entry = tk.Entry(fname_inner_frame)
+        self.fname_entry.grid(row=1, column=0)
+
+        self.fname_btn = tk.Button(fname_inner_frame,
+                                    text="Rename Field", command=self.rename_field)
+        self.fname_btn.grid(row=2, column=0, pady=5)
+
+        self.fname_changed_listbox = tk.Listbox(
+            fname_inner_frame, selectmode=tk.SINGLE)
+        self.fname_changed_listbox.grid(row=0, column=1, padx=5, pady=5)
+
+        # changes_tree = ttk.Treeview(changes_inner_frame)
+        
+        # fname_change_tree['columns'] = ("Old Product Name", "New Product Name")
+
+        # changes_tree.column("#0", width=0, stretch=tk.NO)
+        # changes_tree.column("Old Product Name", anchor=tk.W, width=120)
+        # changes_tree.column("New Product Name", anchor=tk.W, width=220)
+
+        # changes_tree.heading("#0", text="", anchor=tk.W)
+        # changes_tree.heading("Old Product Name", text="Old Product Name", anchor=tk.W)
+        # changes_tree.heading("New Product Name", text="New Product Name", anchor=tk.W)
+
+        # changes_tree.insert(parent='', index='end', iid=0, text="", values=("Spicey herb", "Mega Spicy Herb XL"))
+
+        # changes_tree.pack()
+
+        # NEEDS SOME WORK
+        self.fname_removed_btn = tk.Button(fname_inner_frame,
+                                            text="Undo Field Name Change")
+        self.fname_removed_btn.grid(row=1, column=1, pady=5)
+
+        
+
         # Product Management
 
         product_tab = ttk.Frame(tab_control)
@@ -287,9 +351,33 @@ class GuiApplication:
                                      text="Submit new product name", command=self.rename_product)
         self.product_btn.grid(row=1, column=0, pady=5)
 
+
+        # Change Logs Management
+
+        changes_tab = ttk.Frame(tab_control)
+        tab_control.add(changes_tab, text="Change Logs")
+
+        changes_inner_frame = tk.Frame(changes_tab)
+        changes_inner_frame.pack()
+
+        changes_tree = ttk.Treeview(changes_inner_frame)
+        
+        changes_tree['columns'] = ("Old Product Name", "New Product Name")
+
+        changes_tree.column("#0", width=0, stretch=tk.NO)
+        changes_tree.column("Old Product Name", anchor=tk.W, width=120)
+        changes_tree.column("New Product Name", anchor=tk.W, width=220)
+
+        changes_tree.heading("#0", text="", anchor=tk.W)
+        changes_tree.heading("Old Product Name", text="Old Product Name", anchor=tk.W)
+        changes_tree.heading("New Product Name", text="New Product Name", anchor=tk.W)
+
+        changes_tree.insert(parent='', index='end', iid=0, text="", values=("Spicey herb", "Mega Spicy Herb XL"))
+
+        changes_tree.pack()
         # Check commands
 
-        command_master_frame = tk.Frame(root)
+        command_master_frame = tk.Frame(file_checking_tab)
         command_master_frame.pack(padx=0, pady=0, fill="x")
 
         deleted_crops_label = tk.Label(
@@ -307,9 +395,17 @@ class GuiApplication:
             check_cmds_frame, text="Print some tings", command=self.print_some_tings)
         self.print_tings_button.grid(row=0, column=2, padx=5, pady=5)
 
+    def MultiUploadAction(self, event=None):
+        filenames = tkinter.filedialog.askopenfilenames()
+        print(filenames)
+        for file in filenames:
+            df = pd.read_csv(file)
+            print(df.head())
+
     def UploadAction(self, event=None):
         self.reset_listbox()
         filename = tkinter.filedialog.askopenfilename()
+        # df = pd.read_csv(filename, thousands=',')
         df = pd.read_csv(filename)
         self.dataframeObj = FileCleanse(dataframe=df)
         self.file_name_label.config(text=filename)
@@ -324,6 +420,8 @@ class GuiApplication:
             self.product_listbox, self.dataframeObj.productlist, invalidate=invalidate)
         self.universal_listbox_update(
             self.fgroup_listbox, self.dataframeObj.fgroups, invalidate=invalidate)
+        self.universal_listbox_update(
+            self.fname_listbox, self.dataframeObj.fnames, invalidate=invalidate)
 
     def universal_listbox_update(self, listbox, list_to_add, invalidate=False):
         if invalidate:
@@ -389,6 +487,12 @@ class GuiApplication:
         old_product_name = self.product_listbox.get(tk.ANCHOR)
         new_product_name = self.product_entry.get()
         self.dataframeObj.rename_product(old_product_name, new_product_name)
+        self.prime_listboxes_for_liftoff()
+
+    def rename_field(self):
+        old_field_name = self.fname_listbox.get(tk.ANCHOR)
+        new_field_name = self.fname_entry.get()
+        self.dataframeObj.rename_product(old_field_name, new_field_name)
         self.prime_listboxes_for_liftoff()
 
     def print_some_tings(self):

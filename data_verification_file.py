@@ -140,6 +140,18 @@ class DataVerificationFile:
             prob_prod_sheet.cell(row=row, column=column, value=product)
             row += 1
 
+    def add_fnames_for_checking(self, fnames):
+        fname_sheet = self.workbook.create_sheet("Field Name Check", 0)
+
+        fname_sheet["A1"] = "Field Names"
+        fname_sheet["A2"] = "Could you take a look at the field names you have supplied below and indicate whether you would like any changed. The field names shown below will be how they are displayed on your platform."
+
+        row = 4
+        column = 1
+
+        for field in fnames:
+            fname_sheet.cell(row=row, column=column, value=field)
+            row += 1
         
 
     def add_global_format(self, sheet):

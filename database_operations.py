@@ -7,9 +7,42 @@ from database_connection import DBConnection
 class DatabaseOperations:
     def __init__(self):
         self.db_connection = DBConnection()
+        self.groups_years_cache = {}
 
     def close_connection(self):
         self.db_connection.close_connection()
+
+    def get_groups(self):
+        get_groups_sql = """
+            select distinct yg."name" 
+            from fms_productapplied fp 
+            join fms_field ff on ff.id = fp.field_id 
+            join yagro_groups yg on yg.id = ff.group_id 
+            order by yg."name" 
+        """
+
+        groups_df = sqlio.read_sql_query(get_groups_sql, self.db_connection.conn)
+        
+        return groups_df["name"].unique()
+
+    def get_years_for_group(self, group):
+        if group in self.groups_years_cache:
+            return self.groups_years_cache[group]
+        else:
+            get_years_for_group_sql = """
+                select distinct fp.harvest_year 
+                from fms_productapplied fp 
+                join fms_field ff on ff.id = fp.field_id 
+                join yagro_groups yg on yg.id = ff.group_id 
+                where yg."name" in ('{group}')
+                order by fp.harvest_year 
+            """.format(group=group)
+
+            years_df = sqlio.read_sql_query(get_years_for_group_sql, self.db_connection.conn)
+            years = years_df["harvest_year"].unique()
+            self.groups_years_cache[group] = years
+            return years
+
 
     def compare_products_with_rules(self, products):
 

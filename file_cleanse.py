@@ -10,12 +10,13 @@ class FileCleanse:
     def __init__(self, dataframe=pd.DataFrame()):
         self.all_years_df = dataframe
         self.outputs_info = pd.DataFrame()
+        self.rebate_info = pd.DataFrame()
         self.separated_crops = {}
         self.changes_made = defaultdict(list)
         self.incomplete_data = []
         self.filename = ""
         self.directory = ""
-        self.mandatory_headings = ["seed", "fertiliser", "herbicide", "output"]
+        self.mandatory_headings = ["seed", "fertiliser", "herbicide"]
         self.dvf = DataVerificationFile()
         self.validity = True
         self.database_ops = DatabaseOperations()
@@ -34,29 +35,42 @@ class FileCleanse:
             new_df.drop(new_df[new_df["Quantity"] == 0].index, inplace=True)
             new_df.drop(new_df[new_df["Heading Category"] ==
                             "Fixed Costs"].index, inplace=True)
+            # Deal with rebates
+            self.rebate_info = new_df[new_df["Heading"] == "Rebates"]
+            new_df.drop(self.rebate_info.index, inplace=True)
+
+            # Deal with outputs
             self.outputs_info = new_df[new_df["Heading Category"] == "Outputs"]
             new_df.drop(self.outputs_info.index, inplace=True)
+
+            # Cast as floats incase of any random string numbers
+            new_df["Av Field Unit Price GBP"] = new_df["Av Field Unit Price GBP"].astype(float)
+            new_df["Quantity"] = new_df["Quantity"].astype(float)
             self._all_years_df = new_df
 
     # properties of the farm
     def get_croplist(self):
-        return self.all_years_df["Crop Group"].unique()
+        return sorted(self.all_years_df["Crop Group"].unique())
 
     def get_productlist(self):
-        return self.all_years_df["Product Name"].unique()
+        return sorted(self.all_years_df["Product Name"].unique())
 
     def get_fgroups(self):
-        return self.all_years_df["Field Group"].unique()
+        return sorted(self.all_years_df["Field Group"].unique())
+
+    def get_fnames(self):
+        return sorted(self.all_years_df["Field Defined Name"].unique())
 
     def get_all_years(self):
-        return self.all_years_df["Year"].unique()
+        return sorted(self.all_years_df["Year"].unique())
 
     def get_separated_crops_list(self):
-        return list(self.separated_crops.keys())
+        return sorted(list(self.separated_crops.keys()))
 
     croplist = property(get_croplist)
     productlist = property(get_productlist)
     fgroups = property(get_fgroups)
+    fnames = property(get_fnames)
     years = property(get_all_years)
     separated_crops_list = property(get_separated_crops_list)
 
@@ -91,6 +105,7 @@ class FileCleanse:
         print("I'ma doing the checks :angry-italian-hand-gestures:")
 
         self.dvf.add_problem_products(self.database_ops.compare_products_with_rules(self.productlist))
+        self.dvf.add_fnames_for_checking(self.fnames)
 
         for year in self.years:
 
@@ -121,7 +136,7 @@ class FileCleanse:
                 writer, "Products Missing Price")
             working_df.original_data.to_excel(writer, "Original Data")
 
-            
+            self.outputs_info.to_excel(writer, "Outputs")
 
             book = working_df.summary_page_format(book)
             book = working_df.change_logs_format(book)
@@ -154,6 +169,12 @@ class FileCleanse:
                 if not any(heading in c.lower() for c in year_df["Heading"].unique()):
                     self.log_incomplete_data(year, heading)
                     is_complete = False
+
+        for year in self.years:
+            output_year_df = self.outputs_info[self.outputs_info["Year"] == year]
+            if len(output_year_df.index) == 0:
+                self.log_incomplete_data(year, "output")
+                is_complete = False
         return is_complete
 
     def log_incomplete_data(self, year, heading_missing):
@@ -162,8 +183,14 @@ class FileCleanse:
 
     def rename_product(self, old_product, new_product):
         print("renaming your god damn product from ", old_product, " to ", new_product)
+        self.changes_made["product"].append({"old_product_name": old_product, "new_product_name": new_product})
         self.all_years_df.loc[self.all_years_df[self.all_years_df["Product Name"]
                                                 == old_product].index, 'Product Name'] = new_product
+
+    def rename_field(self, old_field_name, new_field_name):
+        print("renaming your god damn field from ", old_field_name, " to ", new_field_name)
+        self.all_years_df.loc[self.all_years_df[self.all_years_df["Field Defined Name"]
+                                                == old_field_name].index, 'Field Defined Name'] = new_field_name
 
     def pre_commit(self):
         print("Running pre-commit")
