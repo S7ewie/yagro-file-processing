@@ -81,6 +81,9 @@ class SingleYearFile:
     def get_varietylist(self):
         return sorted(self.df["Variety"].unique())
 
+    def get_unitlist(self):
+        return sorted(self.df["Units"].unique())
+
     def get_crop_variety_obj(self):
         crop_varieties = {}
         for crop in self.croplist:
@@ -99,6 +102,7 @@ class SingleYearFile:
     croplist = property(get_croplist)
     varietylist = property(get_varietylist)
     crop_variety_obj = property(get_crop_variety_obj)
+    units = property(get_unitlist)
 
     # missing data properties
     def get_missing_seed(self):
@@ -378,6 +382,12 @@ class SingleYearFile:
             summary_sheet.cell(row=row, column=col + 1, value=self.field_analysis_df[self.field_analysis_df["variety"] == variety]['area'].sum())
             row += 1
 
+        col = 1
+        row += 1
+        summary_sheet.cell(row=row, column=col, value="Units in file")
+        col += 1
+        sep = ', '
+        summary_sheet.cell(row=row, column=col, value=sep.join(self.units))
 
         # List problem field off to the side
 

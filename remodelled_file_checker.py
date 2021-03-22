@@ -1,6 +1,7 @@
 import tkinter as tk
 from PIL import Image, ImageTk
 import tkinter.filedialog
+from tkinter import messagebox
 from tkinter import ttk
 import pandas as pd
 from file_cleanse import FileCleanse
@@ -12,6 +13,7 @@ class GuiApplication:
     def __init__(self, root):
         self.master = root
         self.dataframeObj = FileCleanse()
+        self.sample_files = SampleFiles()
 
         root.configure(background=YAGRO_GREEN.colour)
 
@@ -265,11 +267,11 @@ class GuiApplication:
         fgroup_inner_frame.pack()
 
         self.fgroup_listbox = tk.Listbox(
-            fgroup_inner_frame, selectmode=tk.SINGLE)
+            fgroup_inner_frame, selectmode=tk.MULTIPLE)
         self.fgroup_listbox.grid(row=0, column=0, padx=5, pady=5)
 
         self.fgroup_btn = tk.Button(fgroup_inner_frame,
-                                    text="Delete Field Group")
+                                    text="Delete Field Group", command=self.delete_fgroup)
         self.fgroup_btn.grid(row=1, column=0, pady=5)
 
         self.fgroup_removed_listbox = tk.Listbox(
@@ -398,17 +400,33 @@ class GuiApplication:
     def MultiUploadAction(self, event=None):
         filenames = tkinter.filedialog.askopenfilenames()
         print(filenames)
+        master_file = pd.DataFrame(columns=self.sample_files.sample_product_applications_columns)
         for file in filenames:
             df = pd.read_csv(file)
-            print(df.head())
+            if self.dataframeObj.column_name_checks(df)[1]:
+                master_file = pd.concat([master_file, df])
+            else:
+                self.show_message("One or more of the files uploaded is not valid, please check the column headings carefully to make sure everything is there and it matches those in the sample file.")
+                return
+        self.dataframeObj = FileCleanse(dataframe=master_file)
+        self.config_gui_on_upload()
+        self.show_message("Files uploaded successfully.")
 
     def UploadAction(self, event=None):
         self.reset_listbox()
         filename = tkinter.filedialog.askopenfilename()
-        # df = pd.read_csv(filename, thousands=',')
-        df = pd.read_csv(filename)
-        self.dataframeObj = FileCleanse(dataframe=df)
-        self.file_name_label.config(text=filename)
+        if filename != '':
+            # df = pd.read_csv(filename, thousands=',')
+            df = pd.read_csv(filename)
+            self.dataframeObj = FileCleanse(dataframe=df)
+            self.config_gui_on_upload(filename=filename)
+            self.show_message("File uploaded successfully.")
+        else:
+            self.show_message("No file selected!")
+    
+    def config_gui_on_upload(self, filename=None):
+        text_to_write = "Mulitfile" if filename == None else filename
+        self.file_name_label.config(text=text_to_write)
         self.completeness_check_lbl.config(
             text="Waiting to check...")
         self.prime_listboxes_for_liftoff()
@@ -495,6 +513,13 @@ class GuiApplication:
         self.dataframeObj.rename_product(old_field_name, new_field_name)
         self.prime_listboxes_for_liftoff()
 
+    def delete_fgroup(self):
+        sel = self.fgroup_listbox.curselection()
+        for index in sel[::-1]:
+            self.dataframeObj.delete_fgroup_from_dataframe(
+                self.fgroup_listbox.get(index))
+            self.fgroup_listbox.delete(index)
+
     def print_some_tings(self):
         print(self.dataframeObj.changes_made)
         if self.dataframeObj.all_years_df.shape[0] != 0:
@@ -502,6 +527,8 @@ class GuiApplication:
             print(self.dataframeObj.separated_crops)
             print(self.dataframeObj.changes_made)
 
+    def show_message(self, message):
+        messagebox.showinfo(title="Warning, Warning, High Voltage!", message=message)
 
 def execute_order_66():
     root = tk.Tk()

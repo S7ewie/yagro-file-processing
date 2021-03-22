@@ -1,0 +1,864 @@
+Field Group,Heading Category,Heading,Status,Product Name,Quantity,Units,Value GBP,Actual/Issued Date,Application Area ha,Av Field Unit Price GBP,Crop Group,Field Defined Name,Variety,Year,Quantity per Application Area ha
+FH Rockcliffe FGrp,Variable Costs,Adjuvants,Completed,Adigor,8.602,L,41.24,16/04/2018,9.1,4.794,Barley Winter,CF11,Barley Winter,2018,0.945
+FH Rockcliffe FGrp,Variable Costs,Adjuvants,Completed,Adigor,2.978,L,14.27,16/04/2018,3.15,4.794,Barley Winter,CF21,Barley Winter,2018,0.945
+FH Rockcliffe FGrp,Variable Costs,Adjuvants,Completed,Adigor,2.42,L,11.6,16/04/2018,2.56,4.794,Barley Winter,CF24,Barley Winter,2018,0.945
+FH Rockcliffe FGrp,Variable Costs,Adjuvants,Completed,Adigor,8.138,L,39.01,09/05/2018,8,4.794,Wheat Winter,CF16.A,KWS Lili,2018,1.017
+FH Rockcliffe FGrp,Variable Costs,Adjuvants,Completed,Adigor,11.862,L,56.86,09/05/2018,11.66,4.794,Wheat Winter,CF16.B/02,KWS Lili,2018,1.017
+FH Rockcliffe FGrp,Variable Costs,Adjuvants,Completed,Adigor,20,L,95.88,09/05/2018,16,4.794,Wheat Winter,CF18,KWS Lili,2018,1.25
+FH Rockcliffe FGrp,Variable Costs,Adjuvants,Completed,Adigor,6.614,L,31.71,18/05/2018,4.2,4.794,Barley Spring,CF16.C/03,Barley Spring,2018,1.575
+FH Rockcliffe FGrp,Variable Costs,Adjuvants,Completed,Adigor,7.874,L,37.75,18/05/2018,5,4.794,Barley Spring,CF28,Barley Spring,2018,1.575
+FH Rockcliffe FGrp,Variable Costs,Adjuvants,Completed,Adigor,5.512,L,26.42,18/05/2018,3.5,4.794,Barley Spring,CF29,Barley Spring,2018,1.575
+FH Rockcliffe FGrp,Variable Costs,Adjuvants,Completed,Adigor,10,L,47.94,03/06/2018,6.7,4.794,Barley Spring,CF5,Barley Spring,2018,1.493
+FH Rockcliffe FGrp,Variable Costs,Adjuvants,Completed,AGWET,0.786,L,2.5,21/03/2018,9.1,3.176,Barley Winter,CF11,Barley Winter,2018,0.086
+FH Rockcliffe FGrp,Variable Costs,Adjuvants,Completed,AGWET,0.272,L,0.86,21/03/2018,3.15,3.176,Barley Winter,CF21,Barley Winter,2018,0.086
+FH Rockcliffe FGrp,Variable Costs,Adjuvants,Completed,AGWET,0.221,L,0.7,21/03/2018,2.56,3.176,Barley Winter,CF24,Barley Winter,2018,0.086
+FH Rockcliffe FGrp,Variable Costs,Adjuvants,Completed,AGWET,0.339,L,1.08,21/03/2018,3.93,3.176,Barley Winter,CF34,Barley Winter,2018,0.086
+FH Rockcliffe FGrp,Variable Costs,Adjuvants,Completed,AGWET,0.293,L,0.93,21/03/2018,3.39,3.176,Barley Winter,CF35,Barley Winter,2018,0.086
+FH Rockcliffe FGrp,Variable Costs,Adjuvants,Completed,AGWET,0.589,L,1.87,21/03/2018,6.82,3.176,Barley Winter,CF43,Barley Winter,2018,0.086
+FH Rockcliffe FGrp,Variable Costs,Adjuvants,Completed,AGWET,0.523,L,1.66,21/03/2018,8,3.176,Wheat Winter,CF16.A,KWS Lili,2018,0.065
+FH Rockcliffe FGrp,Variable Costs,Adjuvants,Completed,AGWET,0.762,L,2.42,21/03/2018,11.66,3.176,Wheat Winter,CF16.B/02,KWS Lili,2018,0.065
+FH Rockcliffe FGrp,Variable Costs,Adjuvants,Completed,AGWET,0.661,L,2.1,21/03/2018,10.11,3.176,Wheat Winter,CF2,KWS Lili,2018,0.065
+FH Rockcliffe FGrp,Variable Costs,Adjuvants,Completed,AGWET,0.239,L,0.76,21/03/2018,3.66,3.176,Wheat Winter,CF27,KWS Kerrin,2018,0.065
+FH Rockcliffe FGrp,Variable Costs,Adjuvants,Completed,AGWET,0.314,L,1,21/03/2018,4.8,3.176,Wheat Winter,CF33,KWS Lili,2018,0.065
+FH Rockcliffe FGrp,Variable Costs,Adjuvants,Completed,All clear,10,L,33.38,09/05/2018,10.11,3.338,Wheat Winter,CF2,KWS Lili,2018,0.989
+FH Rockcliffe FGrp,Variable Costs,Adjuvants,Completed,All clear,2.381,L,7.95,18/05/2018,7.78,3.338,Sugar Beet,CF17,Sugar Beet,2018,0.306
+FH Rockcliffe FGrp,Variable Costs,Adjuvants,Completed,All clear,2.509,L,8.38,18/05/2018,8.2,3.338,Sugar Beet,CF26,Sugar Beet,2018,0.306
+FH Rockcliffe FGrp,Variable Costs,Adjuvants,Completed,All clear,5.11,L,17.06,18/05/2018,16.7,3.338,Sugar Beet,CF44,Sugar Beet,2018,0.306
+FH Rockcliffe FGrp,Variable Costs,Adjuvants,Completed,Biopower,10,L,31.5,09/05/2018,10.11,3.15,Wheat Winter,CF2,KWS Lili,2018,0.989
+FH Rockcliffe FGrp,Variable Costs,Adjuvants,Completed,Companion Gold,4.097,L,23.15,20/09/2017,6.7,4.133,Barley Spring,CF5,Barley Spring,2018,0.611
+FH Rockcliffe FGrp,Variable Costs,Adjuvants,Completed,Companion Gold,1.364,L,7.71,20/09/2017,3.4,4.133,Barley Winter,CF34,Barley Winter,2018,0.401
+FH Rockcliffe FGrp,Variable Costs,Adjuvants,Completed,Companion Gold,1.404,L,7.93,20/09/2017,3.5,4.133,Barley Winter,CF35,Barley Winter,2018,0.401
+FH Rockcliffe FGrp,Variable Costs,Adjuvants,Completed,Companion Gold,2.752,L,15.55,20/09/2017,4.5,4.133,Sugar Beet,CF10,Sugar Beet,2018,0.611
+FH Rockcliffe FGrp,Variable Costs,Adjuvants,Completed,Companion Gold,4.757,L,26.89,20/09/2017,7.78,4.133,Sugar Beet,CF17,Sugar Beet,2018,0.611
+FH Rockcliffe FGrp,Variable Costs,Adjuvants,Completed,Companion Gold,2.446,L,13.82,20/09/2017,4,4.133,Sugar Beet,CF3,Sugar Beet,2018,0.611
+FH Rockcliffe FGrp,Variable Costs,Adjuvants,Completed,Companion Gold,2.752,L,15.55,20/09/2017,4.5,4.133,Sugar Beet,CF4,Sugar Beet,2018,0.611
+FH Rockcliffe FGrp,Variable Costs,Adjuvants,Completed,Companion Gold,2.293,L,12.96,20/09/2017,3.75,4.133,Sugar Beet,CF7,Sugar Beet,2018,0.611
+FH Rockcliffe FGrp,Variable Costs,Adjuvants,Completed,Companion Gold,2.206,L,12.47,20/09/2017,5.5,4.133,Unallocated,CF32,Crop Trials,2018,0.401
+FH Rockcliffe FGrp,Variable Costs,Adjuvants,Completed,Companion Gold,4.813,L,27.2,20/09/2017,12,4.133,Wheat Winter,CF14,KWS Kerrin,2018,0.401
+FH Rockcliffe FGrp,Variable Costs,Adjuvants,Completed,Companion Gold,1.404,L,7.93,20/09/2017,3.5,4.133,Wheat Winter,CF25,KWS Kerrin,2018,0.401
+FH Rockcliffe FGrp,Variable Costs,Adjuvants,Completed,Companion Gold,1.404,L,7.93,20/09/2017,3.5,4.133,Wheat Winter,CF27,KWS Kerrin,2018,0.401
+FH Rockcliffe FGrp,Variable Costs,Adjuvants,Completed,Companion Gold,2.406,L,13.6,20/09/2017,6,4.133,Wheat Winter,CF50,KWS Kerrin,2018,0.401
+FH Rockcliffe FGrp,Variable Costs,Adjuvants,Completed,Companion Gold,1.5,L,8.48,15/10/2017,4.2,4.133,Barley Spring,CF16.C/03,Barley Spring,2018,0.357
+FH Rockcliffe FGrp,Variable Costs,Adjuvants,Completed,Companion Gold,3.5,L,19.78,15/10/2017,9.8,4.133,Wheat Winter,CF16.B/02,KWS Lili,2018,0.357
+FH Rockcliffe FGrp,Variable Costs,Adjuvants,Completed,Companion Gold,5,L,28.26,21/03/2018,16.7,4.133,Sugar Beet,CF44,Sugar Beet,2018,0.299
+FH Rockcliffe FGrp,Variable Costs,Adjuvants,Completed,Companion Gold,2.5,L,18.23,06/04/2018,4.2,5.708,Barley Spring,CF16.C/03,Barley Spring,2018,0.595
+FH Rockcliffe FGrp,Variable Costs,Adjuvants,Completed,Companion Gold,2.406,L,17.54,06/04/2018,4.5,5.708,Sugar Beet,CF10,Sugar Beet,2018,0.535
+FH Rockcliffe FGrp,Variable Costs,Adjuvants,Completed,Companion Gold,4.16,L,30.33,06/04/2018,7.78,5.708,Sugar Beet,CF17,Sugar Beet,2018,0.535
+FH Rockcliffe FGrp,Variable Costs,Adjuvants,Completed,Companion Gold,4.384,L,31.96,06/04/2018,8.2,5.708,Sugar Beet,CF26,Sugar Beet,2018,0.535
+FH Rockcliffe FGrp,Variable Costs,Adjuvants,Completed,Companion Gold,2.139,L,15.59,06/04/2018,4,5.708,Sugar Beet,CF3,Sugar Beet,2018,0.535
+FH Rockcliffe FGrp,Variable Costs,Adjuvants,Completed,Companion Gold,2.406,L,17.54,06/04/2018,4.5,5.708,Sugar Beet,CF4,Sugar Beet,2018,0.535
+FH Rockcliffe FGrp,Variable Costs,Adjuvants,Completed,Companion Gold,2.005,L,14.62,06/04/2018,3.75,5.708,Sugar Beet,CF7,Sugar Beet,2018,0.535
+FH Rockcliffe FGrp,Variable Costs,Adjuvants,Completed,Companion Gold,12.84,L,93.6,09/07/2018,13,5.708,Rape Winter,CF52,Rape Winter,2018,0.988
+FH Rockcliffe FGrp,Variable Costs,Adjuvants,Completed,Companion Gold,8.395,L,61.2,09/07/2018,8.5,5.708,Rape Winter,CF8,Rape Winter,2018,0.988
+FH Rockcliffe FGrp,Variable Costs,Adjuvants,Completed,Companion Gold,18.765,L,136.81,09/07/2018,19,5.708,Rape Winter,CF9,Rape Winter,2018,0.988
+FH Rockcliffe FGrp,Variable Costs,Adjuvants,Completed,Logic,2.687,L,6.13,01/06/2018,4.5,2.283,Sugar Beet,CF10,Sugar Beet,2018,0.597
+FH Rockcliffe FGrp,Variable Costs,Adjuvants,Completed,Logic,4,L,9.13,01/06/2018,7.78,2.283,Sugar Beet,CF17,Sugar Beet,2018,0.514
+FH Rockcliffe FGrp,Variable Costs,Adjuvants,Completed,Logic,3.952,L,9.02,01/06/2018,8.2,2.283,Sugar Beet,CF26,Sugar Beet,2018,0.482
+FH Rockcliffe FGrp,Variable Costs,Adjuvants,Completed,Logic,2.388,L,5.45,01/06/2018,4,2.283,Sugar Beet,CF3,Sugar Beet,2018,0.597
+FH Rockcliffe FGrp,Variable Costs,Adjuvants,Completed,Logic,2.687,L,6.13,01/06/2018,4.5,2.283,Sugar Beet,CF4,Sugar Beet,2018,0.597
+FH Rockcliffe FGrp,Variable Costs,Adjuvants,Completed,Logic,8.048,L,18.37,01/06/2018,16.7,2.283,Sugar Beet,CF44,Sugar Beet,2018,0.482
+FH Rockcliffe FGrp,Variable Costs,Adjuvants,Completed,Logic,2.239,L,5.11,01/06/2018,3.75,2.283,Sugar Beet,CF7,Sugar Beet,2018,0.597
+FH Rockcliffe FGrp,Variable Costs,Adjuvants,Completed,Nelson,5,L,37.03,07/04/2018,9.5,7.406,Rape Winter,CF9,Rape Winter,2018,0.526
+FH Rockcliffe FGrp,Variable Costs,Adjuvants,Completed,Rapeze super,15,L,39.33,29/01/2018,13,2.622,Rape Winter,CF52,Rape Winter,2018,1.154
+FH Rockcliffe FGrp,Variable Costs,Adjuvants,Completed,Remix,3,L,48.52,27/08/2017,13,16.173,Rape Winter,CF52,Rape Winter,2018,0.231
+FH Rockcliffe FGrp,Variable Costs,Adjuvants,Completed,Remix,1.855,L,29.99,27/08/2017,8.5,16.173,Rape Winter,CF8,Rape Winter,2018,0.218
+FH Rockcliffe FGrp,Variable Costs,Adjuvants,Completed,Remix,4.145,L,67.05,27/08/2017,19,16.173,Rape Winter,CF9,Rape Winter,2018,0.218
+FH Rockcliffe FGrp,Variable Costs,Adjuvants,Completed,Remix,1.348,L,21.81,26/10/2017,8,16.173,Wheat Winter,CF16.A,KWS Lili,2018,0.169
+FH Rockcliffe FGrp,Variable Costs,Adjuvants,Completed,Remix,1.652,L,26.71,26/10/2017,9.8,16.173,Wheat Winter,CF16.B/02,KWS Lili,2018,0.169
+FH Rockcliffe FGrp,Variable Costs,Adjuvants,Completed,Remix,3.81,L,61.61,02/11/2017,16,16.173,Wheat Winter,CF18,KWS Lili,2018,0.238
+FH Rockcliffe FGrp,Variable Costs,Adjuvants,Completed,Remix,2.19,L,35.43,02/11/2017,9.2,16.173,Wheat Winter,CF2,KWS Lili,2018,0.238
+FH Rockcliffe FGrp,Variable Costs,Adjuvants,Completed,Roller,1,L,47.04,08/05/2018,13,47.036,Rape Winter,CF52,Rape Winter,2018,0.077
+FH Rockcliffe FGrp,Variable Costs,Adjuvants,Completed,Stingray,0.818,L,22.9,09/06/2018,4.5,27.99,Sugar Beet,CF10,Sugar Beet,2018,0.182
+FH Rockcliffe FGrp,Variable Costs,Adjuvants,Completed,Stingray,0.682,L,19.08,09/06/2018,3.75,27.99,Sugar Beet,CF7,Sugar Beet,2018,0.182
+,,SUB TOTALS FOR Adjuvants,,,,,1719.32,,,,,,,,
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,8.5N0P0K7MgO14.5Na2O,3033.381,kg,582.27,23/04/2018,4.5,0.192,Sugar Beet,CF10,Sugar Beet,2018,674.085
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,8.5N0P0K7MgO14.5Na2O,5244.378,kg,1006.68,23/04/2018,7.78,0.192,Sugar Beet,CF17,Sugar Beet,2018,674.085
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,8.5N0P0K7MgO14.5Na2O,5527.493,kg,1061.02,23/04/2018,8.2,0.192,Sugar Beet,CF26,Sugar Beet,2018,674.085
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,8.5N0P0K7MgO14.5Na2O,2696.338,kg,517.57,23/04/2018,4,0.192,Sugar Beet,CF3,Sugar Beet,2018,674.085
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,8.5N0P0K7MgO14.5Na2O,3033.381,kg,582.27,23/04/2018,4.5,0.192,Sugar Beet,CF4,Sugar Beet,2018,674.085
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,8.5N0P0K7MgO14.5Na2O,11257.212,kg,2160.86,23/04/2018,16.7,0.192,Sugar Beet,CF44,Sugar Beet,2018,674.085
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,8.5N0P0K7MgO14.5Na2O,2527.817,kg,485.22,23/04/2018,3.75,0.192,Sugar Beet,CF7,Sugar Beet,2018,674.085
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,A/N 34.4,1155.556,kg,242.67,29/08/2017,13,0.21,Rape Winter,CF52,Rape Winter,2018,88.889
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,A/N 34.4,755.556,kg,158.67,29/08/2017,8.5,0.21,Rape Winter,CF8,Rape Winter,2018,88.889
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,A/N 34.4,1688.889,kg,354.67,29/08/2017,19,0.21,Rape Winter,CF9,Rape Winter,2018,88.889
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,CROPKARE 0-10-12,2157.671,kg,189.88,26/09/2017,4.2,0.088,Barley Spring,CF16.C/03,Barley Spring,2018,513.731
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,CROPKARE 0-10-12,4674.954,kg,411.4,26/09/2017,9.1,0.088,Barley Winter,CF11,Barley Winter,2018,513.731
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,CROPKARE 0-10-12,1618.253,kg,142.41,26/09/2017,3.15,0.088,Barley Winter,CF21,Barley Winter,2018,513.731
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,CROPKARE 0-10-12,1315.152,kg,115.73,26/09/2017,2.56,0.088,Barley Winter,CF24,Barley Winter,2018,513.731
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,CROPKARE 0-10-12,2018.964,kg,177.67,26/09/2017,3.93,0.088,Barley Winter,CF34,Barley Winter,2018,513.731
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,CROPKARE 0-10-12,1741.549,kg,153.26,26/09/2017,3.39,0.088,Barley Winter,CF35,Barley Winter,2018,513.731
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,CROPKARE 0-10-12,3503.647,kg,308.32,26/09/2017,6.82,0.088,Barley Winter,CF43,Barley Winter,2018,513.731
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,CROPKARE 0-10-12,6678.506,kg,587.71,26/09/2017,13,0.088,Rape Winter,CF52,Rape Winter,2018,513.731
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,CROPKARE 0-10-12,4366.715,kg,384.27,26/09/2017,8.5,0.088,Rape Winter,CF8,Rape Winter,2018,513.731
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,CROPKARE 0-10-12,9760.893,kg,858.96,26/09/2017,19,0.088,Rape Winter,CF9,Rape Winter,2018,513.731
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,CROPKARE 0-10-12,5907.909,kg,519.9,26/09/2017,11.5,0.088,Wheat Winter,CF14,KWS Kerrin,2018,513.731
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,CROPKARE 0-10-12,5990.106,kg,527.13,26/09/2017,11.66,0.088,Wheat Winter,CF16.B/02,KWS Lili,2018,513.731
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,CROPKARE 0-10-12,1679.901,kg,147.83,26/09/2017,3.27,0.088,Wheat Winter,CF25,KWS Kerrin,2018,513.731
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,CROPKARE 0-10-12,1880.256,kg,165.46,26/09/2017,3.66,0.088,Wheat Winter,CF27,KWS Kerrin,2018,513.731
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,CROPKARE 0-10-12,2825.522,kg,248.65,26/09/2017,5.5,0.088,Wheat Winter,CF50,KWS Kerrin,2018,513.731
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,Nitroflo 22% N + 10% SO3,3338.272,L,641.56,22/02/2018,13,0.192,Rape Winter,CF52,Rape Winter,2018,256.79
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,Nitroflo 22% N + 10% SO3,2182.716,L,419.48,22/02/2018,8.5,0.192,Rape Winter,CF8,Rape Winter,2018,256.79
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,Nitroflo 22% N + 10% SO3,4879.012,L,937.67,22/02/2018,19,0.192,Rape Winter,CF9,Rape Winter,2018,256.79
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,Nitroflo 22% N + 10% SO3,2271.071,L,436.46,15/03/2018,9.1,0.192,Barley Winter,CF11,Barley Winter,2018,249.568
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,Nitroflo 22% N + 10% SO3,786.14,L,151.08,15/03/2018,3.15,0.192,Barley Winter,CF21,Barley Winter,2018,249.568
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,Nitroflo 22% N + 10% SO3,638.895,L,122.79,15/03/2018,2.56,0.192,Barley Winter,CF24,Barley Winter,2018,249.568
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,Nitroflo 22% N + 10% SO3,980.803,L,188.49,15/03/2018,3.93,0.192,Barley Winter,CF34,Barley Winter,2018,249.568
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,Nitroflo 22% N + 10% SO3,846.036,L,162.59,15/03/2018,3.39,0.192,Barley Winter,CF35,Barley Winter,2018,249.568
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,Nitroflo 22% N + 10% SO3,1702.055,L,327.11,15/03/2018,6.82,0.192,Barley Winter,CF43,Barley Winter,2018,249.568
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,Nitroflo 22% N + 10% SO3,1227.615,L,235.93,15/03/2018,4.92,0.192,Wheat Winter,CF13,KWS Lili,2018,249.515
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,Nitroflo 22% N + 10% SO3,2869.424,L,551.46,15/03/2018,11.5,0.192,Wheat Winter,CF14,KWS Kerrin,2018,249.515
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,Nitroflo 22% N + 10% SO3,948.158,L,182.22,15/03/2018,3.8,0.192,Wheat Winter,CF15,KWS Kerrin,2018,249.515
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,Nitroflo 22% N + 10% SO3,1996.121,L,383.62,15/03/2018,8,0.192,Wheat Winter,CF16.A,KWS Lili,2018,249.515
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,Nitroflo 22% N + 10% SO3,2909.347,L,559.13,15/03/2018,11.66,0.192,Wheat Winter,CF16.B/02,KWS Lili,2018,249.515
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,Nitroflo 22% N + 10% SO3,3992.242,L,767.24,15/03/2018,16,0.192,Wheat Winter,CF18,KWS Lili,2018,249.515
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,Nitroflo 22% N + 10% SO3,2522.598,L,484.8,15/03/2018,10.11,0.192,Wheat Winter,CF2,KWS Lili,2018,249.515
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,Nitroflo 22% N + 10% SO3,815.915,L,156.81,15/03/2018,3.27,0.192,Wheat Winter,CF25,KWS Kerrin,2018,249.515
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,Nitroflo 22% N + 10% SO3,913.225,L,175.51,15/03/2018,3.66,0.192,Wheat Winter,CF27,KWS Kerrin,2018,249.515
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,Nitroflo 22% N + 10% SO3,810.924,L,155.85,15/03/2018,3.25,0.192,Wheat Winter,CF30,KWS Lili,2018,249.515
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,Nitroflo 22% N + 10% SO3,3126.425,L,600.85,15/03/2018,12.53,0.192,Wheat Winter,CF31,KWS Lili,2018,249.515
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,Nitroflo 22% N + 10% SO3,1197.673,L,230.17,15/03/2018,4.8,0.192,Wheat Winter,CF33,KWS Lili,2018,249.515
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,Nitroflo 22% N + 10% SO3,1372.333,L,263.74,15/03/2018,5.5,0.192,Wheat Winter,CF50,KWS Kerrin,2018,249.515
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,Nitroflo 22% N + 10% SO3,3755.556,L,805.31,11/04/2018,13,0.214,Rape Winter,CF52,Rape Winter,2018,288.889
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,Nitroflo 22% N + 10% SO3,2455.556,L,526.55,11/04/2018,8.5,0.214,Rape Winter,CF8,Rape Winter,2018,288.889
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,Nitroflo 22% N + 10% SO3,5488.889,L,1176.99,11/04/2018,19,0.214,Rape Winter,CF9,Rape Winter,2018,288.889
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,Nitroflo 22% N + 10% SO3,2046.512,L,438.84,21/04/2018,8.8,0.214,Barley Spring,CF1,Barley Spring,2018,232.558
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,Nitroflo 22% N + 10% SO3,976.744,L,209.45,21/04/2018,4.2,0.214,Barley Spring,CF16.C/03,Barley Spring,2018,232.558
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,Nitroflo 22% N + 10% SO3,1162.791,L,249.34,21/04/2018,5,0.214,Barley Spring,CF28,Barley Spring,2018,232.558
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,Nitroflo 22% N + 10% SO3,813.953,L,174.54,21/04/2018,3.5,0.214,Barley Spring,CF29,Barley Spring,2018,232.558
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,Nitroflo 22% N + 10% SO3,305.887,L,65.59,03/05/2018,4.5,0.214,Sugar Beet,CF10,Sugar Beet,2018,67.975
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,Nitroflo 22% N + 10% SO3,528.845,L,113.4,03/05/2018,7.78,0.214,Sugar Beet,CF17,Sugar Beet,2018,67.975
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,Nitroflo 22% N + 10% SO3,557.394,L,119.52,03/05/2018,8.2,0.214,Sugar Beet,CF26,Sugar Beet,2018,67.975
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,Nitroflo 22% N + 10% SO3,271.9,L,58.3,03/05/2018,4,0.214,Sugar Beet,CF3,Sugar Beet,2018,67.975
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,Nitroflo 22% N + 10% SO3,305.887,L,65.59,03/05/2018,4.5,0.214,Sugar Beet,CF4,Sugar Beet,2018,67.975
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,Nitroflo 22% N + 10% SO3,1135.181,L,243.42,03/05/2018,16.7,0.214,Sugar Beet,CF44,Sugar Beet,2018,67.975
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,Nitroflo 22% N + 10% SO3,254.906,L,54.66,03/05/2018,3.75,0.214,Sugar Beet,CF7,Sugar Beet,2018,67.975
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,Nitroflo 22% N + 10% SO3,1680,L,360.25,15/05/2018,6.7,0.214,Barley Spring,CF5,Barley Spring,2018,250.746
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,Nitroflo Liquid 26N + 5S03,2168.912,L,461.67,17/04/2018,9.1,0.213,Barley Winter,CF11,Barley Winter,2018,238.342
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,Nitroflo Liquid 26N + 5S03,750.777,L,159.81,17/04/2018,3.15,0.213,Barley Winter,CF21,Barley Winter,2018,238.342
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,Nitroflo Liquid 26N + 5S03,610.155,L,129.88,17/04/2018,2.56,0.213,Barley Winter,CF24,Barley Winter,2018,238.342
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,Nitroflo Liquid 26N + 5S03,936.684,L,199.38,17/04/2018,3.93,0.213,Barley Winter,CF34,Barley Winter,2018,238.342
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,Nitroflo Liquid 26N + 5S03,807.979,L,171.98,17/04/2018,3.39,0.213,Barley Winter,CF35,Barley Winter,2018,238.342
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,Nitroflo Liquid 26N + 5S03,1625.492,L,346,17/04/2018,6.82,0.213,Barley Winter,CF43,Barley Winter,2018,238.342
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,Nitroflo Liquid 26N + 5S03,1144.67,L,243.65,17/04/2018,4.92,0.213,Wheat Winter,CF13,KWS Lili,2018,232.657
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,Nitroflo Liquid 26N + 5S03,2675.551,L,569.51,17/04/2018,11.5,0.213,Wheat Winter,CF14,KWS Kerrin,2018,232.657
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,Nitroflo Liquid 26N + 5S03,884.095,L,188.19,17/04/2018,3.8,0.213,Wheat Winter,CF15,KWS Kerrin,2018,232.657
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,Nitroflo Liquid 26N + 5S03,1861.253,L,396.18,17/04/2018,8,0.213,Wheat Winter,CF16.A,KWS Lili,2018,232.657
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,Nitroflo Liquid 26N + 5S03,2712.776,L,577.44,17/04/2018,11.66,0.213,Wheat Winter,CF16.B/02,KWS Lili,2018,232.657
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,Nitroflo Liquid 26N + 5S03,3722.505,L,792.36,17/04/2018,16,0.213,Wheat Winter,CF18,KWS Lili,2018,232.657
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,Nitroflo Liquid 26N + 5S03,2352.158,L,500.68,17/04/2018,10.11,0.213,Wheat Winter,CF2,KWS Lili,2018,232.657
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,Nitroflo Liquid 26N + 5S03,760.787,L,161.94,17/04/2018,3.27,0.213,Wheat Winter,CF25,KWS Kerrin,2018,232.657
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,Nitroflo Liquid 26N + 5S03,851.523,L,181.25,17/04/2018,3.66,0.213,Wheat Winter,CF27,KWS Kerrin,2018,232.657
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,Nitroflo Liquid 26N + 5S03,756.134,L,160.95,17/04/2018,3.25,0.213,Wheat Winter,CF30,KWS Lili,2018,232.657
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,Nitroflo Liquid 26N + 5S03,2915.187,L,620.52,17/04/2018,12.53,0.213,Wheat Winter,CF31,KWS Lili,2018,232.657
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,Nitroflo Liquid 26N + 5S03,1116.752,L,237.71,17/04/2018,4.8,0.213,Wheat Winter,CF33,KWS Lili,2018,232.657
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,Nitroflo Liquid 26N + 5S03,1279.611,L,272.38,17/04/2018,5.5,0.213,Wheat Winter,CF50,KWS Kerrin,2018,232.657
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,Nitroflo Liquid 26N + 5S03,2054.321,L,437.28,21/04/2018,13,0.213,Rape Winter,CF52,Rape Winter,2018,158.025
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,Nitroflo Liquid 26N + 5S03,1343.21,L,285.91,21/04/2018,8.5,0.213,Rape Winter,CF8,Rape Winter,2018,158.025
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,Nitroflo Liquid 26N + 5S03,3002.469,L,639.1,21/04/2018,19,0.213,Rape Winter,CF9,Rape Winter,2018,158.025
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,Nitroflo Liquid 26N + 5S03,1637.209,L,348.49,15/05/2018,8.8,0.213,Barley Spring,CF1,Barley Spring,2018,186.047
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,Nitroflo Liquid 26N + 5S03,781.395,L,166.33,15/05/2018,4.2,0.213,Barley Spring,CF16.C/03,Barley Spring,2018,186.047
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,Nitroflo Liquid 26N + 5S03,930.233,L,198.01,15/05/2018,5,0.213,Barley Spring,CF28,Barley Spring,2018,186.047
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,Nitroflo Liquid 26N + 5S03,651.163,L,138.61,15/05/2018,3.5,0.213,Barley Spring,CF29,Barley Spring,2018,186.047
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,Nitroflo Liquid 26N + 5S03,1023.758,L,217.91,18/05/2018,4.92,0.213,Wheat Winter,CF13,KWS Lili,2018,208.081
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,Nitroflo Liquid 26N + 5S03,2392.929,L,509.35,18/05/2018,11.5,0.213,Wheat Winter,CF14,KWS Kerrin,2018,208.081
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,Nitroflo Liquid 26N + 5S03,790.707,L,168.31,18/05/2018,3.8,0.213,Wheat Winter,CF15,KWS Kerrin,2018,208.081
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,Nitroflo Liquid 26N + 5S03,1664.646,L,354.33,18/05/2018,8,0.213,Wheat Winter,CF16.A,KWS Lili,2018,208.081
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,Nitroflo Liquid 26N + 5S03,2426.222,L,516.44,18/05/2018,11.66,0.213,Wheat Winter,CF16.B/02,KWS Lili,2018,208.081
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,Nitroflo Liquid 26N + 5S03,3329.293,L,708.67,18/05/2018,16,0.213,Wheat Winter,CF18,KWS Lili,2018,208.081
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,Nitroflo Liquid 26N + 5S03,2103.697,L,447.79,18/05/2018,10.11,0.213,Wheat Winter,CF2,KWS Lili,2018,208.081
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,Nitroflo Liquid 26N + 5S03,680.424,L,144.83,18/05/2018,3.27,0.213,Wheat Winter,CF25,KWS Kerrin,2018,208.081
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,Nitroflo Liquid 26N + 5S03,761.576,L,162.11,18/05/2018,3.66,0.213,Wheat Winter,CF27,KWS Kerrin,2018,208.081
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,Nitroflo Liquid 26N + 5S03,676.263,L,143.95,18/05/2018,3.25,0.213,Wheat Winter,CF30,KWS Lili,2018,208.081
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,Nitroflo Liquid 26N + 5S03,2607.253,L,554.97,18/05/2018,12.53,0.213,Wheat Winter,CF31,KWS Lili,2018,208.081
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,Nitroflo Liquid 26N + 5S03,998.788,L,212.6,18/05/2018,4.8,0.213,Wheat Winter,CF33,KWS Lili,2018,208.081
+FH Rockcliffe FGrp,Variable Costs,Fertiliser,Completed,Nitroflo Liquid 26N + 5S03,1144.444,L,243.6,18/05/2018,5.5,0.213,Wheat Winter,CF50,KWS Kerrin,2018,208.081
+,,SUB TOTALS FOR Fertiliser,,,,,37856.84,,,,,,,,
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Bravo 500 (14548),9.43,L,56.58,18/05/2018,9.1,6,Barley Winter,CF11,Barley Winter,2018,1.036
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Bravo 500 (14548),3.264,L,19.59,18/05/2018,3.15,6,Barley Winter,CF21,Barley Winter,2018,1.036
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Bravo 500 (14548),2.653,L,15.92,18/05/2018,2.56,6,Barley Winter,CF24,Barley Winter,2018,1.036
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Bravo 500 (14548),4.073,L,24.44,18/05/2018,3.93,6,Barley Winter,CF34,Barley Winter,2018,1.036
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Bravo 500 (14548),3.513,L,21.08,18/05/2018,3.39,6,Barley Winter,CF35,Barley Winter,2018,1.036
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Bravo 500 (14548),7.067,L,42.4,18/05/2018,6.82,6,Barley Winter,CF43,Barley Winter,2018,1.036
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Bravo 500 (14548),8.186,L,49.12,15/06/2018,8.8,6,Barley Spring,CF1,Barley Spring,2018,0.93
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Bravo 500 (14548),3.907,L,23.44,15/06/2018,4.2,6,Barley Spring,CF16.C/03,Barley Spring,2018,0.93
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Bravo 500 (14548),4.651,L,27.91,15/06/2018,5,6,Barley Spring,CF28,Barley Spring,2018,0.93
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Bravo 500 (14548),3.256,L,19.53,15/06/2018,3.5,6,Barley Spring,CF29,Barley Spring,2018,0.93
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Ceando (16012),1.5,L,26.17,01/04/2018,3.27,17.445,Wheat Winter,CF25,KWS Kerrin,2018,0.459
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Ceando (16012),2.441,L,42.59,14/04/2018,4.92,17.445,Wheat Winter,CF13,KWS Lili,2018,0.496
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Ceando (16012),5.706,L,99.54,14/04/2018,11.5,17.445,Wheat Winter,CF14,KWS Kerrin,2018,0.496
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Ceando (16012),1.886,L,32.89,14/04/2018,3.8,17.445,Wheat Winter,CF15,KWS Kerrin,2018,0.496
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Ceando (16012),3.97,L,69.25,14/04/2018,8,17.445,Wheat Winter,CF16.A,KWS Lili,2018,0.496
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Ceando (16012),5.786,L,100.93,14/04/2018,11.66,17.445,Wheat Winter,CF16.B/02,KWS Lili,2018,0.496
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Ceando (16012),1.798,L,31.37,14/04/2018,3.66,17.445,Wheat Winter,CF27,KWS Kerrin,2018,0.491
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Ceando (16012),1.613,L,28.13,14/04/2018,3.25,17.445,Wheat Winter,CF30,KWS Lili,2018,0.496
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Ceando (16012),6.217,L,108.46,14/04/2018,12.53,17.445,Wheat Winter,CF31,KWS Lili,2018,0.496
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Ceando (16012),2.382,L,41.55,14/04/2018,4.8,17.445,Wheat Winter,CF33,KWS Lili,2018,0.496
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Ceando (16012),2.702,L,47.13,14/04/2018,5.5,17.445,Wheat Winter,CF50,KWS Kerrin,2018,0.491
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Ceando (16012),9,L,157,09/05/2018,16,17.445,Wheat Winter,CF18,KWS Lili,2018,0.563
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Ceando (16012),5,L,87.22,09/05/2018,10.11,17.445,Wheat Winter,CF2,KWS Lili,2018,0.495
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Ceando (16012),7.5,L,130.83,18/05/2018,10.11,17.445,Wheat Winter,CF2,KWS Lili,2018,0.742
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Ceando (16012),2.5,L,43.61,11/06/2018,6.7,17.445,Barley Spring,CF5,Barley Spring,2018,0.373
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Chlorthalis (16513),3,L,15.73,01/04/2018,3.27,5.243,Wheat Winter,CF25,KWS Kerrin,2018,0.917
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Chlorthalis (16513),4.883,L,25.6,14/04/2018,4.92,5.243,Wheat Winter,CF13,KWS Lili,2018,0.992
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Chlorthalis (16513),11.413,L,59.84,14/04/2018,11.5,5.243,Wheat Winter,CF14,KWS Kerrin,2018,0.992
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Chlorthalis (16513),3.771,L,19.77,14/04/2018,3.8,5.243,Wheat Winter,CF15,KWS Kerrin,2018,0.992
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Chlorthalis (16513),7.939,L,41.62,14/04/2018,8,5.243,Wheat Winter,CF16.A,KWS Lili,2018,0.992
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Chlorthalis (16513),11.571,L,60.67,14/04/2018,11.66,5.243,Wheat Winter,CF16.B/02,KWS Lili,2018,0.992
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Chlorthalis (16513),3.596,L,18.85,14/04/2018,3.66,5.243,Wheat Winter,CF27,KWS Kerrin,2018,0.983
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Chlorthalis (16513),3.225,L,16.91,14/04/2018,3.25,5.243,Wheat Winter,CF30,KWS Lili,2018,0.992
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Chlorthalis (16513),12.435,L,65.19,14/04/2018,12.53,5.243,Wheat Winter,CF31,KWS Lili,2018,0.992
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Chlorthalis (16513),4.763,L,24.97,14/04/2018,4.8,5.243,Wheat Winter,CF33,KWS Lili,2018,0.992
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Chlorthalis (16513),5.404,L,28.33,14/04/2018,5.5,5.243,Wheat Winter,CF50,KWS Kerrin,2018,0.983
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Chlorthalis (16513),9.674,L,50.72,03/05/2018,9.1,5.243,Barley Winter,CF11,Barley Winter,2018,1.063
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Chlorthalis (16513),3.173,L,16.63,03/05/2018,3.15,5.243,Barley Winter,CF21,Barley Winter,2018,1.007
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Chlorthalis (16513),2.722,L,14.27,03/05/2018,2.56,5.243,Barley Winter,CF24,Barley Winter,2018,1.063
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Chlorthalis (16513),3.958,L,20.75,03/05/2018,3.93,5.243,Barley Winter,CF34,Barley Winter,2018,1.007
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Chlorthalis (16513),3.604,L,18.9,03/05/2018,3.39,5.243,Barley Winter,CF35,Barley Winter,2018,1.063
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Chlorthalis (16513),6.869,L,36.01,03/05/2018,6.82,5.243,Barley Winter,CF43,Barley Winter,2018,1.007
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Chlorthalis (16513),16,L,83.89,09/05/2018,16,5.243,Wheat Winter,CF18,KWS Lili,2018,1
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Chlorthalis (16513),4.824,L,25.29,01/06/2018,4.92,5.243,Wheat Winter,CF13,KWS Lili,2018,0.98
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Chlorthalis (16513),12.441,L,65.23,01/06/2018,11.5,5.243,Wheat Winter,CF14,KWS Kerrin,2018,1.082
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Chlorthalis (16513),4.111,L,21.55,01/06/2018,3.8,5.243,Wheat Winter,CF15,KWS Kerrin,2018,1.082
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Chlorthalis (16513),8.138,L,42.67,01/06/2018,8,5.243,Wheat Winter,CF16.A,KWS Lili,2018,1.017
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Chlorthalis (16513),11.862,L,62.19,01/06/2018,11.66,5.243,Wheat Winter,CF16.B/02,KWS Lili,2018,1.017
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Chlorthalis (16513),3.538,L,18.55,01/06/2018,3.27,5.243,Wheat Winter,CF25,KWS Kerrin,2018,1.082
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Chlorthalis (16513),3.96,L,20.76,01/06/2018,3.66,5.243,Wheat Winter,CF27,KWS Kerrin,2018,1.082
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Chlorthalis (16513),3.186,L,16.71,01/06/2018,3.25,5.243,Wheat Winter,CF30,KWS Lili,2018,0.98
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Chlorthalis (16513),12.284,L,64.41,01/06/2018,12.53,5.243,Wheat Winter,CF31,KWS Lili,2018,0.98
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Chlorthalis (16513),4.706,L,24.67,01/06/2018,4.8,5.243,Wheat Winter,CF33,KWS Lili,2018,0.98
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Chlorthalis (16513),5.95,L,31.2,01/06/2018,5.5,5.243,Wheat Winter,CF50,KWS Kerrin,2018,1.082
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Chlorthalis (16513),10,L,52.43,03/06/2018,8.8,5.243,Barley Spring,CF1,Barley Spring,2018,1.136
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Chlorthalis (16513),17,L,89.13,03/06/2018,16,5.243,Wheat Winter,CF18,KWS Lili,2018,1.063
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Chlorthalis (16513),10,L,52.43,03/06/2018,10.11,5.243,Wheat Winter,CF2,KWS Lili,2018,0.989
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Chlorthalis (16513),1.023,L,5.36,15/06/2018,8.8,5.243,Barley Spring,CF1,Barley Spring,2018,0.116
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Chlorthalis (16513),0.488,L,2.56,15/06/2018,4.2,5.243,Barley Spring,CF16.C/03,Barley Spring,2018,0.116
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Chlorthalis (16513),0.581,L,3.05,15/06/2018,5,5.243,Barley Spring,CF28,Barley Spring,2018,0.116
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Chlorthalis (16513),0.407,L,2.13,15/06/2018,3.5,5.243,Barley Spring,CF29,Barley Spring,2018,0.116
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Difcor 250 EC (13917),3.5,L,103.25,03/11/2017,13,29.5,Rape Winter,CF52,Rape Winter,2018,0.269
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Difcor 250 EC (13917),2.009,L,59.27,03/11/2017,8.5,29.5,Rape Winter,CF8,Rape Winter,2018,0.236
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Difcor 250 EC (13917),4.491,L,132.48,03/11/2017,19,29.5,Rape Winter,CF9,Rape Winter,2018,0.236
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Eclipse (11731),4.301,L,62.73,16/04/2018,9.1,15.625,Barley Winter,CF11,Barley Winter,2018,0.473
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Eclipse (11731),1.489,L,21.71,16/04/2018,3.15,15.625,Barley Winter,CF21,Barley Winter,2018,0.473
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Eclipse (11731),1.21,L,17.65,16/04/2018,2.56,15.625,Barley Winter,CF24,Barley Winter,2018,0.473
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Eclipse (11731),1.946,L,28.37,16/04/2018,3.93,15.625,Barley Winter,CF34,Barley Winter,2018,0.495
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Eclipse (11731),1.678,L,24.47,16/04/2018,3.39,15.625,Barley Winter,CF35,Barley Winter,2018,0.495
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Eclipse (11731),3.376,L,49.24,16/04/2018,6.82,15.625,Barley Winter,CF43,Barley Winter,2018,0.495
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Eclipse (11731),2.116,L,30.85,09/05/2018,4.92,15.625,Wheat Winter,CF13,KWS Lili,2018,0.43
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Eclipse (11731),4.945,L,72.12,09/05/2018,11.5,15.625,Wheat Winter,CF14,KWS Kerrin,2018,0.43
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Eclipse (11731),1.374,L,20.04,09/05/2018,3.8,15.625,Wheat Winter,CF15,KWS Kerrin,2018,0.362
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Eclipse (11731),3.662,L,53.41,09/05/2018,8,15.625,Wheat Winter,CF16.A,KWS Lili,2018,0.458
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Eclipse (11731),5.338,L,77.84,09/05/2018,11.66,15.625,Wheat Winter,CF16.B/02,KWS Lili,2018,0.458
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Eclipse (11731),1.183,L,17.25,09/05/2018,3.27,15.625,Wheat Winter,CF25,KWS Kerrin,2018,0.362
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Eclipse (11731),1.574,L,22.95,09/05/2018,3.66,15.625,Wheat Winter,CF27,KWS Kerrin,2018,0.43
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Eclipse (11731),1.175,L,17.14,09/05/2018,3.25,15.625,Wheat Winter,CF30,KWS Lili,2018,0.362
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Eclipse (11731),4.532,L,66.09,09/05/2018,12.53,15.625,Wheat Winter,CF31,KWS Lili,2018,0.362
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Eclipse (11731),1.736,L,25.32,09/05/2018,4.8,15.625,Wheat Winter,CF33,KWS Lili,2018,0.362
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Eclipse (11731),2.365,L,34.49,09/05/2018,5.5,15.625,Wheat Winter,CF50,KWS Kerrin,2018,0.43
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Eclipse (11731),4,L,58.33,18/05/2018,10.11,15.625,Wheat Winter,CF2,KWS Lili,2018,0.396
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Eclipse (11731),5.788,L,84.41,01/06/2018,4.92,15.625,Wheat Winter,CF13,KWS Lili,2018,1.176
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Eclipse (11731),12.441,L,181.44,01/06/2018,11.5,15.625,Wheat Winter,CF14,KWS Kerrin,2018,1.082
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Eclipse (11731),4.111,L,59.95,01/06/2018,3.8,15.625,Wheat Winter,CF15,KWS Kerrin,2018,1.082
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Eclipse (11731),8.952,L,130.56,01/06/2018,8,15.625,Wheat Winter,CF16.A,KWS Lili,2018,1.119
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Eclipse (11731),13.048,L,190.29,01/06/2018,11.66,15.625,Wheat Winter,CF16.B/02,KWS Lili,2018,1.119
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Eclipse (11731),3.538,L,51.59,01/06/2018,3.27,15.625,Wheat Winter,CF25,KWS Kerrin,2018,1.082
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Eclipse (11731),3.96,L,57.75,01/06/2018,3.66,15.625,Wheat Winter,CF27,KWS Kerrin,2018,1.082
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Eclipse (11731),3.824,L,55.76,01/06/2018,3.25,15.625,Wheat Winter,CF30,KWS Lili,2018,1.176
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Eclipse (11731),14.741,L,214.98,01/06/2018,12.53,15.625,Wheat Winter,CF31,KWS Lili,2018,1.176
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Eclipse (11731),5.647,L,82.36,01/06/2018,4.8,15.625,Wheat Winter,CF33,KWS Lili,2018,1.176
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Eclipse (11731),5.95,L,86.78,01/06/2018,5.5,15.625,Wheat Winter,CF50,KWS Kerrin,2018,1.082
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Escolta (17397),1.575,L,118.88,30/08/2018,4.5,72.547,Sugar Beet,CF10,Sugar Beet,2018,0.35
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Escolta (17397),2.723,L,205.53,30/08/2018,7.78,72.547,Sugar Beet,CF17,Sugar Beet,2018,0.35
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Escolta (17397),2.87,L,216.63,30/08/2018,8.2,72.547,Sugar Beet,CF26,Sugar Beet,2018,0.35
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Escolta (17397),1.4,L,105.67,30/08/2018,4,72.547,Sugar Beet,CF3,Sugar Beet,2018,0.35
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Escolta (17397),1.575,L,118.88,30/08/2018,4.5,72.547,Sugar Beet,CF4,Sugar Beet,2018,0.35
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Escolta (17397),5.845,L,441.18,30/08/2018,16.7,72.547,Sugar Beet,CF44,Sugar Beet,2018,0.35
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Escolta (17397),1.312,L,99.07,30/08/2018,3.75,72.547,Sugar Beet,CF7,Sugar Beet,2018,0.35
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Jaunt (12350),6.047,L,278.14,03/05/2018,9.1,46,Barley Winter,CF11,Barley Winter,2018,0.664
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Jaunt (12350),2.266,L,104.24,03/05/2018,3.15,46,Barley Winter,CF21,Barley Winter,2018,0.719
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Jaunt (12350),1.701,L,78.25,03/05/2018,2.56,46,Barley Winter,CF24,Barley Winter,2018,0.664
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Jaunt (12350),2.827,L,130.06,03/05/2018,3.93,46,Barley Winter,CF34,Barley Winter,2018,0.719
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Jaunt (12350),2.252,L,103.61,03/05/2018,3.39,46,Barley Winter,CF35,Barley Winter,2018,0.664
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Jaunt (12350),4.906,L,225.7,03/05/2018,6.82,46,Barley Winter,CF43,Barley Winter,2018,0.719
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Jaunt (12350),4.715,L,216.89,18/05/2018,9.1,46,Barley Winter,CF11,Barley Winter,2018,0.518
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Jaunt (12350),1.632,L,75.08,18/05/2018,3.15,46,Barley Winter,CF21,Barley Winter,2018,0.518
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Jaunt (12350),1.326,L,61.02,18/05/2018,2.56,46,Barley Winter,CF24,Barley Winter,2018,0.518
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Jaunt (12350),2.036,L,93.67,18/05/2018,3.93,46,Barley Winter,CF34,Barley Winter,2018,0.518
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Jaunt (12350),1.756,L,80.8,18/05/2018,3.39,46,Barley Winter,CF35,Barley Winter,2018,0.518
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Jaunt (12350),3.534,L,162.55,18/05/2018,6.82,46,Barley Winter,CF43,Barley Winter,2018,0.518
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Jaunt (12350),5,L,230,03/06/2018,8.8,46,Barley Spring,CF1,Barley Spring,2018,0.568
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Jaunt (12350),2.15,L,98.88,03/06/2018,4.2,46,Barley Spring,CF16.C/03,Barley Spring,2018,0.512
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Jaunt (12350),2.559,L,117.72,03/06/2018,5,46,Barley Spring,CF28,Barley Spring,2018,0.512
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Jaunt (12350),1.791,L,82.4,03/06/2018,3.5,46,Barley Spring,CF29,Barley Spring,2018,0.512
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Jaunt (12350),4.093,L,188.28,15/06/2018,8.8,46,Barley Spring,CF1,Barley Spring,2018,0.465
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Jaunt (12350),1.953,L,89.86,15/06/2018,4.2,46,Barley Spring,CF16.C/03,Barley Spring,2018,0.465
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Jaunt (12350),2.326,L,106.98,15/06/2018,5,46,Barley Spring,CF28,Barley Spring,2018,0.465
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Jaunt (12350),1.628,L,74.88,15/06/2018,3.5,46,Barley Spring,CF29,Barley Spring,2018,0.465
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Metal (17265),3.091,L,63.67,08/05/2018,8.5,20.6,Rape Winter,CF8,Rape Winter,2018,0.364
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Metal (17265),6.909,L,142.33,08/05/2018,19,20.6,Rape Winter,CF9,Rape Winter,2018,0.364
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Monkey (18382),4.832,L,77.17,11/06/2018,4.92,15.97,Wheat Winter,CF13,KWS Lili,2018,0.982
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Monkey (18382),10.368,L,165.57,11/06/2018,11.5,15.97,Wheat Winter,CF14,KWS Kerrin,2018,0.902
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Monkey (18382),3.426,L,54.71,11/06/2018,3.8,15.97,Wheat Winter,CF15,KWS Kerrin,2018,0.902
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Monkey (18382),7.857,L,125.48,11/06/2018,8,15.97,Wheat Winter,CF16.A,KWS Lili,2018,0.982
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Monkey (18382),11.452,L,182.89,11/06/2018,11.66,15.97,Wheat Winter,CF16.B/02,KWS Lili,2018,0.982
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Monkey (18382),15.715,L,250.97,11/06/2018,16,15.97,Wheat Winter,CF18,KWS Lili,2018,0.982
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Monkey (18382),9.93,L,158.58,11/06/2018,10.11,15.97,Wheat Winter,CF2,KWS Lili,2018,0.982
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Monkey (18382),2.948,L,47.08,11/06/2018,3.27,15.97,Wheat Winter,CF25,KWS Kerrin,2018,0.902
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Monkey (18382),3.3,L,52.7,11/06/2018,3.66,15.97,Wheat Winter,CF27,KWS Kerrin,2018,0.902
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Monkey (18382),3.192,L,50.98,11/06/2018,3.25,15.97,Wheat Winter,CF30,KWS Lili,2018,0.982
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Monkey (18382),12.307,L,196.54,11/06/2018,12.53,15.97,Wheat Winter,CF31,KWS Lili,2018,0.982
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Monkey (18382),4.714,L,75.29,11/06/2018,4.8,15.97,Wheat Winter,CF33,KWS Lili,2018,0.982
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Monkey (18382),4.959,L,79.19,11/06/2018,5.5,15.97,Wheat Winter,CF50,KWS Kerrin,2018,0.902
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Mycoguard 720 (18330),3.366,L,26.7,09/05/2018,4.92,7.933,Wheat Winter,CF13,KWS Lili,2018,0.684
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Mycoguard 720 (18330),7.867,L,62.41,09/05/2018,11.5,7.933,Wheat Winter,CF14,KWS Kerrin,2018,0.684
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Mycoguard 720 (18330),2.749,L,21.8,09/05/2018,3.8,7.933,Wheat Winter,CF15,KWS Kerrin,2018,0.723
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Mycoguard 720 (18330),5.086,L,40.35,09/05/2018,8,7.933,Wheat Winter,CF16.A,KWS Lili,2018,0.636
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Mycoguard 720 (18330),7.414,L,58.81,09/05/2018,11.66,7.933,Wheat Winter,CF16.B/02,KWS Lili,2018,0.636
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Mycoguard 720 (18330),2.365,L,18.76,09/05/2018,3.27,7.933,Wheat Winter,CF25,KWS Kerrin,2018,0.723
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Mycoguard 720 (18330),2.504,L,19.86,09/05/2018,3.66,7.933,Wheat Winter,CF27,KWS Kerrin,2018,0.684
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Mycoguard 720 (18330),2.351,L,18.65,09/05/2018,3.25,7.933,Wheat Winter,CF30,KWS Lili,2018,0.723
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Mycoguard 720 (18330),9.063,L,71.9,09/05/2018,12.53,7.933,Wheat Winter,CF31,KWS Lili,2018,0.723
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Mycoguard 720 (18330),3.472,L,27.54,09/05/2018,4.8,7.933,Wheat Winter,CF33,KWS Lili,2018,0.723
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Mycoguard 720 (18330),3.763,L,29.85,09/05/2018,5.5,7.933,Wheat Winter,CF50,KWS Kerrin,2018,0.684
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Mycoguard 720 (18330),5,L,39.66,18/05/2018,10.11,7.933,Wheat Winter,CF2,KWS Lili,2018,0.495
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Nebula XL (15555),5.77,L,67.99,09/05/2018,4.92,19.034,Wheat Winter,CF13,KWS Lili,2018,1.173
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Nebula XL (15555),13.487,L,158.92,09/05/2018,11.5,19.034,Wheat Winter,CF14,KWS Kerrin,2018,1.173
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Nebula XL (15555),4.81,L,56.68,09/05/2018,3.8,19.034,Wheat Winter,CF15,KWS Kerrin,2018,1.266
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Nebula XL (15555),10.173,L,119.87,09/05/2018,8,19.034,Wheat Winter,CF16.A,KWS Lili,2018,1.272
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Nebula XL (15555),14.827,L,174.71,09/05/2018,11.66,19.034,Wheat Winter,CF16.B/02,KWS Lili,2018,1.272
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Nebula XL (15555),4.139,L,48.77,09/05/2018,3.27,19.034,Wheat Winter,CF25,KWS Kerrin,2018,1.266
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Nebula XL (15555),4.292,L,50.58,09/05/2018,3.66,19.034,Wheat Winter,CF27,KWS Kerrin,2018,1.173
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Nebula XL (15555),4.114,L,48.47,09/05/2018,3.25,19.034,Wheat Winter,CF30,KWS Lili,2018,1.266
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Nebula XL (15555),15.861,L,186.89,09/05/2018,12.53,19.034,Wheat Winter,CF31,KWS Lili,2018,1.266
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Nebula XL (15555),6.076,L,71.59,09/05/2018,4.8,19.034,Wheat Winter,CF33,KWS Lili,2018,1.266
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Nebula XL (15555),6.45,L,76,09/05/2018,5.5,19.034,Wheat Winter,CF50,KWS Kerrin,2018,1.173
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Nebula XL (15555),25,L,294.57,03/06/2018,16,19.034,Wheat Winter,CF18,KWS Lili,2018,1.563
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Nebula XL (15555),15,L,176.74,03/06/2018,10.11,19.034,Wheat Winter,CF2,KWS Lili,2018,1.484
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Priaxor EC (17371),3.859,L,138.54,01/06/2018,4.92,35.902,Wheat Winter,CF13,KWS Lili,2018,0.784
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Priaxor EC (17371),9.331,L,335,01/06/2018,11.5,35.902,Wheat Winter,CF14,KWS Kerrin,2018,0.811
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Priaxor EC (17371),3.083,L,110.7,01/06/2018,3.8,35.902,Wheat Winter,CF15,KWS Kerrin,2018,0.811
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Priaxor EC (17371),7.121,L,255.66,01/06/2018,8,35.902,Wheat Winter,CF16.A,KWS Lili,2018,0.89
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Priaxor EC (17371),10.379,L,372.62,01/06/2018,11.66,35.902,Wheat Winter,CF16.B/02,KWS Lili,2018,0.89
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Priaxor EC (17371),2.653,L,95.26,01/06/2018,3.27,35.902,Wheat Winter,CF25,KWS Kerrin,2018,0.811
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Priaxor EC (17371),2.97,L,106.62,01/06/2018,3.66,35.902,Wheat Winter,CF27,KWS Kerrin,2018,0.811
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Priaxor EC (17371),2.549,L,91.51,01/06/2018,3.25,35.902,Wheat Winter,CF30,KWS Lili,2018,0.784
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Priaxor EC (17371),9.827,L,352.83,01/06/2018,12.53,35.902,Wheat Winter,CF31,KWS Lili,2018,0.784
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Priaxor EC (17371),3.765,L,135.16,01/06/2018,4.8,35.902,Wheat Winter,CF33,KWS Lili,2018,0.784
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Priaxor EC (17371),4.463,L,160.22,01/06/2018,5.5,35.902,Wheat Winter,CF50,KWS Kerrin,2018,0.811
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Proline 275 (14790),5,L,226.5,07/04/2018,13,45.3,Rape Winter,CF52,Rape Winter,2018,0.385
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Proline 275 (14790),3.069,L,139.05,07/04/2018,8.5,45.3,Rape Winter,CF8,Rape Winter,2018,0.361
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Proline 275 (14790),6.931,L,313.95,07/04/2018,19,45.3,Rape Winter,CF9,Rape Winter,2018,0.365
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Proline 275 (14790),5,L,226.5,08/05/2018,13,45.3,Rape Winter,CF52,Rape Winter,2018,0.385
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Recital (17909),6.182,L,119.59,08/05/2018,8.5,38,Rape Winter,CF8,Rape Winter,2018,0.727
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Recital (17909),13.818,L,267.32,08/05/2018,19,38,Rape Winter,CF9,Rape Winter,2018,0.727
+FH Rockcliffe FGrp,Variable Costs,Fungicides,Completed,Recital (17909),8,L,154.76,18/05/2018,13,38,Rape Winter,CF52,Rape Winter,2018,0.615
+,,SUB TOTALS FOR Fungicides,,,,,15954.42,,,,,,,,
+FH Rockcliffe FGrp,Variable Costs,Growth Regulators,Completed,Agrovista 3 See 750 (15975),15.361,L,29.53,16/04/2018,9.1,1.922,Barley Winter,CF11,Barley Winter,2018,1.688
+FH Rockcliffe FGrp,Variable Costs,Growth Regulators,Completed,Agrovista 3 See 750 (15975),5.317,L,10.22,16/04/2018,3.15,1.922,Barley Winter,CF21,Barley Winter,2018,1.688
+FH Rockcliffe FGrp,Variable Costs,Growth Regulators,Completed,Agrovista 3 See 750 (15975),4.321,L,8.31,16/04/2018,2.56,1.922,Barley Winter,CF24,Barley Winter,2018,1.688
+FH Rockcliffe FGrp,Variable Costs,Growth Regulators,Completed,Agrovista 3 See 750 (15975),6.948,L,13.36,16/04/2018,3.93,1.922,Barley Winter,CF34,Barley Winter,2018,1.768
+FH Rockcliffe FGrp,Variable Costs,Growth Regulators,Completed,Agrovista 3 See 750 (15975),5.994,L,11.52,16/04/2018,3.39,1.922,Barley Winter,CF35,Barley Winter,2018,1.768
+FH Rockcliffe FGrp,Variable Costs,Growth Regulators,Completed,Agrovista 3 See 750 (15975),12.058,L,23.18,16/04/2018,6.82,1.922,Barley Winter,CF43,Barley Winter,2018,1.768
+FH Rockcliffe FGrp,Variable Costs,Growth Regulators,Completed,Agrovista 3 See 750 (15975),7.694,L,14.79,09/05/2018,4.92,1.922,Wheat Winter,CF13,KWS Lili,2018,1.564
+FH Rockcliffe FGrp,Variable Costs,Growth Regulators,Completed,Agrovista 3 See 750 (15975),17.983,L,34.57,09/05/2018,11.5,1.922,Wheat Winter,CF14,KWS Kerrin,2018,1.564
+FH Rockcliffe FGrp,Variable Costs,Growth Regulators,Completed,Agrovista 3 See 750 (15975),5.497,L,10.57,09/05/2018,3.8,1.922,Wheat Winter,CF15,KWS Kerrin,2018,1.447
+FH Rockcliffe FGrp,Variable Costs,Growth Regulators,Completed,Agrovista 3 See 750 (15975),12.208,L,23.47,09/05/2018,8,1.922,Wheat Winter,CF16.A,KWS Lili,2018,1.526
+FH Rockcliffe FGrp,Variable Costs,Growth Regulators,Completed,Agrovista 3 See 750 (15975),17.792,L,34.2,09/05/2018,11.66,1.922,Wheat Winter,CF16.B/02,KWS Lili,2018,1.526
+FH Rockcliffe FGrp,Variable Costs,Growth Regulators,Completed,Agrovista 3 See 750 (15975),4.731,L,9.09,09/05/2018,3.27,1.922,Wheat Winter,CF25,KWS Kerrin,2018,1.447
+FH Rockcliffe FGrp,Variable Costs,Growth Regulators,Completed,Agrovista 3 See 750 (15975),5.723,L,11,09/05/2018,3.66,1.922,Wheat Winter,CF27,KWS Kerrin,2018,1.564
+FH Rockcliffe FGrp,Variable Costs,Growth Regulators,Completed,Agrovista 3 See 750 (15975),4.702,L,9.04,09/05/2018,3.25,1.922,Wheat Winter,CF30,KWS Lili,2018,1.447
+FH Rockcliffe FGrp,Variable Costs,Growth Regulators,Completed,Agrovista 3 See 750 (15975),18.127,L,34.85,09/05/2018,12.53,1.922,Wheat Winter,CF31,KWS Lili,2018,1.447
+FH Rockcliffe FGrp,Variable Costs,Growth Regulators,Completed,Agrovista 3 See 750 (15975),6.944,L,13.35,09/05/2018,4.8,1.922,Wheat Winter,CF33,KWS Lili,2018,1.447
+FH Rockcliffe FGrp,Variable Costs,Growth Regulators,Completed,Agrovista 3 See 750 (15975),8.6,L,16.53,09/05/2018,5.5,1.922,Wheat Winter,CF50,KWS Kerrin,2018,1.564
+FH Rockcliffe FGrp,Variable Costs,Growth Regulators,Completed,Agrovista 3 See 750 (15975),10,L,19.22,18/05/2018,10.11,1.922,Wheat Winter,CF2,KWS Lili,2018,0.989
+FH Rockcliffe FGrp,Variable Costs,Growth Regulators,Completed,Canopy (16314),1.5,L,26.37,01/04/2018,3.27,15.822,Wheat Winter,CF25,KWS Kerrin,2018,0.459
+FH Rockcliffe FGrp,Variable Costs,Growth Regulators,Completed,Canopy (16314),2.441,L,42.91,14/04/2018,4.92,15.822,Wheat Winter,CF13,KWS Lili,2018,0.496
+FH Rockcliffe FGrp,Variable Costs,Growth Regulators,Completed,Canopy (16314),5.706,L,100.3,14/04/2018,11.5,15.822,Wheat Winter,CF14,KWS Kerrin,2018,0.496
+FH Rockcliffe FGrp,Variable Costs,Growth Regulators,Completed,Canopy (16314),1.886,L,33.14,14/04/2018,3.8,15.822,Wheat Winter,CF15,KWS Kerrin,2018,0.496
+FH Rockcliffe FGrp,Variable Costs,Growth Regulators,Completed,Canopy (16314),3.97,L,69.78,14/04/2018,8,15.822,Wheat Winter,CF16.A,KWS Lili,2018,0.496
+FH Rockcliffe FGrp,Variable Costs,Growth Regulators,Completed,Canopy (16314),5.786,L,101.7,14/04/2018,11.66,15.822,Wheat Winter,CF16.B/02,KWS Lili,2018,0.496
+FH Rockcliffe FGrp,Variable Costs,Growth Regulators,Completed,Canopy (16314),1.798,L,31.61,14/04/2018,3.66,15.822,Wheat Winter,CF27,KWS Kerrin,2018,0.491
+FH Rockcliffe FGrp,Variable Costs,Growth Regulators,Completed,Canopy (16314),1.613,L,28.35,14/04/2018,3.25,15.822,Wheat Winter,CF30,KWS Lili,2018,0.496
+FH Rockcliffe FGrp,Variable Costs,Growth Regulators,Completed,Canopy (16314),6.217,L,109.29,14/04/2018,12.53,15.822,Wheat Winter,CF31,KWS Lili,2018,0.496
+FH Rockcliffe FGrp,Variable Costs,Growth Regulators,Completed,Canopy (16314),2.382,L,41.87,14/04/2018,4.8,15.822,Wheat Winter,CF33,KWS Lili,2018,0.496
+FH Rockcliffe FGrp,Variable Costs,Growth Regulators,Completed,Canopy (16314),2.702,L,47.49,14/04/2018,5.5,15.822,Wheat Winter,CF50,KWS Kerrin,2018,0.491
+FH Rockcliffe FGrp,Variable Costs,Growth Regulators,Completed,Canopy (16314),1.843,L,32.4,16/04/2018,9.1,15.822,Barley Winter,CF11,Barley Winter,2018,0.203
+FH Rockcliffe FGrp,Variable Costs,Growth Regulators,Completed,Canopy (16314),0.638,L,11.22,16/04/2018,3.15,15.822,Barley Winter,CF21,Barley Winter,2018,0.203
+FH Rockcliffe FGrp,Variable Costs,Growth Regulators,Completed,Canopy (16314),0.519,L,9.12,16/04/2018,2.56,15.822,Barley Winter,CF24,Barley Winter,2018,0.203
+FH Rockcliffe FGrp,Variable Costs,Growth Regulators,Completed,Canopy (16314),0.834,L,14.66,16/04/2018,3.93,15.822,Barley Winter,CF34,Barley Winter,2018,0.212
+FH Rockcliffe FGrp,Variable Costs,Growth Regulators,Completed,Canopy (16314),0.719,L,12.64,16/04/2018,3.39,15.822,Barley Winter,CF35,Barley Winter,2018,0.212
+FH Rockcliffe FGrp,Variable Costs,Growth Regulators,Completed,Canopy (16314),1.447,L,25.43,16/04/2018,6.82,15.822,Barley Winter,CF43,Barley Winter,2018,0.212
+FH Rockcliffe FGrp,Variable Costs,Growth Regulators,Completed,Canopy (16314),8,L,140.62,09/05/2018,16,15.822,Wheat Winter,CF18,KWS Lili,2018,0.5
+FH Rockcliffe FGrp,Variable Costs,Growth Regulators,Completed,Optimus (18817),0.481,L,16.53,09/05/2018,4.92,34.37,Wheat Winter,CF13,KWS Lili,2018,0.098
+FH Rockcliffe FGrp,Variable Costs,Growth Regulators,Completed,Optimus (18817),1.124,L,38.63,09/05/2018,11.5,34.37,Wheat Winter,CF14,KWS Kerrin,2018,0.098
+FH Rockcliffe FGrp,Variable Costs,Growth Regulators,Completed,Optimus (18817),0.412,L,14.17,09/05/2018,3.8,34.37,Wheat Winter,CF15,KWS Kerrin,2018,0.108
+FH Rockcliffe FGrp,Variable Costs,Growth Regulators,Completed,Optimus (18817),0.814,L,27.97,09/05/2018,8,34.37,Wheat Winter,CF16.A,KWS Lili,2018,0.102
+FH Rockcliffe FGrp,Variable Costs,Growth Regulators,Completed,Optimus (18817),1.186,L,40.77,09/05/2018,11.66,34.37,Wheat Winter,CF16.B/02,KWS Lili,2018,0.102
+FH Rockcliffe FGrp,Variable Costs,Growth Regulators,Completed,Optimus (18817),0.355,L,12.19,09/05/2018,3.27,34.37,Wheat Winter,CF25,KWS Kerrin,2018,0.108
+FH Rockcliffe FGrp,Variable Costs,Growth Regulators,Completed,Optimus (18817),0.358,L,12.29,09/05/2018,3.66,34.37,Wheat Winter,CF27,KWS Kerrin,2018,0.098
+FH Rockcliffe FGrp,Variable Costs,Growth Regulators,Completed,Optimus (18817),0.353,L,12.12,09/05/2018,3.25,34.37,Wheat Winter,CF30,KWS Lili,2018,0.108
+FH Rockcliffe FGrp,Variable Costs,Growth Regulators,Completed,Optimus (18817),1.359,L,46.73,09/05/2018,12.53,34.37,Wheat Winter,CF31,KWS Lili,2018,0.108
+FH Rockcliffe FGrp,Variable Costs,Growth Regulators,Completed,Optimus (18817),0.521,L,17.9,09/05/2018,4.8,34.37,Wheat Winter,CF33,KWS Lili,2018,0.108
+FH Rockcliffe FGrp,Variable Costs,Growth Regulators,Completed,Optimus (18817),0.538,L,18.47,09/05/2018,5.5,34.37,Wheat Winter,CF50,KWS Kerrin,2018,0.098
+,,SUB TOTALS FOR Growth Regulators,,,,,1463.49,,,,,,,,
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Ally Max SX (18768),153.432,g,66.67,14/04/2018,3.66,0.435,Wheat Winter,CF27,KWS Kerrin,2018,41.921
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Ally Max SX (18768),230.568,g,100.19,14/04/2018,5.5,0.435,Wheat Winter,CF50,KWS Kerrin,2018,41.921
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Ally Max SX (18768),365,g,158.6,18/05/2018,8.8,0.435,Barley Spring,CF1,Barley Spring,2018,41.477
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Anthem (15761),11.321,L,47.47,26/10/2017,12,4.193,Wheat Winter,CF14,KWS Kerrin,2018,0.943
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Anthem (15761),3.679,L,15.43,26/10/2017,3.9,4.193,Wheat Winter,CF15,KWS Kerrin,2018,0.943
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Axial (12521),2.458,L,207.93,16/04/2018,9.1,84.6,Barley Winter,CF11,Barley Winter,2018,0.27
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Axial (12521),0.851,L,71.98,16/04/2018,3.15,84.6,Barley Winter,CF21,Barley Winter,2018,0.27
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Axial (12521),0.691,L,58.49,16/04/2018,2.56,84.6,Barley Winter,CF24,Barley Winter,2018,0.27
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Axial (12521),3.581,L,302.94,09/05/2018,8,84.6,Wheat Winter,CF16.A,KWS Lili,2018,0.448
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Axial (12521),5.219,L,441.54,09/05/2018,11.66,84.6,Wheat Winter,CF16.B/02,KWS Lili,2018,0.448
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Axial (12521),7.2,L,609.12,09/05/2018,16,84.6,Wheat Winter,CF18,KWS Lili,2018,0.45
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Axial (12521),1.984,L,167.87,18/05/2018,4.2,84.6,Barley Spring,CF16.C/03,Barley Spring,2018,0.472
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Axial (12521),2.362,L,199.84,18/05/2018,5,84.6,Barley Spring,CF28,Barley Spring,2018,0.472
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Axial (12521),1.654,L,139.89,18/05/2018,3.5,84.6,Barley Spring,CF29,Barley Spring,2018,0.472
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Axial (12521),3,L,253.8,03/06/2018,6.7,84.6,Barley Spring,CF5,Barley Spring,2018,0.448
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Banastar (16834),15.455,L,356.85,20/09/2017,8.5,23.09,Rape Winter,CF8,Rape Winter,2018,1.818
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Banastar (16834),34.545,L,797.65,20/09/2017,19,23.09,Rape Winter,CF9,Rape Winter,2018,1.818
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Betanal Maxx Pro (15086),4.567,L,89.59,18/05/2018,4.5,19.532,Sugar Beet,CF10,Sugar Beet,2018,1.015
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Betanal Maxx Pro (15086),9.523,L,186.79,18/05/2018,7.78,19.532,Sugar Beet,CF17,Sugar Beet,2018,1.224
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Betanal Maxx Pro (15086),10.037,L,196.88,18/05/2018,8.2,19.532,Sugar Beet,CF26,Sugar Beet,2018,1.224
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Betanal Maxx Pro (15086),4.06,L,79.63,18/05/2018,4,19.532,Sugar Beet,CF3,Sugar Beet,2018,1.015
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Betanal Maxx Pro (15086),4.567,L,89.59,18/05/2018,4.5,19.532,Sugar Beet,CF4,Sugar Beet,2018,1.015
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Betanal Maxx Pro (15086),20.441,L,400.96,18/05/2018,16.7,19.532,Sugar Beet,CF44,Sugar Beet,2018,1.224
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Betanal Maxx Pro (15086),3.806,L,74.66,18/05/2018,3.75,19.532,Sugar Beet,CF7,Sugar Beet,2018,1.015
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Betanal Maxx Pro (15086),5.373,L,105.4,01/06/2018,4.5,19.532,Sugar Beet,CF10,Sugar Beet,2018,1.194
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Betanal Maxx Pro (15086),10,L,196.16,01/06/2018,7.78,19.532,Sugar Beet,CF17,Sugar Beet,2018,1.285
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Betanal Maxx Pro (15086),9.88,L,193.79,01/06/2018,8.2,19.532,Sugar Beet,CF26,Sugar Beet,2018,1.205
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Betanal Maxx Pro (15086),4.776,L,93.69,01/06/2018,4,19.532,Sugar Beet,CF3,Sugar Beet,2018,1.194
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Betanal Maxx Pro (15086),5.373,L,105.4,01/06/2018,4.5,19.532,Sugar Beet,CF4,Sugar Beet,2018,1.194
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Betanal Maxx Pro (15086),20.12,L,394.68,01/06/2018,16.7,19.532,Sugar Beet,CF44,Sugar Beet,2018,1.205
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Betanal Maxx Pro (15086),4.478,L,87.83,01/06/2018,3.75,19.532,Sugar Beet,CF7,Sugar Beet,2018,1.194
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Centurion Max (17911),4.364,L,94.39,09/06/2018,4.5,21.63,Sugar Beet,CF10,Sugar Beet,2018,0.97
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Centurion Max (17911),3.636,L,78.65,09/06/2018,3.75,21.63,Sugar Beet,CF7,Sugar Beet,2018,0.97
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Cirrus Cs (18721),3,L,249.71,27/08/2017,13,83.237,Rape Winter,CF52,Rape Winter,2018,0.231
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Cirrus Cs (18721),2.009,L,167.23,27/08/2017,8.5,83.237,Rape Winter,CF8,Rape Winter,2018,0.236
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Cirrus Cs (18721),4.491,L,373.81,27/08/2017,19,83.237,Rape Winter,CF9,Rape Winter,2018,0.236
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Clayton Maximus (12543),10,L,195.9,20/09/2017,13,19.59,Rape Winter,CF52,Rape Winter,2018,0.769
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Clayton Maximus (12543),6.182,L,121.1,20/09/2017,8.5,19.59,Rape Winter,CF8,Rape Winter,2018,0.727
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Clayton Maximus (12543),13.818,L,270.7,20/09/2017,19,19.59,Rape Winter,CF9,Rape Winter,2018,0.727
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Debut (18766),0.081,kg,78.01,01/06/2018,4.5,683.195,Sugar Beet,CF10,Sugar Beet,2018,0.018
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Debut (18766),0.072,kg,69.34,01/06/2018,4,683.195,Sugar Beet,CF3,Sugar Beet,2018,0.018
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Debut (18766),0.081,kg,78.01,01/06/2018,4.5,683.195,Sugar Beet,CF4,Sugar Beet,2018,0.018
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Debut (18766),0.067,kg,65.01,01/06/2018,3.75,683.195,Sugar Beet,CF7,Sugar Beet,2018,0.018
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Efeckt (17177),4.364,L,53.99,03/05/2018,4.5,12.372,Sugar Beet,CF10,Sugar Beet,2018,0.97
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Efeckt (17177),3.636,L,44.99,03/05/2018,3.75,12.372,Sugar Beet,CF7,Sugar Beet,2018,0.97
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Falcon (16459),2.5,L,44.3,09/06/2018,2,17.72,Sugar Beet,CF44,Sugar Beet,2018,1.25
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Finish Sx (18762),236.363,g,55.51,03/05/2018,3.15,0.235,Barley Winter,CF21,Barley Winter,2018,75.036
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Finish Sx (18762),294.891,g,69.25,03/05/2018,3.93,0.235,Barley Winter,CF34,Barley Winter,2018,75.036
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Finish Sx (18762),511.745,g,120.18,03/05/2018,6.82,0.235,Barley Winter,CF43,Barley Winter,2018,75.036
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Finish Sx (18762),283.385,g,66.55,09/05/2018,3.8,0.235,Wheat Winter,CF15,KWS Kerrin,2018,74.575
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Finish Sx (18762),243.86,g,57.27,09/05/2018,3.27,0.235,Wheat Winter,CF25,KWS Kerrin,2018,74.575
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Finish Sx (18762),242.369,g,56.92,09/05/2018,3.25,0.235,Wheat Winter,CF30,KWS Lili,2018,74.575
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Finish Sx (18762),934.425,g,219.45,09/05/2018,12.53,0.235,Wheat Winter,CF31,KWS Lili,2018,74.575
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Finish Sx (18762),357.96,g,84.07,09/05/2018,4.8,0.235,Wheat Winter,CF33,KWS Lili,2018,74.575
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Finish Sx (18762),275.315,g,64.66,03/06/2018,4.2,0.235,Barley Spring,CF16.C/03,Barley Spring,2018,65.551
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Finish Sx (18762),327.756,g,76.97,03/06/2018,5,0.235,Barley Spring,CF28,Barley Spring,2018,65.551
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Finish Sx (18762),229.429,g,53.88,03/06/2018,3.5,0.235,Barley Spring,CF29,Barley Spring,2018,65.551
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Finish Sx (18762),375,g,88.07,11/06/2018,6.7,0.235,Barley Spring,CF5,Barley Spring,2018,55.97
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Fox (11981),13,L,202.41,29/01/2018,13,15.57,Rape Winter,CF52,Rape Winter,2018,1
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Gal-Gone (17505),6.5,L,38.84,18/05/2018,8.8,6.696,Barley Spring,CF1,Barley Spring,2018,0.739
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Gal-Gone (17505),3.307,L,19.76,03/06/2018,4.2,6.696,Barley Spring,CF16.C/03,Barley Spring,2018,0.787
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Gal-Gone (17505),3.937,L,23.53,03/06/2018,5,6.696,Barley Spring,CF28,Barley Spring,2018,0.787
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Gal-Gone (17505),2.756,L,16.47,03/06/2018,3.5,6.696,Barley Spring,CF29,Barley Spring,2018,0.787
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Gal-Gone (17505),15.32,L,91.55,06/06/2018,16,6.696,Wheat Winter,CF18,KWS Lili,2018,0.957
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Gal-Gone (17505),9.68,L,57.85,06/06/2018,10.11,6.696,Wheat Winter,CF2,KWS Lili,2018,0.957
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Gal-Gone (17505),5,L,29.88,11/06/2018,6.7,6.696,Barley Spring,CF5,Barley Spring,2018,0.746
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Garryowen XL (17508),2.857,L,5.47,27/08/2017,1,1.966,Sugar Beet,CF10,Sugar Beet,2018,2.857
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Garryowen XL (17508),2.857,L,5.47,27/08/2017,1,1.966,Sugar Beet,CF7,Sugar Beet,2018,2.857
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Garryowen XL (17508),14.286,L,27.37,27/08/2017,5,1.966,Wheat Winter,CF15,KWS Kerrin,2018,2.857
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Garryowen XL (17508),25.744,L,49.33,20/09/2017,6.7,1.966,Barley Spring,CF5,Barley Spring,2018,3.842
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Garryowen XL (17508),8.182,L,15.68,20/09/2017,3.4,1.966,Barley Winter,CF34,Barley Winter,2018,2.406
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Garryowen XL (17508),8.422,L,16.14,20/09/2017,3.5,1.966,Barley Winter,CF35,Barley Winter,2018,2.406
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Garryowen XL (17508),17.291,L,33.13,20/09/2017,4.5,1.966,Sugar Beet,CF10,Sugar Beet,2018,3.842
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Garryowen XL (17508),29.894,L,57.28,20/09/2017,7.78,1.966,Sugar Beet,CF17,Sugar Beet,2018,3.842
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Garryowen XL (17508),15.37,L,29.45,20/09/2017,4,1.966,Sugar Beet,CF3,Sugar Beet,2018,3.842
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Garryowen XL (17508),17.291,L,33.13,20/09/2017,4.5,1.966,Sugar Beet,CF4,Sugar Beet,2018,3.842
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Garryowen XL (17508),14.409,L,27.61,20/09/2017,3.75,1.967,Sugar Beet,CF7,Sugar Beet,2018,3.842
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Garryowen XL (17508),13.235,L,25.36,20/09/2017,5.5,1.967,Unallocated,CF32,Crop Trials,2018,2.406
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Garryowen XL (17508),28.877,L,55.33,20/09/2017,12,1.967,Wheat Winter,CF14,KWS Kerrin,2018,2.406
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Garryowen XL (17508),8.422,L,16.14,20/09/2017,3.5,1.966,Wheat Winter,CF25,KWS Kerrin,2018,2.406
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Garryowen XL (17508),8.422,L,16.14,20/09/2017,3.5,1.966,Wheat Winter,CF27,KWS Kerrin,2018,2.406
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Garryowen XL (17508),14.439,L,27.67,20/09/2017,6,1.967,Wheat Winter,CF50,KWS Kerrin,2018,2.406
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Goltix 70 SC (16638),8.182,L,145.34,03/05/2018,4.5,17.764,Sugar Beet,CF10,Sugar Beet,2018,1.818
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Goltix 70 SC (16638),6.818,L,121.12,03/05/2018,3.75,17.764,Sugar Beet,CF7,Sugar Beet,2018,1.818
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Goltix 70 SC (16638),4.701,L,83.52,18/05/2018,4.5,17.764,Sugar Beet,CF10,Sugar Beet,2018,1.045
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Goltix 70 SC (16638),7.737,L,137.44,18/05/2018,7.78,17.764,Sugar Beet,CF17,Sugar Beet,2018,0.994
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Goltix 70 SC (16638),8.155,L,144.86,18/05/2018,8.2,17.764,Sugar Beet,CF26,Sugar Beet,2018,0.994
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Goltix 70 SC (16638),4.179,L,74.24,18/05/2018,4,17.764,Sugar Beet,CF3,Sugar Beet,2018,1.045
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Goltix 70 SC (16638),4.701,L,83.52,18/05/2018,4.5,17.764,Sugar Beet,CF4,Sugar Beet,2018,1.045
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Goltix 70 SC (16638),16.608,L,295.02,18/05/2018,16.7,17.764,Sugar Beet,CF44,Sugar Beet,2018,0.994
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Goltix 70 SC (16638),3.918,L,69.6,18/05/2018,3.75,17.764,Sugar Beet,CF7,Sugar Beet,2018,1.045
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Goltix 70 SC (16638),2.687,L,47.72,01/06/2018,4.5,17.764,Sugar Beet,CF10,Sugar Beet,2018,0.597
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Goltix 70 SC (16638),10,L,177.64,01/06/2018,7.78,17.764,Sugar Beet,CF17,Sugar Beet,2018,1.285
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Goltix 70 SC (16638),8.233,L,146.25,01/06/2018,8.2,17.764,Sugar Beet,CF26,Sugar Beet,2018,1.004
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Goltix 70 SC (16638),2.388,L,42.42,01/06/2018,4,17.764,Sugar Beet,CF3,Sugar Beet,2018,0.597
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Goltix 70 SC (16638),2.687,L,47.72,01/06/2018,4.5,17.764,Sugar Beet,CF4,Sugar Beet,2018,0.597
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Goltix 70 SC (16638),16.767,L,297.85,01/06/2018,16.7,17.764,Sugar Beet,CF44,Sugar Beet,2018,1.004
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Goltix 70 SC (16638),2.239,L,39.77,01/06/2018,3.75,17.764,Sugar Beet,CF7,Sugar Beet,2018,0.597
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Herold (16195),2,L,132.31,26/10/2017,7.8,66.154,Barley Winter,CF11,Barley Winter,2018,0.256
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Herold (16195),0.879,L,58.15,26/10/2017,3.5,66.154,Barley Winter,CF21,Barley Winter,2018,0.251
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Herold (16195),0.728,L,48.18,26/10/2017,2.9,66.154,Barley Winter,CF24,Barley Winter,2018,0.251
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Herold (16195),0.854,L,56.49,26/10/2017,3.4,66.154,Barley Winter,CF34,Barley Winter,2018,0.251
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Herold (16195),0.879,L,58.15,26/10/2017,3.5,66.154,Barley Winter,CF35,Barley Winter,2018,0.251
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Herold (16195),2.16,L,142.88,26/10/2017,8.6,66.154,Barley Winter,CF43,Barley Winter,2018,0.251
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Herold (16195),1.389,L,91.88,26/10/2017,4.5,66.154,Wheat Winter,CF13,KWS Lili,2018,0.309
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Herold (16195),3.517,L,232.66,26/10/2017,12,66.154,Wheat Winter,CF14,KWS Kerrin,2018,0.293
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Herold (16195),1.143,L,75.62,26/10/2017,3.9,66.154,Wheat Winter,CF15,KWS Kerrin,2018,0.293
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Herold (16195),2.4,L,158.77,26/10/2017,8,66.154,Wheat Winter,CF16.A,KWS Lili,2018,0.3
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Herold (16195),2.94,L,194.49,26/10/2017,9.8,66.154,Wheat Winter,CF16.B/02,KWS Lili,2018,0.3
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Herold (16195),1.077,L,71.24,26/10/2017,3.5,66.154,Wheat Winter,CF25,KWS Kerrin,2018,0.308
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Herold (16195),1.077,L,71.24,26/10/2017,3.5,66.154,Wheat Winter,CF27,KWS Kerrin,2018,0.308
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Herold (16195),1.019,L,67.38,26/10/2017,3.3,66.154,Wheat Winter,CF30,KWS Lili,2018,0.309
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Herold (16195),3.611,L,238.89,26/10/2017,11.7,66.154,Wheat Winter,CF31,KWS Lili,2018,0.309
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Herold (16195),1.481,L,98.01,26/10/2017,4.8,66.154,Wheat Winter,CF33,KWS Lili,2018,0.309
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Herold (16195),1.846,L,122.13,26/10/2017,6,66.154,Wheat Winter,CF50,KWS Kerrin,2018,0.308
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Herold (16195),5.079,L,336.02,02/11/2017,16,66.154,Wheat Winter,CF18,KWS Lili,2018,0.317
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Herold (16195),2.921,L,193.21,02/11/2017,9.2,66.154,Wheat Winter,CF2,KWS Lili,2018,0.317
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Horus (16216),12,L,357.6,09/05/2018,10.11,29.8,Wheat Winter,CF2,KWS Lili,2018,1.187
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Kerb Flo 500 (15586),14.167,L,162.92,29/01/2018,8.5,11.5,Rape Winter,CF8,Rape Winter,2018,1.667
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Kerb Flo 500 (15586),15.833,L,182.08,29/01/2018,9.5,11.5,Rape Winter,CF9,Rape Winter,2018,1.667
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Laser (17339),10,L,348,07/04/2018,9.5,34.8,Rape Winter,CF9,Rape Winter,2018,1.053
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Lenazar Flowable (11068),1,L,19.13,01/06/2018,7.78,19.125,Sugar Beet,CF17,Sugar Beet,2018,0.129
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Liaison (17089),51.358,L,118.92,09/07/2018,13,2.316,Rape Winter,CF52,Rape Winter,2018,3.951
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Liaison (17089),33.58,L,77.76,09/07/2018,8.5,2.316,Rape Winter,CF8,Rape Winter,2018,3.951
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Liaison (17089),75.062,L,173.81,09/07/2018,19,2.316,Rape Winter,CF9,Rape Winter,2018,3.951
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Most Micro (16063),4,L,21.58,26/10/2017,7.8,5.396,Barley Winter,CF11,Barley Winter,2018,0.513
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Most Micro (16063),7.991,L,43.12,26/10/2017,3.5,5.396,Barley Winter,CF21,Barley Winter,2018,2.283
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Most Micro (16063),6.621,L,35.73,26/10/2017,2.9,5.396,Barley Winter,CF24,Barley Winter,2018,2.283
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Most Micro (16063),7.763,L,41.89,26/10/2017,3.4,5.396,Barley Winter,CF34,Barley Winter,2018,2.283
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Most Micro (16063),7.991,L,43.12,26/10/2017,3.5,5.396,Barley Winter,CF35,Barley Winter,2018,2.283
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Most Micro (16063),19.635,L,105.95,26/10/2017,8.6,5.396,Barley Winter,CF43,Barley Winter,2018,2.283
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Most Micro (16063),10.37,L,55.96,26/10/2017,4.5,5.396,Wheat Winter,CF13,KWS Lili,2018,2.305
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Most Micro (16063),8.989,L,48.5,26/10/2017,8,5.396,Wheat Winter,CF16.A,KWS Lili,2018,1.124
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Most Micro (16063),11.011,L,59.42,26/10/2017,9.8,5.396,Wheat Winter,CF16.B/02,KWS Lili,2018,1.124
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Most Micro (16063),8.077,L,43.58,26/10/2017,3.5,5.396,Wheat Winter,CF25,KWS Kerrin,2018,2.308
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Most Micro (16063),8.077,L,43.58,26/10/2017,3.5,5.396,Wheat Winter,CF27,KWS Kerrin,2018,2.308
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Most Micro (16063),7.605,L,41.04,26/10/2017,3.3,5.396,Wheat Winter,CF30,KWS Lili,2018,2.305
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Most Micro (16063),26.963,L,145.49,26/10/2017,11.7,5.396,Wheat Winter,CF31,KWS Lili,2018,2.305
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Most Micro (16063),11.062,L,59.69,26/10/2017,4.8,5.396,Wheat Winter,CF33,KWS Lili,2018,2.305
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Most Micro (16063),13.846,L,74.71,26/10/2017,6,5.396,Wheat Winter,CF50,KWS Kerrin,2018,2.308
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Most Micro (16063),19.048,L,102.78,02/11/2017,16,5.396,Wheat Winter,CF18,KWS Lili,2018,1.19
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Most Micro (16063),10.952,L,59.1,02/11/2017,9.2,5.396,Wheat Winter,CF2,KWS Lili,2018,1.19
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Naspar Extra (17038),0.773,L,15.38,20/09/2017,8.5,24.882,Rape Winter,CF8,Rape Winter,2018,0.091
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Naspar Extra (17038),1.727,L,34.38,20/09/2017,19,24.882,Rape Winter,CF9,Rape Winter,2018,0.091
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Springbok (16786),30,L,579,20/09/2017,13,19.3,Rape Winter,CF52,Rape Winter,2018,2.308
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Surrender (16169),12,L,31.01,15/10/2017,4.2,2.187,Barley Spring,CF16.C/03,Barley Spring,2018,2.857
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Surrender (16169),28,L,72.35,15/10/2017,9.8,2.187,Wheat Winter,CF16.B/02,KWS Lili,2018,2.857
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Surrender (16169),70,L,180.89,21/03/2018,16.7,2.187,Sugar Beet,CF44,Sugar Beet,2018,4.192
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Surrender T/F (17575),10,L,20.78,06/04/2018,4.2,2.078,Barley Spring,CF16.C/03,Barley Spring,2018,2.381
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Surrender T/F (17575),10.999,L,22.86,06/04/2018,4.5,2.078,Sugar Beet,CF10,Sugar Beet,2018,2.444
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Surrender T/F (17575),19.016,L,39.52,06/04/2018,7.78,2.078,Sugar Beet,CF17,Sugar Beet,2018,2.444
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Surrender T/F (17575),20.043,L,41.65,06/04/2018,8.2,2.078,Sugar Beet,CF26,Sugar Beet,2018,2.444
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Surrender T/F (17575),9.777,L,20.32,06/04/2018,4,2.078,Sugar Beet,CF3,Sugar Beet,2018,2.444
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Surrender T/F (17575),10.999,L,22.86,06/04/2018,4.5,2.078,Sugar Beet,CF4,Sugar Beet,2018,2.444
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Surrender T/F (17575),9.166,L,19.05,06/04/2018,3.75,2.078,Sugar Beet,CF7,Sugar Beet,2018,2.444
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Trooper (13924),17.5,L,216.83,26/10/2017,7.8,12.39,Barley Winter,CF11,Barley Winter,2018,2.244
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Trooper (13924),24.528,L,303.91,26/10/2017,12,12.39,Wheat Winter,CF14,KWS Kerrin,2018,2.044
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Trooper (13924),7.972,L,98.77,26/10/2017,3.9,12.39,Wheat Winter,CF15,KWS Kerrin,2018,2.044
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Trooper (13924),15.73,L,194.9,26/10/2017,8,12.39,Wheat Winter,CF16.A,KWS Lili,2018,1.966
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Trooper (13924),19.27,L,238.75,26/10/2017,9.8,12.39,Wheat Winter,CF16.B/02,KWS Lili,2018,1.966
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Trooper (13924),34.921,L,432.67,02/11/2017,16,12.39,Wheat Winter,CF18,KWS Lili,2018,2.183
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Trooper (13924),20.079,L,248.78,02/11/2017,9.2,12.39,Wheat Winter,CF2,KWS Lili,2018,2.183
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Vivendi 200 (16966),6.5,L,99.13,07/04/2018,13,24.729,Rape Winter,CF52,Rape Winter,2018,0.5
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Vivendi 200 (16966),2.665,L,40.65,01/06/2018,8.2,24.729,Sugar Beet,CF26,Sugar Beet,2018,0.325
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Vivendi 200 (16966),5.428,L,82.78,01/06/2018,16.7,24.729,Sugar Beet,CF44,Sugar Beet,2018,0.325
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Volcan Combi FL (16681),19.837,L,306.01,03/05/2018,7.78,15.426,Sugar Beet,CF17,Sugar Beet,2018,2.55
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Volcan Combi FL (16681),20.908,L,322.53,03/05/2018,8.2,15.426,Sugar Beet,CF26,Sugar Beet,2018,2.55
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Volcan Combi FL (16681),10.199,L,157.33,03/05/2018,4,15.426,Sugar Beet,CF3,Sugar Beet,2018,2.55
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Volcan Combi FL (16681),11.474,L,177,03/05/2018,4.5,15.426,Sugar Beet,CF4,Sugar Beet,2018,2.55
+FH Rockcliffe FGrp,Variable Costs,Herbicides,Completed,Volcan Combi FL (16681),42.581,L,656.86,03/05/2018,16.7,15.426,Sugar Beet,CF44,Sugar Beet,2018,2.55
+,,SUB TOTALS FOR Herbicides,,,,,21754.32,,,,,,,,
+FH Rockcliffe FGrp,Variable Costs,Insecticides,Completed,Colt 10 CS (18708),1,L,45.61,20/09/2017,13,45.606,Rape Winter,CF52,Rape Winter,2018,0.077
+FH Rockcliffe FGrp,Variable Costs,Insecticides,Completed,Colt 10 CS (18708),0.618,L,28.19,20/09/2017,8.5,45.606,Rape Winter,CF8,Rape Winter,2018,0.073
+FH Rockcliffe FGrp,Variable Costs,Insecticides,Completed,Colt 10 CS (18708),1.382,L,63.02,20/09/2017,19,45.606,Rape Winter,CF9,Rape Winter,2018,0.073
+FH Rockcliffe FGrp,Variable Costs,Insecticides,Completed,Colt 10 CS (18708),1,L,45.61,03/11/2017,13,45.606,Rape Winter,CF52,Rape Winter,2018,0.077
+FH Rockcliffe FGrp,Variable Costs,Insecticides,Completed,Colt 10 CS (18708),0.618,L,28.19,03/11/2017,8.5,45.606,Rape Winter,CF8,Rape Winter,2018,0.073
+FH Rockcliffe FGrp,Variable Costs,Insecticides,Completed,Colt 10 CS (18708),1.382,L,63.02,03/11/2017,19,45.606,Rape Winter,CF9,Rape Winter,2018,0.073
+FH Rockcliffe FGrp,Variable Costs,Insecticides,Completed,Colt 10 CS (18708),0.3,L,13.51,03/06/2018,6.7,45.032,Barley Spring,CF5,Barley Spring,2018,0.045
+FH Rockcliffe FGrp,Variable Costs,Insecticides,Completed,Markate 50 (13529),1.926,L,42.81,06/09/2017,13,22.229,Rape Winter,CF52,Rape Winter,2018,0.148
+FH Rockcliffe FGrp,Variable Costs,Insecticides,Completed,Markate 50 (13529),1.259,L,27.99,06/09/2017,8.5,22.229,Rape Winter,CF8,Rape Winter,2018,0.148
+FH Rockcliffe FGrp,Variable Costs,Insecticides,Completed,Markate 50 (13529),2.815,L,62.57,06/09/2017,19,22.229,Rape Winter,CF9,Rape Winter,2018,0.148
+FH Rockcliffe FGrp,Variable Costs,Insecticides,Completed,Markate 50 (13529),0.912,L,20.26,23/02/2018,9.1,22.229,Barley Winter,CF11,Barley Winter,2018,0.1
+FH Rockcliffe FGrp,Variable Costs,Insecticides,Completed,Markate 50 (13529),0.316,L,7.01,23/02/2018,3.15,22.229,Barley Winter,CF21,Barley Winter,2018,0.1
+FH Rockcliffe FGrp,Variable Costs,Insecticides,Completed,Markate 50 (13529),0.256,L,5.7,23/02/2018,2.56,22.229,Barley Winter,CF24,Barley Winter,2018,0.1
+FH Rockcliffe FGrp,Variable Costs,Insecticides,Completed,Markate 50 (13529),0.394,L,8.75,23/02/2018,3.93,22.229,Barley Winter,CF34,Barley Winter,2018,0.1
+FH Rockcliffe FGrp,Variable Costs,Insecticides,Completed,Markate 50 (13529),0.34,L,7.55,23/02/2018,3.39,22.229,Barley Winter,CF35,Barley Winter,2018,0.1
+FH Rockcliffe FGrp,Variable Costs,Insecticides,Completed,Markate 50 (13529),0.683,L,15.19,23/02/2018,6.82,22.229,Barley Winter,CF43,Barley Winter,2018,0.1
+FH Rockcliffe FGrp,Variable Costs,Insecticides,Completed,Markate 50 (13529),0.486,L,10.8,23/02/2018,4.92,22.229,Wheat Winter,CF13,KWS Lili,2018,0.099
+FH Rockcliffe FGrp,Variable Costs,Insecticides,Completed,Markate 50 (13529),1.136,L,25.25,23/02/2018,11.5,22.229,Wheat Winter,CF14,KWS Kerrin,2018,0.099
+FH Rockcliffe FGrp,Variable Costs,Insecticides,Completed,Markate 50 (13529),0.375,L,8.35,23/02/2018,3.8,22.229,Wheat Winter,CF15,KWS Kerrin,2018,0.099
+FH Rockcliffe FGrp,Variable Costs,Insecticides,Completed,Markate 50 (13529),0.321,L,7.14,23/02/2018,3.25,22.229,Wheat Winter,CF30,KWS Lili,2018,0.099
+FH Rockcliffe FGrp,Variable Costs,Insecticides,Completed,Markate 50 (13529),1.238,L,27.52,23/02/2018,12.53,22.229,Wheat Winter,CF31,KWS Lili,2018,0.099
+FH Rockcliffe FGrp,Variable Costs,Insecticides,Completed,Markate 50 (13529),0.543,L,12.08,23/02/2018,5.5,22.229,Wheat Winter,CF50,KWS Kerrin,2018,0.099
+FH Rockcliffe FGrp,Variable Costs,Insecticides,Completed,Markate 50 (13529),0.795,L,17.68,21/03/2018,8,22.229,Wheat Winter,CF16.A,KWS Lili,2018,0.099
+FH Rockcliffe FGrp,Variable Costs,Insecticides,Completed,Markate 50 (13529),1.159,L,25.76,21/03/2018,11.66,22.229,Wheat Winter,CF16.B/02,KWS Lili,2018,0.099
+FH Rockcliffe FGrp,Variable Costs,Insecticides,Completed,Markate 50 (13529),1.005,L,22.34,21/03/2018,10.11,22.229,Wheat Winter,CF2,KWS Lili,2018,0.099
+FH Rockcliffe FGrp,Variable Costs,Insecticides,Completed,Markate 50 (13529),0.364,L,8.09,21/03/2018,3.66,22.229,Wheat Winter,CF27,KWS Kerrin,2018,0.099
+FH Rockcliffe FGrp,Variable Costs,Insecticides,Completed,Markate 50 (13529),0.477,L,10.61,21/03/2018,4.8,22.229,Wheat Winter,CF33,KWS Lili,2018,0.099
+FH Rockcliffe FGrp,Variable Costs,Insecticides,Completed,Markate 50 (13529),0.2,L,4.43,01/04/2018,3.27,22.157,Wheat Winter,CF25,KWS Kerrin,2018,0.061
+FH Rockcliffe FGrp,Variable Costs,Insecticides,Completed,Markate 50 (13529),0.8,L,17.73,18/05/2018,8.8,22.157,Barley Spring,CF1,Barley Spring,2018,0.091
+FH Rockcliffe FGrp,Variable Costs,Insecticides,Completed,Markate 50 (13529),0.397,L,8.79,18/05/2018,4.2,22.157,Barley Spring,CF16.C/03,Barley Spring,2018,0.094
+FH Rockcliffe FGrp,Variable Costs,Insecticides,Completed,Markate 50 (13529),0.472,L,10.47,18/05/2018,5,22.157,Barley Spring,CF28,Barley Spring,2018,0.094
+FH Rockcliffe FGrp,Variable Costs,Insecticides,Completed,Markate 50 (13529),0.331,L,7.33,18/05/2018,3.5,22.157,Barley Spring,CF29,Barley Spring,2018,0.094
+FH Rockcliffe FGrp,Variable Costs,Insecticides,Completed,Mavrik (10612),2.5,L,98.75,08/05/2018,13,39.5,Rape Winter,CF52,Rape Winter,2018,0.192
+FH Rockcliffe FGrp,Variable Costs,Insecticides,Completed,Mavrik (10612),1.7,L,67.15,08/05/2018,8.5,39.5,Rape Winter,CF8,Rape Winter,2018,0.2
+FH Rockcliffe FGrp,Variable Costs,Insecticides,Completed,Mavrik (10612),3.8,L,150.1,08/05/2018,19,39.5,Rape Winter,CF9,Rape Winter,2018,0.2
+,,SUB TOTALS FOR Insecticides,,,,,1025.33,,,,,,,,
+FH Rockcliffe FGrp,Variable Costs,Lime,Completed,Screened Chalk,5.464,t,121.03,31/08/2017,4.5,22.15,Sugar Beet,CF10,Sugar Beet,2018,1.214
+FH Rockcliffe FGrp,Variable Costs,Lime,Completed,Screened Chalk,9.447,t,209.25,31/08/2017,7.78,22.15,Sugar Beet,CF17,Sugar Beet,2018,1.214
+FH Rockcliffe FGrp,Variable Costs,Lime,Completed,Screened Chalk,9.957,t,220.54,31/08/2017,8.2,22.15,Sugar Beet,CF26,Sugar Beet,2018,1.214
+FH Rockcliffe FGrp,Variable Costs,Lime,Completed,Screened Chalk,4.857,t,107.58,31/08/2017,4,22.15,Sugar Beet,CF3,Sugar Beet,2018,1.214
+FH Rockcliffe FGrp,Variable Costs,Lime,Completed,Screened Chalk,5.464,t,121.03,31/08/2017,4.5,22.15,Sugar Beet,CF4,Sugar Beet,2018,1.214
+FH Rockcliffe FGrp,Variable Costs,Lime,Completed,Screened Chalk,20.278,t,449.15,31/08/2017,16.7,22.15,Sugar Beet,CF44,Sugar Beet,2018,1.214
+FH Rockcliffe FGrp,Variable Costs,Lime,Completed,Screened Chalk,4.553,t,100.86,31/08/2017,3.75,22.15,Sugar Beet,CF7,Sugar Beet,2018,1.214
+,,SUB TOTALS FOR Lime,,,,,1329.44,,,,,,,,
+FH Rockcliffe FGrp,Variable Costs,Molluscicides,Completed,Carakol 3 (14309),19.259,kg,45.02,25/08/2017,13,2.337,Rape Winter,CF52,Rape Winter,2018,1.481
+FH Rockcliffe FGrp,Variable Costs,Molluscicides,Completed,Carakol 3 (14309),12.593,kg,29.43,25/08/2017,8.5,2.337,Rape Winter,CF8,Rape Winter,2018,1.481
+FH Rockcliffe FGrp,Variable Costs,Molluscicides,Completed,Carakol 3 (14309),28.148,kg,65.79,25/08/2017,19,2.337,Rape Winter,CF9,Rape Winter,2018,1.481
+FH Rockcliffe FGrp,Variable Costs,Molluscicides,Completed,Derrex (15351),19.259,kg,44.3,25/08/2017,13,2.3,Rape Winter,CF52,Rape Winter,2018,1.481
+FH Rockcliffe FGrp,Variable Costs,Molluscicides,Completed,Derrex (15351),12.593,kg,28.96,25/08/2017,8.5,2.3,Rape Winter,CF8,Rape Winter,2018,1.481
+FH Rockcliffe FGrp,Variable Costs,Molluscicides,Completed,Derrex (15351),28.148,kg,64.74,25/08/2017,19,2.3,Rape Winter,CF9,Rape Winter,2018,1.481
+,,SUB TOTALS FOR Molluscicides,,,,,278.24,,,,,,,,
+FH Rockcliffe FGrp,Variable Costs,Organic Manure,Completed,Fym Cattle,165.588,t,0,01/10/2017,4.5,0,Sugar Beet,CF10,Sugar Beet,2018,36.797
+FH Rockcliffe FGrp,Variable Costs,Organic Manure,Completed,Fym Cattle,286.283,t,0,01/10/2017,7.78,0,Sugar Beet,CF17,Sugar Beet,2018,36.797
+FH Rockcliffe FGrp,Variable Costs,Organic Manure,Completed,Fym Cattle,158.728,t,0,01/10/2017,8.2,0,Sugar Beet,CF26,Sugar Beet,2018,19.357
+FH Rockcliffe FGrp,Variable Costs,Organic Manure,Completed,Fym Cattle,76.235,t,0,01/10/2017,4,0,Sugar Beet,CF3,Sugar Beet,2018,19.059
+FH Rockcliffe FGrp,Variable Costs,Organic Manure,Completed,Fym Cattle,85.765,t,0,01/10/2017,4.5,0,Sugar Beet,CF4,Sugar Beet,2018,19.059
+FH Rockcliffe FGrp,Variable Costs,Organic Manure,Completed,Fym Cattle,137.99,t,0,01/10/2017,3.75,0,Sugar Beet,CF7,Sugar Beet,2018,36.797
+FH Rockcliffe FGrp,Variable Costs,Organic Manure,Completed,Pig FYM,388,t,1552,25/07/2017,16.7,4,Sugar Beet,CF44,Sugar Beet,2018,23.234
+FH Rockcliffe FGrp,Variable Costs,Organic Manure,Completed,Pig FYM,219.85,t,879.4,01/10/2017,8.3,4,Potatoes Maincrop,CF42,Potatoes,2018,26.488
+FH Rockcliffe FGrp,Variable Costs,Organic Manure,Completed,Pig FYM,156.276,t,625.11,01/10/2017,8.5,4,Potatoes Maincrop,CF53,Potatoes,2018,18.385
+FH Rockcliffe FGrp,Variable Costs,Organic Manure,Completed,Pig FYM,152.599,t,610.4,01/10/2017,8.3,4,Potatoes Maincrop,CF54,Potatoes,2018,18.385
+,,SUB TOTALS FOR Organic Manure,,,,,3666.9,,,,,,,,
+FH Rockcliffe FGrp,Variable Costs,Rebates,Completed,Fung rebate 2018,-44.378,GBP,-44.38,30/06/2018,8.8,1,Barley Spring,CF1,Barley Spring,2018,-5.043
+FH Rockcliffe FGrp,Variable Costs,Rebates,Completed,Fung rebate 2018,-18.146,GBP,-18.15,30/06/2018,4.2,1,Barley Spring,CF16.C/03,Barley Spring,2018,-4.32
+FH Rockcliffe FGrp,Variable Costs,Rebates,Completed,Fung rebate 2018,-21.602,GBP,-21.6,30/06/2018,5,1,Barley Spring,CF28,Barley Spring,2018,-4.32
+FH Rockcliffe FGrp,Variable Costs,Rebates,Completed,Fung rebate 2018,-15.121,GBP,-15.12,30/06/2018,3.5,1,Barley Spring,CF29,Barley Spring,2018,-4.32
+FH Rockcliffe FGrp,Variable Costs,Rebates,Completed,Fung rebate 2018,-3.685,GBP,-3.69,30/06/2018,6.7,1,Barley Spring,CF5,Barley Spring,2018,-0.55
+FH Rockcliffe FGrp,Variable Costs,Rebates,Completed,Fung rebate 2018,-56.526,GBP,-56.53,30/06/2018,9.1,1,Barley Winter,CF11,Barley Winter,2018,-6.212
+FH Rockcliffe FGrp,Variable Costs,Rebates,Completed,Fung rebate 2018,-20.162,GBP,-20.16,30/06/2018,3.15,1,Barley Winter,CF21,Barley Winter,2018,-6.401
+FH Rockcliffe FGrp,Variable Costs,Rebates,Completed,Fung rebate 2018,-15.902,GBP,-15.9,30/06/2018,2.56,1,Barley Winter,CF24,Barley Winter,2018,-6.212
+FH Rockcliffe FGrp,Variable Costs,Rebates,Completed,Fung rebate 2018,-25.269,GBP,-25.27,30/06/2018,3.93,1,Barley Winter,CF34,Barley Winter,2018,-6.43
+FH Rockcliffe FGrp,Variable Costs,Rebates,Completed,Fung rebate 2018,-21.157,GBP,-21.16,30/06/2018,3.39,1,Barley Winter,CF35,Barley Winter,2018,-6.241
+FH Rockcliffe FGrp,Variable Costs,Rebates,Completed,Fung rebate 2018,-43.852,GBP,-43.85,30/06/2018,6.82,1,Barley Winter,CF43,Barley Winter,2018,-6.43
+FH Rockcliffe FGrp,Variable Costs,Rebates,Completed,Fung rebate 2018,-63.965,GBP,-63.97,30/06/2018,13,1,Rape Winter,CF52,Rape Winter,2018,-4.92
+FH Rockcliffe FGrp,Variable Costs,Rebates,Completed,Fung rebate 2018,-31.599,GBP,-31.6,30/06/2018,8.5,1,Rape Winter,CF8,Rape Winter,2018,-3.717
+FH Rockcliffe FGrp,Variable Costs,Rebates,Completed,Fung rebate 2018,-70.898,GBP,-70.9,30/06/2018,19,1,Rape Winter,CF9,Rape Winter,2018,-3.731
+FH Rockcliffe FGrp,Variable Costs,Rebates,Completed,Fung rebate 2018,-48.183,GBP,-48.18,30/06/2018,4.92,1,Wheat Winter,CF13,KWS Lili,2018,-9.793
+FH Rockcliffe FGrp,Variable Costs,Rebates,Completed,Fung rebate 2018,-111.409,GBP,-111.41,30/06/2018,11.5,1,Wheat Winter,CF14,KWS Kerrin,2018,-9.688
+FH Rockcliffe FGrp,Variable Costs,Rebates,Completed,Fung rebate 2018,-37.153,GBP,-37.15,30/06/2018,3.8,1,Wheat Winter,CF15,KWS Kerrin,2018,-9.777
+FH Rockcliffe FGrp,Variable Costs,Rebates,Completed,Fung rebate 2018,-81.771,GBP,-81.77,30/06/2018,8,1,Wheat Winter,CF16.A,KWS Lili,2018,-10.221
+FH Rockcliffe FGrp,Variable Costs,Rebates,Completed,Fung rebate 2018,-119.182,GBP,-119.18,30/06/2018,11.66,1,Wheat Winter,CF16.B/02,KWS Lili,2018,-10.221
+FH Rockcliffe FGrp,Variable Costs,Rebates,Completed,Fung rebate 2018,-90.067,GBP,-90.07,30/06/2018,16,1,Wheat Winter,CF18,KWS Lili,2018,-5.629
+FH Rockcliffe FGrp,Variable Costs,Rebates,Completed,Fung rebate 2018,-69.425,GBP,-69.42,30/06/2018,10.11,1,Wheat Winter,CF2,KWS Lili,2018,-6.867
+FH Rockcliffe FGrp,Variable Costs,Rebates,Completed,Fung rebate 2018,-31.682,GBP,-31.68,30/06/2018,3.27,1,Wheat Winter,CF25,KWS Kerrin,2018,-9.689
+FH Rockcliffe FGrp,Variable Costs,Rebates,Completed,Fung rebate 2018,-35.415,GBP,-35.41,30/06/2018,3.66,1,Wheat Winter,CF27,KWS Kerrin,2018,-9.676
+FH Rockcliffe FGrp,Variable Costs,Rebates,Completed,Fung rebate 2018,-32.118,GBP,-32.12,30/06/2018,3.25,1,Wheat Winter,CF30,KWS Lili,2018,-9.883
+FH Rockcliffe FGrp,Variable Costs,Rebates,Completed,Fung rebate 2018,-123.829,GBP,-123.83,30/06/2018,12.53,1,Wheat Winter,CF31,KWS Lili,2018,-9.883
+FH Rockcliffe FGrp,Variable Costs,Rebates,Completed,Fung rebate 2018,-47.436,GBP,-47.44,30/06/2018,4.8,1,Wheat Winter,CF33,KWS Lili,2018,-9.883
+FH Rockcliffe FGrp,Variable Costs,Rebates,Completed,Fung rebate 2018,-53.219,GBP,-53.22,30/06/2018,5.5,1,Wheat Winter,CF50,KWS Kerrin,2018,-9.676
+,,SUB TOTALS FOR Rebates,,,,,-1333.15,,,,,,,,
+FH Rockcliffe FGrp,Variable Costs,Seed / Plants,Completed,Concerto,1637.209,kg,415.16,18/04/2018,8.8,0.254,Barley Spring,CF1,Barley Spring,2018,186.047
+FH Rockcliffe FGrp,Variable Costs,Seed / Plants,Completed,Concerto,781.395,kg,198.15,18/04/2018,4.2,0.254,Barley Spring,CF16.C/03,Barley Spring,2018,186.047
+FH Rockcliffe FGrp,Variable Costs,Seed / Plants,Completed,Concerto,930.233,kg,235.89,18/04/2018,5,0.254,Barley Spring,CF28,Barley Spring,2018,186.047
+FH Rockcliffe FGrp,Variable Costs,Seed / Plants,Completed,Concerto,651.163,kg,165.12,18/04/2018,3.5,0.254,Barley Spring,CF29,Barley Spring,2018,186.047
+FH Rockcliffe FGrp,Variable Costs,Seed / Plants,Completed,Concerto,1000,kg,253.58,11/05/2018,6.7,0.254,Barley Spring,CF5,Barley Spring,2018,149.254
+FH Rockcliffe FGrp,Variable Costs,Seed / Plants,Completed,EFA cover crop mix 3 rye/vetch,600,kg,492,25/07/2017,16.7,0.82,Sugar Beet,CF44,Sugar Beet,2018,35.928
+FH Rockcliffe FGrp,Variable Costs,Seed / Plants,Completed,Elgar OSR,59.383,kg,322.98,25/08/2017,13,5.439,Rape Winter,CF52,Rape Winter,2018,4.568
+FH Rockcliffe FGrp,Variable Costs,Seed / Plants,Completed,Elgar OSR,38.827,kg,211.18,25/08/2017,8.5,5.439,Rape Winter,CF8,Rape Winter,2018,4.568
+FH Rockcliffe FGrp,Variable Costs,Seed / Plants,Completed,Elgar OSR,86.79,kg,472.05,25/08/2017,19,5.439,Rape Winter,CF9,Rape Winter,2018,4.568
+FH Rockcliffe FGrp,Variable Costs,Seed / Plants,Completed,Flagon Deter,1.313,t,566.88,27/09/2017,7.8,415.1,Barley Winter,CF11,Barley Winter,2018,0.168
+FH Rockcliffe FGrp,Variable Costs,Seed / Plants,Completed,Flagon Deter,0.589,t,254.37,27/09/2017,3.5,415.1,Barley Winter,CF21,Barley Winter,2018,0.168
+FH Rockcliffe FGrp,Variable Costs,Seed / Plants,Completed,Flagon Deter,0.488,t,210.76,27/09/2017,2.9,415.1,Barley Winter,CF24,Barley Winter,2018,0.168
+FH Rockcliffe FGrp,Variable Costs,Seed / Plants,Completed,Flagon Deter,0.572,t,247.1,27/09/2017,3.4,415.1,Barley Winter,CF34,Barley Winter,2018,0.168
+FH Rockcliffe FGrp,Variable Costs,Seed / Plants,Completed,Flagon Deter,0.589,t,254.37,27/09/2017,3.5,415.1,Barley Winter,CF35,Barley Winter,2018,0.168
+FH Rockcliffe FGrp,Variable Costs,Seed / Plants,Completed,Flagon Deter,1.448,t,625.03,27/09/2017,8.6,415.1,Barley Winter,CF43,Barley Winter,2018,0.168
+FH Rockcliffe FGrp,Variable Costs,Seed / Plants,Completed,Fodder Beet Seed,7,Pack,465.5,23/04/2018,2.9,66.5,Sugar Beet,CF10,Sugar Beet,2018,2.414
+FH Rockcliffe FGrp,Variable Costs,Seed / Plants,Completed,HSS Lili,569.784,kg,245.47,26/09/2017,3.3,0.417,Wheat Winter,CF30,KWS Lili,2018,172.662
+FH Rockcliffe FGrp,Variable Costs,Seed / Plants,Completed,HSS Lili,2020.144,kg,870.29,26/09/2017,11.7,0.417,Wheat Winter,CF31,KWS Lili,2018,172.662
+FH Rockcliffe FGrp,Variable Costs,Seed / Plants,Completed,HSS Lili,828.777,kg,357.04,26/09/2017,4.8,0.417,Wheat Winter,CF33,KWS Lili,2018,172.662
+FH Rockcliffe FGrp,Variable Costs,Seed / Plants,Completed,HSS Lili,776.978,kg,334.73,03/10/2017,4.5,0.417,Wheat Winter,CF13,KWS Lili,2018,172.662
+FH Rockcliffe FGrp,Variable Costs,Seed / Plants,Completed,HSS Lili,1381.295,kg,595.07,16/10/2017,8,0.417,Wheat Winter,CF16.A,KWS Lili,2018,172.662
+FH Rockcliffe FGrp,Variable Costs,Seed / Plants,Completed,HSS Lili,1692.086,kg,728.96,16/10/2017,9.8,0.417,Wheat Winter,CF16.B/02,KWS Lili,2018,172.662
+FH Rockcliffe FGrp,Variable Costs,Seed / Plants,Completed,HSS Lili,2762.59,kg,1190.14,27/10/2017,16,0.417,Wheat Winter,CF18,KWS Lili,2018,172.662
+FH Rockcliffe FGrp,Variable Costs,Seed / Plants,Completed,HSS Lili,1588.489,kg,684.33,27/10/2017,9.2,0.417,Wheat Winter,CF2,KWS Lili,2018,172.662
+FH Rockcliffe FGrp,Variable Costs,Seed / Plants,Completed,Kerrin HSS,2076.125,kg,826.65,25/09/2017,12,0.398,Wheat Winter,CF14,KWS Kerrin,2018,173.01
+FH Rockcliffe FGrp,Variable Costs,Seed / Plants,Completed,Kerrin HSS,674.74,kg,268.66,25/09/2017,3.9,0.398,Wheat Winter,CF15,KWS Kerrin,2018,173.01
+FH Rockcliffe FGrp,Variable Costs,Seed / Plants,Completed,Kerrin HSS,605.536,kg,241.11,25/09/2017,3.5,0.398,Wheat Winter,CF25,KWS Kerrin,2018,173.01
+FH Rockcliffe FGrp,Variable Costs,Seed / Plants,Completed,Kerrin HSS,605.536,kg,241.11,25/09/2017,3.5,0.398,Wheat Winter,CF27,KWS Kerrin,2018,173.01
+FH Rockcliffe FGrp,Variable Costs,Seed / Plants,Completed,Kerrin HSS,1038.062,kg,413.33,25/09/2017,6,0.398,Wheat Winter,CF50,KWS Kerrin,2018,173.01
+FH Rockcliffe FGrp,Variable Costs,Seed / Plants,Completed,SKYFALL,0,kg,0,25/09/2017,5.5,0,Unallocated,CF32,Crop Trials,2018,0
+FH Rockcliffe FGrp,Variable Costs,Seed / Plants,Completed,Sugar Beet Seed,1.994,SBUnit,381.08,26/04/2018,1.6,191.076,Sugar Beet,CF10,Sugar Beet,2018,1.247
+FH Rockcliffe FGrp,Variable Costs,Seed / Plants,Completed,Sugar Beet Seed,9.698,SBUnit,1853.02,26/04/2018,7.78,191.075,Sugar Beet,CF17,Sugar Beet,2018,1.247
+FH Rockcliffe FGrp,Variable Costs,Seed / Plants,Completed,Sugar Beet Seed,10.221,SBUnit,1953.05,26/04/2018,8.2,191.075,Sugar Beet,CF26,Sugar Beet,2018,1.247
+FH Rockcliffe FGrp,Variable Costs,Seed / Plants,Completed,Sugar Beet Seed,4.986,SBUnit,952.71,26/04/2018,4,191.075,Sugar Beet,CF3,Sugar Beet,2018,1.247
+FH Rockcliffe FGrp,Variable Costs,Seed / Plants,Completed,Sugar Beet Seed,5.609,SBUnit,1071.8,26/04/2018,4.5,191.076,Sugar Beet,CF4,Sugar Beet,2018,1.247
+FH Rockcliffe FGrp,Variable Costs,Seed / Plants,Completed,Sugar Beet Seed,20.817,SBUnit,3977.56,26/04/2018,16.7,191.076,Sugar Beet,CF44,Sugar Beet,2018,1.247
+FH Rockcliffe FGrp,Variable Costs,Seed / Plants,Completed,Sugar Beet Seed,4.674,SBUnit,893.16,26/04/2018,3.75,191.075,Sugar Beet,CF7,Sugar Beet,2018,1.247
+,,SUB TOTALS FOR Seed / Plants,,,,,23469.41,,,,,,,,
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Bo-La,15.455,L,63.01,03/11/2017,8.5,4.015,Rape Winter,CF8,Rape Winter,2018,1.818
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Bo-La,34.545,L,140.86,03/11/2017,19,4.015,Rape Winter,CF9,Rape Winter,2018,1.818
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Bo-La,14.167,L,57.09,07/04/2018,8.5,4.03,Rape Winter,CF8,Rape Winter,2018,1.667
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Bo-La,35.833,L,144.41,07/04/2018,19,4.03,Rape Winter,CF9,Rape Winter,2018,1.886
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Groove Df,10,kg,13.93,03/06/2018,6.7,1.393,Barley Spring,CF5,Barley Spring,2018,1.493
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Headland Hi-Phos,20,L,51.26,03/06/2018,6.7,2.563,Barley Spring,CF5,Barley Spring,2018,2.985
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Headland Magnus Pro,9.674,L,34.78,03/05/2018,9.1,3.595,Barley Winter,CF11,Barley Winter,2018,1.063
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Headland Magnus Pro,3.173,L,11.41,03/05/2018,3.15,3.595,Barley Winter,CF21,Barley Winter,2018,1.007
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Headland Magnus Pro,2.722,L,9.78,03/05/2018,2.56,3.595,Barley Winter,CF24,Barley Winter,2018,1.063
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Headland Magnus Pro,3.958,L,14.23,03/05/2018,3.93,3.595,Barley Winter,CF34,Barley Winter,2018,1.007
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Headland Magnus Pro,3.604,L,12.96,03/05/2018,3.39,3.595,Barley Winter,CF35,Barley Winter,2018,1.063
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Headland Magnus Pro,6.869,L,24.69,03/05/2018,6.82,3.595,Barley Winter,CF43,Barley Winter,2018,1.007
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Headland Magnus Pro,5.77,L,20.74,09/05/2018,4.92,3.595,Wheat Winter,CF13,KWS Lili,2018,1.173
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Headland Magnus Pro,13.487,L,48.49,09/05/2018,11.5,3.595,Wheat Winter,CF14,KWS Kerrin,2018,1.173
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Headland Magnus Pro,4.123,L,14.82,09/05/2018,3.8,3.595,Wheat Winter,CF15,KWS Kerrin,2018,1.085
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Headland Magnus Pro,8.138,L,29.26,09/05/2018,8,3.595,Wheat Winter,CF16.A,KWS Lili,2018,1.017
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Headland Magnus Pro,11.862,L,42.64,09/05/2018,11.66,3.595,Wheat Winter,CF16.B/02,KWS Lili,2018,1.017
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Headland Magnus Pro,3.548,L,12.75,09/05/2018,3.27,3.595,Wheat Winter,CF25,KWS Kerrin,2018,1.085
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Headland Magnus Pro,4.292,L,15.43,09/05/2018,3.66,3.595,Wheat Winter,CF27,KWS Kerrin,2018,1.173
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Headland Magnus Pro,3.526,L,12.68,09/05/2018,3.25,3.595,Wheat Winter,CF30,KWS Lili,2018,1.085
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Headland Magnus Pro,13.595,L,48.87,09/05/2018,12.53,3.595,Wheat Winter,CF31,KWS Lili,2018,1.085
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Headland Magnus Pro,5.208,L,18.72,09/05/2018,4.8,3.595,Wheat Winter,CF33,KWS Lili,2018,1.085
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Headland Magnus Pro,6.45,L,23.19,09/05/2018,5.5,3.595,Wheat Winter,CF50,KWS Kerrin,2018,1.173
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Headland Magnus Pro,9.43,L,33.9,18/05/2018,9.1,3.595,Barley Winter,CF11,Barley Winter,2018,1.036
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Headland Magnus Pro,3.264,L,11.73,18/05/2018,3.15,3.595,Barley Winter,CF21,Barley Winter,2018,1.036
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Headland Magnus Pro,2.653,L,9.54,18/05/2018,2.56,3.595,Barley Winter,CF24,Barley Winter,2018,1.036
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Headland Magnus Pro,4.073,L,14.64,18/05/2018,3.93,3.595,Barley Winter,CF34,Barley Winter,2018,1.036
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Headland Magnus Pro,3.513,L,12.63,18/05/2018,3.39,3.595,Barley Winter,CF35,Barley Winter,2018,1.036
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Headland Magnus Pro,7.067,L,25.41,18/05/2018,6.82,3.595,Barley Winter,CF43,Barley Winter,2018,1.036
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Headland Magnus Pro,4.824,L,17.34,01/06/2018,4.92,3.595,Wheat Winter,CF13,KWS Lili,2018,0.98
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Headland Magnus Pro,12.441,L,44.73,01/06/2018,11.5,3.595,Wheat Winter,CF14,KWS Kerrin,2018,1.082
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Headland Magnus Pro,4.111,L,14.78,01/06/2018,3.8,3.595,Wheat Winter,CF15,KWS Kerrin,2018,1.082
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Headland Magnus Pro,8.138,L,29.26,01/06/2018,8,3.595,Wheat Winter,CF16.A,KWS Lili,2018,1.017
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Headland Magnus Pro,11.862,L,42.64,01/06/2018,11.66,3.595,Wheat Winter,CF16.B/02,KWS Lili,2018,1.017
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Headland Magnus Pro,3.538,L,12.72,01/06/2018,3.27,3.595,Wheat Winter,CF25,KWS Kerrin,2018,1.082
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Headland Magnus Pro,3.96,L,14.23,01/06/2018,3.66,3.595,Wheat Winter,CF27,KWS Kerrin,2018,1.082
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Headland Magnus Pro,3.186,L,11.45,01/06/2018,3.25,3.595,Wheat Winter,CF30,KWS Lili,2018,0.98
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Headland Magnus Pro,12.284,L,44.16,01/06/2018,12.53,3.595,Wheat Winter,CF31,KWS Lili,2018,0.98
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Headland Magnus Pro,4.706,L,16.92,01/06/2018,4.8,3.595,Wheat Winter,CF33,KWS Lili,2018,0.98
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Headland Magnus Pro,5.95,L,21.39,01/06/2018,5.5,3.595,Wheat Winter,CF50,KWS Kerrin,2018,1.082
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Headland Magnus Pro,15,L,53.93,03/06/2018,16,3.595,Wheat Winter,CF18,KWS Lili,2018,0.938
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Headland Magnus Pro,10,L,35.95,03/06/2018,10.11,3.595,Wheat Winter,CF2,KWS Lili,2018,0.989
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Headland Magnus Pro,2.416,L,8.69,11/06/2018,4.92,3.595,Wheat Winter,CF13,KWS Lili,2018,0.491
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Headland Magnus Pro,6.221,L,22.36,11/06/2018,11.5,3.595,Wheat Winter,CF14,KWS Kerrin,2018,0.541
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Headland Magnus Pro,2.056,L,7.39,11/06/2018,3.8,3.595,Wheat Winter,CF15,KWS Kerrin,2018,0.541
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Headland Magnus Pro,3.929,L,14.12,11/06/2018,8,3.595,Wheat Winter,CF16.A,KWS Lili,2018,0.491
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Headland Magnus Pro,5.726,L,20.59,11/06/2018,11.66,3.595,Wheat Winter,CF16.B/02,KWS Lili,2018,0.491
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Headland Magnus Pro,7.857,L,28.25,11/06/2018,16,3.595,Wheat Winter,CF18,KWS Lili,2018,0.491
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Headland Magnus Pro,4.965,L,17.85,11/06/2018,10.11,3.595,Wheat Winter,CF2,KWS Lili,2018,0.491
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Headland Magnus Pro,1.769,L,6.36,11/06/2018,3.27,3.595,Wheat Winter,CF25,KWS Kerrin,2018,0.541
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Headland Magnus Pro,1.98,L,7.12,11/06/2018,3.66,3.595,Wheat Winter,CF27,KWS Kerrin,2018,0.541
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Headland Magnus Pro,1.596,L,5.74,11/06/2018,3.25,3.595,Wheat Winter,CF30,KWS Lili,2018,0.491
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Headland Magnus Pro,6.153,L,22.12,11/06/2018,12.53,3.595,Wheat Winter,CF31,KWS Lili,2018,0.491
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Headland Magnus Pro,2.357,L,8.47,11/06/2018,4.8,3.595,Wheat Winter,CF33,KWS Lili,2018,0.491
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Headland Magnus Pro,2.975,L,10.7,11/06/2018,5.5,3.595,Wheat Winter,CF50,KWS Kerrin,2018,0.541
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Headland Magnus Pro,9.209,L,33.11,15/06/2018,8.8,3.595,Barley Spring,CF1,Barley Spring,2018,1.047
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Headland Magnus Pro,4.395,L,15.8,15/06/2018,4.2,3.595,Barley Spring,CF16.C/03,Barley Spring,2018,1.047
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Headland Magnus Pro,5.233,L,18.81,15/06/2018,5,3.595,Barley Spring,CF28,Barley Spring,2018,1.047
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Headland Magnus Pro,3.663,L,13.17,15/06/2018,3.5,3.595,Barley Spring,CF29,Barley Spring,2018,1.047
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Headland Magnus Pro,12.275,L,44.13,15/06/2018,8.2,3.595,Sugar Beet,CF26,Sugar Beet,2018,1.497
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Headland Magnus Pro,5.988,L,21.53,15/06/2018,4,3.595,Sugar Beet,CF3,Sugar Beet,2018,1.497
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Headland Magnus Pro,6.737,L,24.22,15/06/2018,4.5,3.595,Sugar Beet,CF4,Sugar Beet,2018,1.497
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Headland Magnus Pro,25,L,89.88,15/06/2018,16.7,3.595,Sugar Beet,CF44,Sugar Beet,2018,1.497
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Headland Magnus Pro,5.235,L,18.82,30/08/2018,4.5,3.595,Sugar Beet,CF10,Sugar Beet,2018,1.163
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Headland Magnus Pro,9.05,L,32.54,30/08/2018,7.78,3.595,Sugar Beet,CF17,Sugar Beet,2018,1.163
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Headland Magnus Pro,9.539,L,34.29,30/08/2018,8.2,3.595,Sugar Beet,CF26,Sugar Beet,2018,1.163
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Headland Magnus Pro,4.653,L,16.73,30/08/2018,4,3.595,Sugar Beet,CF3,Sugar Beet,2018,1.163
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Headland Magnus Pro,5.235,L,18.82,30/08/2018,4.5,3.595,Sugar Beet,CF4,Sugar Beet,2018,1.163
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Headland Magnus Pro,19.426,L,69.84,30/08/2018,16.7,3.595,Sugar Beet,CF44,Sugar Beet,2018,1.163
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Headland Magnus Pro,4.362,L,15.68,30/08/2018,3.75,3.595,Sugar Beet,CF7,Sugar Beet,2018,1.163
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Lebosol-Rapsmix SC,40,L,152.8,03/11/2017,13,3.82,Rape Winter,CF52,Rape Winter,2018,3.077
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,MANCOZIN,10,L,62.89,26/10/2017,7.8,6.328,Barley Winter,CF11,Barley Winter,2018,1.282
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,MANCOZIN,3.196,L,20.1,26/10/2017,3.5,6.328,Barley Winter,CF21,Barley Winter,2018,0.913
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,MANCOZIN,2.648,L,16.65,26/10/2017,2.9,6.328,Barley Winter,CF24,Barley Winter,2018,0.913
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,MANCOZIN,3.105,L,19.53,26/10/2017,3.4,6.328,Barley Winter,CF34,Barley Winter,2018,0.913
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,MANCOZIN,3.196,L,20.1,26/10/2017,3.5,6.328,Barley Winter,CF35,Barley Winter,2018,0.913
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,MANCOZIN,7.854,L,49.39,26/10/2017,8.6,6.328,Barley Winter,CF43,Barley Winter,2018,0.913
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,MANCOZIN,9.217,L,58.32,16/04/2018,9.1,6.328,Barley Winter,CF11,Barley Winter,2018,1.013
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,MANCOZIN,3.19,L,20.19,16/04/2018,3.15,6.328,Barley Winter,CF21,Barley Winter,2018,1.013
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,MANCOZIN,2.593,L,16.41,16/04/2018,2.56,6.328,Barley Winter,CF24,Barley Winter,2018,1.013
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,MANCOZIN,4.169,L,26.38,16/04/2018,3.93,6.328,Barley Winter,CF34,Barley Winter,2018,1.061
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,MANCOZIN,3.596,L,22.76,16/04/2018,3.39,6.328,Barley Winter,CF35,Barley Winter,2018,1.061
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,MANCOZIN,7.235,L,45.78,16/04/2018,6.82,6.328,Barley Winter,CF43,Barley Winter,2018,1.061
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,MANCOZIN,15,L,94.92,03/06/2018,8.8,6.328,Barley Spring,CF1,Barley Spring,2018,1.705
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,MANCOZIN,6.614,L,41.85,03/06/2018,4.2,6.328,Barley Spring,CF16.C/03,Barley Spring,2018,1.575
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,MANCOZIN,7.874,L,49.83,03/06/2018,5,6.328,Barley Spring,CF28,Barley Spring,2018,1.575
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,MANCOZIN,5.512,L,34.88,03/06/2018,3.5,6.328,Barley Spring,CF29,Barley Spring,2018,1.575
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,MANCOZIN,5,L,31.64,11/06/2018,6.7,6.328,Barley Spring,CF5,Barley Spring,2018,0.746
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Manganese 15,9.484,L,8.14,23/02/2018,4.92,0.858,Wheat Winter,CF13,KWS Lili,2018,1.928
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Manganese 15,22.169,L,19.02,23/02/2018,11.5,0.858,Wheat Winter,CF14,KWS Kerrin,2018,1.928
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Manganese 15,7.325,L,6.29,23/02/2018,3.8,0.858,Wheat Winter,CF15,KWS Kerrin,2018,1.928
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Manganese 15,6.265,L,5.38,23/02/2018,3.25,0.858,Wheat Winter,CF30,KWS Lili,2018,1.928
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Manganese 15,24.154,L,20.72,23/02/2018,12.53,0.858,Wheat Winter,CF31,KWS Lili,2018,1.928
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Manganese 15,10.602,L,9.1,23/02/2018,5.5,0.858,Wheat Winter,CF50,KWS Kerrin,2018,1.928
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Manganese 15,23.575,L,20.23,21/03/2018,9.1,0.858,Barley Winter,CF11,Barley Winter,2018,2.591
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Manganese 15,8.161,L,7,21/03/2018,3.15,0.858,Barley Winter,CF21,Barley Winter,2018,2.591
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Manganese 15,6.632,L,5.69,21/03/2018,2.56,0.858,Barley Winter,CF24,Barley Winter,2018,2.591
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Manganese 15,10.181,L,8.74,21/03/2018,3.93,0.858,Barley Winter,CF34,Barley Winter,2018,2.591
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Manganese 15,8.782,L,7.54,21/03/2018,3.39,0.858,Barley Winter,CF35,Barley Winter,2018,2.591
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Manganese 15,17.668,L,15.16,21/03/2018,6.82,0.858,Barley Winter,CF43,Barley Winter,2018,2.591
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Manganese 15,20.926,L,17.95,21/03/2018,8,0.858,Wheat Winter,CF16.A,KWS Lili,2018,2.616
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Manganese 15,30.5,L,26.17,21/03/2018,11.66,0.858,Wheat Winter,CF16.B/02,KWS Lili,2018,2.616
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Manganese 15,26.445,L,22.69,21/03/2018,10.11,0.858,Wheat Winter,CF2,KWS Lili,2018,2.616
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Manganese 15,9.574,L,8.21,21/03/2018,3.66,0.858,Wheat Winter,CF27,KWS Kerrin,2018,2.616
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,Manganese 15,12.556,L,10.77,21/03/2018,4.8,0.858,Wheat Winter,CF33,KWS Lili,2018,2.616
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,MANGANESE ALOY,9.43,L,56.58,23/02/2018,9.1,6,Barley Winter,CF11,Barley Winter,2018,1.036
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,MANGANESE ALOY,3.264,L,19.59,23/02/2018,3.15,6,Barley Winter,CF21,Barley Winter,2018,1.036
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,MANGANESE ALOY,2.653,L,15.92,23/02/2018,2.56,6,Barley Winter,CF24,Barley Winter,2018,1.036
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,MANGANESE ALOY,4.073,L,24.44,23/02/2018,3.93,6,Barley Winter,CF34,Barley Winter,2018,1.036
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,MANGANESE ALOY,3.513,L,21.08,23/02/2018,3.39,6,Barley Winter,CF35,Barley Winter,2018,1.036
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,MANGANESE ALOY,7.067,L,42.4,23/02/2018,6.82,6,Barley Winter,CF43,Barley Winter,2018,1.036
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,MANGANESE ALOY,5.22,L,31.32,21/03/2018,4.92,6,Wheat Winter,CF13,KWS Lili,2018,1.061
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,MANGANESE ALOY,12.202,L,73.21,21/03/2018,11.5,6,Wheat Winter,CF14,KWS Kerrin,2018,1.061
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,MANGANESE ALOY,3.448,L,20.69,21/03/2018,3.25,6,Wheat Winter,CF30,KWS Lili,2018,1.061
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,MANGANESE ALOY,13.294,L,79.77,21/03/2018,12.53,6,Wheat Winter,CF31,KWS Lili,2018,1.061
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,MANGANESE ALOY,5.836,L,35.01,21/03/2018,5.5,6,Wheat Winter,CF50,KWS Kerrin,2018,1.061
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,MANGANESE ALOY,10,L,60,18/05/2018,8.8,6,Barley Spring,CF1,Barley Spring,2018,1.136
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,NEW-TRITION MANGANESE 15,6.019,L,2.97,26/10/2017,4.5,0.514,Wheat Winter,CF13,KWS Lili,2018,1.337
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,NEW-TRITION MANGANESE 15,16.981,L,8.38,26/10/2017,12,0.514,Wheat Winter,CF14,KWS Kerrin,2018,1.415
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,NEW-TRITION MANGANESE 15,5.519,L,2.72,26/10/2017,3.9,0.514,Wheat Winter,CF15,KWS Kerrin,2018,1.415
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,NEW-TRITION MANGANESE 15,5.385,L,2.66,26/10/2017,3.5,0.514,Wheat Winter,CF25,KWS Kerrin,2018,1.538
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,NEW-TRITION MANGANESE 15,5.385,L,2.66,26/10/2017,3.5,0.514,Wheat Winter,CF27,KWS Kerrin,2018,1.538
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,NEW-TRITION MANGANESE 15,4.414,L,2.18,26/10/2017,3.3,0.514,Wheat Winter,CF30,KWS Lili,2018,1.337
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,NEW-TRITION MANGANESE 15,15.648,L,7.72,26/10/2017,11.7,0.514,Wheat Winter,CF31,KWS Lili,2018,1.337
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,NEW-TRITION MANGANESE 15,6.42,L,3.17,26/10/2017,4.8,0.514,Wheat Winter,CF33,KWS Lili,2018,1.337
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,NEW-TRITION MANGANESE 15,9.231,L,4.55,26/10/2017,6,0.514,Wheat Winter,CF50,KWS Kerrin,2018,1.538
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,NEW-TRITION MANGANESE 15,10,L,5.15,01/04/2018,3.27,0.515,Wheat Winter,CF25,KWS Kerrin,2018,3.058
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,NEW-TRITION MANGANESE 15,30,L,15.46,07/04/2018,13,0.515,Rape Winter,CF52,Rape Winter,2018,2.308
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,NEW-TRITION MANGANESE 15,12.206,L,6.29,14/04/2018,4.92,0.515,Wheat Winter,CF13,KWS Lili,2018,2.481
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,NEW-TRITION MANGANESE 15,28.531,L,14.7,14/04/2018,11.5,0.515,Wheat Winter,CF14,KWS Kerrin,2018,2.481
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,NEW-TRITION MANGANESE 15,9.428,L,4.86,14/04/2018,3.8,0.515,Wheat Winter,CF15,KWS Kerrin,2018,2.481
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,NEW-TRITION MANGANESE 15,19.848,L,10.23,14/04/2018,8,0.515,Wheat Winter,CF16.A,KWS Lili,2018,2.481
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,NEW-TRITION MANGANESE 15,28.928,L,14.91,14/04/2018,11.66,0.515,Wheat Winter,CF16.B/02,KWS Lili,2018,2.481
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,NEW-TRITION MANGANESE 15,7.991,L,4.12,14/04/2018,3.66,0.515,Wheat Winter,CF27,KWS Kerrin,2018,2.183
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,NEW-TRITION MANGANESE 15,8.063,L,4.16,14/04/2018,3.25,0.515,Wheat Winter,CF30,KWS Lili,2018,2.481
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,NEW-TRITION MANGANESE 15,31.087,L,16.02,14/04/2018,12.53,0.515,Wheat Winter,CF31,KWS Lili,2018,2.481
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,NEW-TRITION MANGANESE 15,11.909,L,6.14,14/04/2018,4.8,0.515,Wheat Winter,CF33,KWS Lili,2018,2.481
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,NEW-TRITION MANGANESE 15,12.009,L,6.19,14/04/2018,5.5,0.515,Wheat Winter,CF50,KWS Kerrin,2018,2.183
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,NEW-TRITION MANGANESE 15,40,L,20.61,09/05/2018,16,0.515,Wheat Winter,CF18,KWS Lili,2018,2.5
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,NEW-TRITION MANGANESE 15,8.268,L,4.26,18/05/2018,4.2,0.515,Barley Spring,CF16.C/03,Barley Spring,2018,1.969
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,NEW-TRITION MANGANESE 15,9.843,L,5.07,18/05/2018,5,0.515,Barley Spring,CF28,Barley Spring,2018,1.969
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,NEW-TRITION MANGANESE 15,6.89,L,3.55,18/05/2018,3.5,0.515,Barley Spring,CF29,Barley Spring,2018,1.969
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,NEW-TRITION MANGANESE 15,4.701,L,2.42,18/05/2018,4.5,0.515,Sugar Beet,CF10,Sugar Beet,2018,1.045
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,NEW-TRITION MANGANESE 15,8.332,L,4.29,18/05/2018,7.78,0.515,Sugar Beet,CF17,Sugar Beet,2018,1.071
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,NEW-TRITION MANGANESE 15,8.782,L,4.53,18/05/2018,8.2,0.515,Sugar Beet,CF26,Sugar Beet,2018,1.071
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,NEW-TRITION MANGANESE 15,4.179,L,2.15,18/05/2018,4,0.515,Sugar Beet,CF3,Sugar Beet,2018,1.045
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,NEW-TRITION MANGANESE 15,4.701,L,2.42,18/05/2018,4.5,0.515,Sugar Beet,CF4,Sugar Beet,2018,1.045
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,NEW-TRITION MANGANESE 15,17.886,L,9.22,18/05/2018,16.7,0.515,Sugar Beet,CF44,Sugar Beet,2018,1.071
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,NEW-TRITION MANGANESE 15,3.918,L,2.02,18/05/2018,3.75,0.515,Sugar Beet,CF7,Sugar Beet,2018,1.045
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,NEW-TRITION MANGANESE 15,25,L,12.88,18/05/2018,10.11,0.515,Wheat Winter,CF2,KWS Lili,2018,2.473
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,NEW-TRITION MANGANESE 15,5.373,L,2.77,01/06/2018,4.5,0.515,Sugar Beet,CF10,Sugar Beet,2018,1.194
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,NEW-TRITION MANGANESE 15,10,L,5.15,01/06/2018,7.78,0.515,Sugar Beet,CF17,Sugar Beet,2018,1.285
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,NEW-TRITION MANGANESE 15,8.233,L,4.24,01/06/2018,8.2,0.515,Sugar Beet,CF26,Sugar Beet,2018,1.004
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,NEW-TRITION MANGANESE 15,4.776,L,2.46,01/06/2018,4,0.515,Sugar Beet,CF3,Sugar Beet,2018,1.194
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,NEW-TRITION MANGANESE 15,5.373,L,2.77,01/06/2018,4.5,0.515,Sugar Beet,CF4,Sugar Beet,2018,1.194
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,NEW-TRITION MANGANESE 15,16.767,L,8.64,01/06/2018,16.7,0.515,Sugar Beet,CF44,Sugar Beet,2018,1.004
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,NEW-TRITION MANGANESE 15,4.478,L,2.31,01/06/2018,3.75,0.515,Sugar Beet,CF7,Sugar Beet,2018,1.194
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,NEW-TRITION MANGANESE 15,12.275,L,6.33,15/06/2018,8.2,0.515,Sugar Beet,CF26,Sugar Beet,2018,1.497
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,NEW-TRITION MANGANESE 15,5.988,L,3.09,15/06/2018,4,0.515,Sugar Beet,CF3,Sugar Beet,2018,1.497
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,NEW-TRITION MANGANESE 15,6.737,L,3.47,15/06/2018,4.5,0.515,Sugar Beet,CF4,Sugar Beet,2018,1.497
+FH Rockcliffe FGrp,Variable Costs,Trace Elements,Completed,NEW-TRITION MANGANESE 15,25,L,12.88,15/06/2018,16.7,0.515,Sugar Beet,CF44,Sugar Beet,2018,1.497
+,,SUB TOTALS FOR Trace Elements,,,,,3736.45,,,,,,,,
+,SUB TOTALS FOR Variable Costs,,,,,,110921.01,,,,,,,,

@@ -26,7 +26,7 @@ class DataVerificationFile:
                 ]
             },
             "missing_fert": {
-                "question": "The following fields are missing fertiliser information, could you provide your drilling information.",
+                "question": "The following fields are missing fertiliser information, could you provide your fertiliser information.",
                 "input_headings": [
                     "Fertiliser Product",
                     "Application Rate",
@@ -41,7 +41,7 @@ class DataVerificationFile:
                 ]
             },
             "missing_chem": {
-                "question": "The following fields are missing chemical information, could you provide your drilling information.",
+                "question": "The following fields are missing chemical information, could you provide your chemical information.",
                 "input_headings": [
                     "Chemical Product",
                     "Application Rate",

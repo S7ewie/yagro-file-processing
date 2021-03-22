@@ -31,6 +31,7 @@ class FileCleanse:
         self.validity = validity
         print("File is valid: ", validity)
         if validity:
+            new_df.dropna(axis=1, how='all', inplace=True)
             new_df.dropna(inplace=True)
             new_df.drop(new_df[new_df["Quantity"] == 0].index, inplace=True)
             new_df.drop(new_df[new_df["Heading Category"] ==
@@ -47,6 +48,8 @@ class FileCleanse:
             new_df["Av Field Unit Price GBP"] = new_df["Av Field Unit Price GBP"].astype(float)
             new_df["Quantity"] = new_df["Quantity"].astype(float)
             self._all_years_df = new_df
+        else:
+            self._all_years_df = pd.DataFrame()
 
     # properties of the farm
     def get_croplist(self):
@@ -95,6 +98,10 @@ class FileCleanse:
                     if "Quantity per Application Area ha" in dataframe.columns:
                         dataframe.rename(columns={"Quantity per Application Area ha": "Rate per Application Area ha"}, inplace=True)
                         continue
+                elif name == "Crop Group":
+                    if "Crop" in dataframe.columns:
+                        dataframe.rename(columns={"Crop": "Crop Group"}, inplace=True)
+                        continue
                 return dataframe, False
         return dataframe, True
 
@@ -123,7 +130,6 @@ class FileCleanse:
             writer.sheets = dict((ws.title, ws) for ws in book.worksheets)
 
             working_df.check_product_prices()
-            working_df.do_field_analysis()
             working_df.fields_missing_seed.to_excel(
                 writer, "Missing Seed")
             working_df.fields_missing_fert.to_excel(
@@ -138,6 +144,7 @@ class FileCleanse:
 
             self.outputs_info.to_excel(writer, "Outputs")
 
+            working_df.do_field_analysis()
             book = working_df.summary_page_format(book)
             book = working_df.change_logs_format(book)
             book, writer = working_df.inputs_page_format(book, year, writer)
@@ -160,6 +167,10 @@ class FileCleanse:
     def delete_crop_from_dataframe(self, crop):
         self.all_years_df.drop(
             self.all_years_df[self.all_years_df["Crop Group"] == crop].index, inplace=True)
+
+    def delete_fgroup_from_dataframe(self, fgroup):
+        self.all_years_df.drop(
+            self.all_years_df[self.all_years_df["Field Group"] == fgroup].index, inplace=True)
 
     def check_for_completeness(self):
         is_complete = True
