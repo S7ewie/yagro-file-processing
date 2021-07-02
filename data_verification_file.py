@@ -56,10 +56,9 @@ class DataVerificationFile:
                 ]
             },
             "missing_product_price": {
-                "question": "The following products are missing a unit price, could you provide one. (Please indicate a pack quantity if the price supplied is for more thatn 1 L/kg).",
+                "question": "The following products are missing a unit price, could you provide one. (Please indicate a pack quantity if the price supplied is for more than 1 L/kg).",
                 "input_headings": [
                     "Unit price",
-                    "Unit",
                     "Quantity of pack if applicable"
                 ],
                 "data_headings": [
@@ -122,7 +121,7 @@ class DataVerificationFile:
         prob_prod_sheet = self.workbook.create_sheet("Product Check", 0)
 
         headings = ["Manufacturer", "Composition", "Other info"]
-        
+
         prob_prod_sheet["A1"] = "Potential Problem Products"
         prob_prod_sheet["A2"] = "The following products do not have a rule associated with them or are in the database, have a check and see if any of them are ambiguous. A lot of these are likely to be fertilisers."
 
@@ -152,7 +151,6 @@ class DataVerificationFile:
         for field in fnames:
             fname_sheet.cell(row=row, column=column, value=field)
             row += 1
-        
 
     def add_global_format(self, sheet):
         # this is not how it should be done but i cba to figure it out rn

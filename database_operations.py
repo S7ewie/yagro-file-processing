@@ -4,6 +4,7 @@ import numpy as np
 from psycopg2 import *
 from database_connection import DBConnection
 
+
 class DatabaseOperations:
     def __init__(self):
         self.db_connection = DBConnection()
@@ -21,8 +22,9 @@ class DatabaseOperations:
             order by yg."name" 
         """
 
-        groups_df = sqlio.read_sql_query(get_groups_sql, self.db_connection.conn)
-        
+        groups_df = sqlio.read_sql_query(
+            get_groups_sql, self.db_connection.conn)
+
         return groups_df["name"].unique()
 
     def get_years_for_group(self, group):
@@ -38,16 +40,15 @@ class DatabaseOperations:
                 order by fp.harvest_year 
             """.format(group=group)
 
-            years_df = sqlio.read_sql_query(get_years_for_group_sql, self.db_connection.conn)
+            years_df = sqlio.read_sql_query(
+                get_years_for_group_sql, self.db_connection.conn)
             years = years_df["harvest_year"].unique()
             self.groups_years_cache[group] = years
             return years
 
-
     def compare_products_with_rules(self, products):
 
-        products = pd.DataFrame(products, columns=['product_name']) 
-        
+        products = pd.DataFrame(products, columns=['product_name'])
 
         comparison_sql = """
 
@@ -62,15 +63,15 @@ class DatabaseOperations:
 
         # products_wo_rules = pd.merge(products, products_df, how='left', on='product_name')
         products_wo_rules = products_df["product_name"].to_list()
-        
+
         products = products["product_name"].to_list()
 
         main_list = sorted(list(set(products) - set(products_wo_rules)))
 
         sep = "', '"
-        main_list = [i[0:i.rfind(" (")] if " (" in i else i for i in main_list]
+        main_list = [i[0:i.rfind(" (")].replace(
+            "'", "") if " (" in i else i.replace("'", "") for i in main_list]
         list_of_no_rules = "'" + sep.join(main_list) + "'"
-
 
         product_name_compaison_sql = """
                         select yp."name" as "product_name"
@@ -78,9 +79,11 @@ class DatabaseOperations:
                         where yp."name" in ({})
                     """.format(list_of_no_rules)
 
-        products_returned = sqlio.read_sql(product_name_compaison_sql, self.db_connection.conn)
+        products_returned = sqlio.read_sql(
+            product_name_compaison_sql, self.db_connection.conn)
 
-        another_list = sorted(list(set(main_list) - set(products_returned["product_name"].to_list())))
+        another_list = sorted(
+            list(set(main_list) - set(products_returned["product_name"].to_list())))
 
         return another_list
 
@@ -128,7 +131,8 @@ class DatabaseOperations:
                         ORDER BY mins.harvest_year DESC, c.name, i.name;
         """.format(farm=farm)
 
-        min_max_df = sqlio.read_sql(farm_check_minmax_sql, self.db_connection.conn)
+        min_max_df = sqlio.read_sql(
+            farm_check_minmax_sql, self.db_connection.conn)
 
         return min_max_df
 
@@ -206,6 +210,7 @@ class DatabaseOperations:
                     order by fp.harvest_year, ff."name"
         """.format(farm=farm)
 
-        apps_ings_df = sqlio.read_sql(farm_check_apps_ings_sql, self.db_connection.conn)
+        apps_ings_df = sqlio.read_sql(
+            farm_check_apps_ings_sql, self.db_connection.conn)
 
         return apps_ings_df

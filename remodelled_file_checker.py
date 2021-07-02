@@ -9,6 +9,7 @@ from sample_files import SampleFiles
 from styles_and_what_not import YAGRO_GREEN
 from online_farm_check_gui import OnlineChecker
 
+
 class GuiApplication:
     def __init__(self, root):
         self.master = root
@@ -36,7 +37,7 @@ class GuiApplication:
         # img = ImageTk.PhotoImage(im, master=root)
         # panel = tk.Label(images_inner_frame, image=img)
         # panel.grid(row=0, column=1)
-        
+
         master_notebook = tk.Frame(root)
         master_notebook.pack(padx=0, pady=5, fill='x')
 
@@ -50,7 +51,7 @@ class GuiApplication:
         main_tab_control.add(oneline_farm_tab, text='Online Farm Checking')
 
         # self.online_checking = OnlineChecker(oneline_farm_tab)
-        
+
         # Choose file
 
         file_choose_frame = tk.Frame(file_checking_tab)
@@ -73,7 +74,7 @@ class GuiApplication:
         self.filename_entry.grid(row=0, column=3, padx=5, pady=5)
 
         open_multifile_button = tk.Button(file_inner_frame, text='Upload multi-file', command=self.MultiUploadAction,
-                                    activebackground=YAGRO_GREEN.colour, activeforeground="#fff")
+                                          activebackground=YAGRO_GREEN.colour, activeforeground="#fff")
         open_multifile_button.grid(row=1, column=2, padx=5, pady=5)
 
         # File Details
@@ -298,7 +299,7 @@ class GuiApplication:
         self.fname_entry.grid(row=1, column=0)
 
         self.fname_btn = tk.Button(fname_inner_frame,
-                                    text="Rename Field", command=self.rename_field)
+                                   text="Rename Field", command=self.rename_field)
         self.fname_btn.grid(row=2, column=0, pady=5)
 
         self.fname_changed_listbox = tk.Listbox(
@@ -306,7 +307,7 @@ class GuiApplication:
         self.fname_changed_listbox.grid(row=0, column=1, padx=5, pady=5)
 
         # changes_tree = ttk.Treeview(changes_inner_frame)
-        
+
         # fname_change_tree['columns'] = ("Old Product Name", "New Product Name")
 
         # changes_tree.column("#0", width=0, stretch=tk.NO)
@@ -323,10 +324,8 @@ class GuiApplication:
 
         # NEEDS SOME WORK
         self.fname_removed_btn = tk.Button(fname_inner_frame,
-                                            text="Undo Field Name Change")
+                                           text="Undo Field Name Change")
         self.fname_removed_btn.grid(row=1, column=1, pady=5)
-
-        
 
         # Product Management
 
@@ -353,7 +352,6 @@ class GuiApplication:
                                      text="Submit new product name", command=self.rename_product)
         self.product_btn.grid(row=1, column=0, pady=5)
 
-
         # Change Logs Management
 
         changes_tab = ttk.Frame(tab_control)
@@ -363,7 +361,7 @@ class GuiApplication:
         changes_inner_frame.pack()
 
         changes_tree = ttk.Treeview(changes_inner_frame)
-        
+
         changes_tree['columns'] = ("Old Product Name", "New Product Name")
 
         changes_tree.column("#0", width=0, stretch=tk.NO)
@@ -371,10 +369,13 @@ class GuiApplication:
         changes_tree.column("New Product Name", anchor=tk.W, width=220)
 
         changes_tree.heading("#0", text="", anchor=tk.W)
-        changes_tree.heading("Old Product Name", text="Old Product Name", anchor=tk.W)
-        changes_tree.heading("New Product Name", text="New Product Name", anchor=tk.W)
+        changes_tree.heading("Old Product Name",
+                             text="Old Product Name", anchor=tk.W)
+        changes_tree.heading("New Product Name",
+                             text="New Product Name", anchor=tk.W)
 
-        changes_tree.insert(parent='', index='end', iid=0, text="", values=("Spicey herb", "Mega Spicy Herb XL"))
+        changes_tree.insert(parent='', index='end', iid=0, text="", values=(
+            "Spicey herb", "Mega Spicy Herb XL"))
 
         changes_tree.pack()
         # Check commands
@@ -400,13 +401,15 @@ class GuiApplication:
     def MultiUploadAction(self, event=None):
         filenames = tkinter.filedialog.askopenfilenames()
         print(filenames)
-        master_file = pd.DataFrame(columns=self.sample_files.sample_product_applications_columns)
+        master_file = pd.DataFrame(
+            columns=self.sample_files.sample_product_applications_columns)
         for file in filenames:
             df = pd.read_csv(file)
             if self.dataframeObj.column_name_checks(df)[1]:
                 master_file = pd.concat([master_file, df])
             else:
-                self.show_message("One or more of the files uploaded is not valid, please check the column headings carefully to make sure everything is there and it matches those in the sample file.")
+                self.show_message(
+                    "One or more of the files uploaded is not valid, please check the column headings carefully to make sure everything is there and it matches those in the sample file.")
                 return
         self.dataframeObj = FileCleanse(dataframe=master_file)
         self.config_gui_on_upload()
@@ -423,7 +426,7 @@ class GuiApplication:
             self.show_message("File uploaded successfully.")
         else:
             self.show_message("No file selected!")
-    
+
     def config_gui_on_upload(self, filename=None):
         text_to_write = "Mulitfile" if filename == None else filename
         self.file_name_label.config(text=text_to_write)
@@ -432,8 +435,10 @@ class GuiApplication:
         self.prime_listboxes_for_liftoff()
 
     def prime_listboxes_for_liftoff(self, invalidate=True):
+        print("HERE")
         self.universal_listbox_update(
             self.my_listbox, self.dataframeObj.croplist, invalidate=invalidate)
+        print("BUT NOT HERE")
         self.universal_listbox_update(
             self.product_listbox, self.dataframeObj.productlist, invalidate=invalidate)
         self.universal_listbox_update(
@@ -443,7 +448,7 @@ class GuiApplication:
 
     def universal_listbox_update(self, listbox, list_to_add, invalidate=False):
         if invalidate:
-            listbox.delete(0,tk.END)
+            listbox.delete(0, tk.END)
         for item in sorted(list_to_add):
             listbox.insert(tk.END, item)
 
@@ -528,7 +533,9 @@ class GuiApplication:
             print(self.dataframeObj.changes_made)
 
     def show_message(self, message):
-        messagebox.showinfo(title="Warning, Warning, High Voltage!", message=message)
+        messagebox.showinfo(
+            title="Warning, Warning, High Voltage!", message=message)
+
 
 def execute_order_66():
     root = tk.Tk()
