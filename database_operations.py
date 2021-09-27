@@ -21,9 +21,11 @@ class DatabaseOperations:
             join yagro_groups yg on yg.id = ff.group_id 
             order by yg."name" 
         """
-
-        groups_df = sqlio.read_sql_query(
-            get_groups_sql, self.db_connection.conn)
+        try:
+            groups_df = sqlio.read_sql_query(
+                get_groups_sql, self.db_connection.conn)
+        except:
+            print("Unable to retrieve groups, contact support...")
 
         return groups_df["name"].unique()
 
@@ -40,8 +42,12 @@ class DatabaseOperations:
                 order by fp.harvest_year 
             """.format(group=group)
 
-            years_df = sqlio.read_sql_query(
-                get_years_for_group_sql, self.db_connection.conn)
+            try:
+                years_df = sqlio.read_sql_query(
+                    get_years_for_group_sql, self.db_connection.conn)
+            except:
+                print("Unable to get years for group, contact support...")
+
             years = years_df["harvest_year"].unique()
             self.groups_years_cache[group] = years
             return years
@@ -59,7 +65,10 @@ class DatabaseOperations:
 
                     """
 
-        products_df = sqlio.read_sql(comparison_sql, self.db_connection.conn)
+        try:
+            products_df = sqlio.read_sql(comparison_sql, self.db_connection.conn)
+        except:
+            print("Unable to compare products with rules, contact support...")
 
         # products_wo_rules = pd.merge(products, products_df, how='left', on='product_name')
         products_wo_rules = products_df["product_name"].to_list()
@@ -79,8 +88,11 @@ class DatabaseOperations:
                         where yp."name" in ({})
                     """.format(list_of_no_rules)
 
-        products_returned = sqlio.read_sql(
-            product_name_compaison_sql, self.db_connection.conn)
+        try:
+            products_returned = sqlio.read_sql(
+                product_name_compaison_sql, self.db_connection.conn)
+        except:
+            print("Unable to compare products with known products, contact support...")
 
         another_list = sorted(
             list(set(main_list) - set(products_returned["product_name"].to_list())))
@@ -131,9 +143,12 @@ class DatabaseOperations:
                         ORDER BY mins.harvest_year DESC, c.name, i.name;
         """.format(farm=farm)
 
-        min_max_df = sqlio.read_sql(
-            farm_check_minmax_sql, self.db_connection.conn)
-
+        try:
+            min_max_df = sqlio.read_sql(
+                farm_check_minmax_sql, self.db_connection.conn)
+        except:
+            print("Unable to read db for min max check, contact support...")
+            
         return min_max_df
 
     def do_farm_apps_ings_check(self, farm):

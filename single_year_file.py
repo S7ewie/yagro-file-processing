@@ -315,7 +315,56 @@ class SingleYearFile:
         self.df = df3
         self.missing_prices = missing_prices
 
+    def contents_page_format(self, book):
+        contents_sheet = book.create_sheet("Data Verification", 0)
+
+        book_sheets = [
+            {
+                "name": "Summary Page",
+                "desc": "A summary of the data missing key info; the unique varieties per crop; area summary by crop and variety; lists of the fields missing key info"
+            },
+            {
+                "name": "Change Logs",
+                "desc": "Changes made to the data will show on this page, this is to keep track of anything the program did and should be checked thoroughly to make sure the changes are sensible."
+            },
+            {
+                "name": "Missing Seed",
+                "desc": "All the data associated with fields that are missing seed are included on this page."
+            },
+            {
+                "name": "Missing Fert",
+                "desc": "All the data associated with fields that are missing fert are included on this page."
+            },
+            {
+                "name": "Missing Chem",
+                "desc": "All the data associated with fields that missing fert are included on this page."
+            },
+            {
+                "name": "Complete Data",
+                "desc": "Any data associated with fields that "
+            },
+            "Products Missing Price",
+            "Original Data",
+            "Outputs",
+            "Inputs Page"
+        ]
+
+        contents_sheet['A1'] = "Data Verification"
+        contents_sheet['A3'] = "This spreadsheet contains the cleaned and checked data for the year indicated in the name of the workbook."
+
+        contents_sheet['A5'] = "The following sheets are included in this workbook:"
+        
+        row = 6
+        col = 1
+        
+        for sheet in book_sheets:
+            contents_sheet.cell(column=col, row=row, value=sheet)
+            row += 1
+
+        
+
     def summary_page_format(self, book):
+        
         no_of_fields = self.fields.size
 
         summary_sheet = book.create_sheet("Summary Page", 0)
@@ -408,9 +457,10 @@ class SingleYearFile:
     def change_logs_format(self, book):
         change_logs = book.create_sheet("Change Logs", 1)
         change_logs['A1'] = "Data Adjustment Logs"
-        change_logs['A2'] = "The following changes were made to the data:"
+        change_logs['A2'] = "The following changes were made to the data by the checker, please take a careful look to make sure they all make sense:"
+        change_logs['A3'] = "Common errors here include: selecting a cover crop as the main variety."
 
-        row = 4
+        row = 5
         column = 1
         for change in self.adjustment_obj:
             if change["name"] in self.changes_made:

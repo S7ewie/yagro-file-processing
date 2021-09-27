@@ -31,11 +31,19 @@ class FileCleanse:
         self.validity = validity
         print("File is valid: ", validity)
         if validity:
+            # First drop any columns with nothing in
             new_df.dropna(axis=1, how='all', inplace=True)
+
+            # Drop rows with any missing values (takes care of subtotal rows)
             new_df.dropna(inplace=True)
+
+            # Drop rows where quantity is 0
             new_df.drop(new_df[new_df["Quantity"] == 0].index, inplace=True)
+            
+            # Drop any rows to do with fixed costs
             new_df.drop(new_df[new_df["Heading Category"] ==
                             "Fixed Costs"].index, inplace=True)
+            
             # Deal with rebates
             self.rebate_info = new_df[new_df["Heading"] == "Rebates"]
             new_df.drop(self.rebate_info.index, inplace=True)

@@ -56,7 +56,7 @@ class DataVerificationFile:
                 ]
             },
             "missing_product_price": {
-                "question": "The following products are missing a unit price, could you provide one. (Please indicate a pack quantity if the price supplied is for more than 1 L/kg).",
+                "question": "The following products are missing a unit price, could you provide one. (Please indicate a pack quantity if the price supplied is for more than 1 L or kg).",
                 "input_headings": [
                     "Unit price",
                     "Quantity of pack if applicable"

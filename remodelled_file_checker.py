@@ -28,10 +28,6 @@ class GuiApplication:
         yagro_lbl.config(font=("Arial", 44))
         yagro_lbl.grid(row=0, column=0)
 
-        # yagro_power_lbl = tk.Label(images_inner_frame, text="powered by YOGRI")
-        # yagro_power_lbl.config(font=("Comic Sans MS", 9))
-        # yagro_power_lbl.grid(row=1, column=0)
-
         # path = 'YAGROPLSLOGO.png'
         # im = Image.open(path)
         # img = ImageTk.PhotoImage(im, master=root)
