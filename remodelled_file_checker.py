@@ -43,8 +43,8 @@ class GuiApplication:
         file_checking_tab = ttk.Frame(main_tab_control)
         main_tab_control.add(file_checking_tab, text='File Checking')
 
-        oneline_farm_tab = ttk.Frame(main_tab_control)
-        main_tab_control.add(oneline_farm_tab, text='Online Farm Checking')
+        # oneline_farm_tab = ttk.Frame(main_tab_control)
+        # main_tab_control.add(oneline_farm_tab, text='Online Farm Checking')
 
         # self.online_checking = OnlineChecker(oneline_farm_tab)
 
@@ -128,7 +128,7 @@ class GuiApplication:
         self.sample_file_type_dropdown.grid(row=1, column=0, padx=5, pady=5)
 
         sample_file_download_btn = tk.Button(
-            sample_files_inner_frame, text="Download")
+            sample_files_inner_frame, text="Download", command=self.download_sample_file)
         sample_file_download_btn.grid(row=2, column=0, padx=5, pady=5)
 
         # List Boxes
@@ -179,22 +179,22 @@ class GuiApplication:
 
         # Completeness Checks
 
-        completeness_check_tab = ttk.Frame(tab_control)
-        tab_control.add(completeness_check_tab, text='Completeness Checks')
+        # completeness_check_tab = ttk.Frame(tab_control)
+        # tab_control.add(completeness_check_tab, text='Completeness Checks')
 
-        complete_check_info_frame = tk.Frame(completeness_check_tab)
-        complete_check_info_frame.pack()
+        # complete_check_info_frame = tk.Frame(completeness_check_tab)
+        # complete_check_info_frame.pack()
 
-        self.completeness_check_btn = tk.Button(
-            complete_check_info_frame, text="Check file for completeness", command=self.check_completeness)
-        self.completeness_check_btn.grid(row=0, column=0, padx=5, pady=5)
+        # self.completeness_check_btn = tk.Button(
+        #     complete_check_info_frame, text="Check file for completeness", command=self.check_completeness)
+        # self.completeness_check_btn.grid(row=0, column=0, padx=5, pady=5)
 
-        self.completeness_check_lbl = tk.Label(
-            complete_check_info_frame, text="Waiting for file", wraplength=300, anchor="e", justify=tk.LEFT)
-        self.completeness_check_lbl.grid(row=0, column=1, padx=5, pady=5)
+        # self.completeness_check_lbl = tk.Label(
+        #     complete_check_info_frame, text="Waiting for file", wraplength=300, anchor="e", justify=tk.LEFT)
+        # self.completeness_check_lbl.grid(row=0, column=1, padx=5, pady=5)
 
-        self.completeness_check_table_frame = tk.Frame(completeness_check_tab)
-        self.completeness_check_table_frame.pack()
+        # self.completeness_check_table_frame = tk.Frame(completeness_check_tab)
+        # self.completeness_check_table_frame.pack()
 
         # Crop Management
 
@@ -212,10 +212,10 @@ class GuiApplication:
 
         crops_to_sep_label = tk.Label(
             box_inner_frames, text="Crops To Separate")
-        crops_to_sep_label.grid(row=0, column=1, padx=5, pady=10)
+        # crops_to_sep_label.grid(row=0, column=1, padx=5, pady=10)
 
         self.sep_listbox = tk.Listbox(box_inner_frames, selectmode=tk.MULTIPLE)
-        self.sep_listbox.grid(row=1, column=1, padx=5, pady=10)
+        # self.sep_listbox.grid(row=1, column=1, padx=5, pady=10)
 
         deleted_crops_label = tk.Label(box_inner_frames, text="Deleted Crops")
         deleted_crops_label.grid(row=0, column=2, padx=5, pady=10)
@@ -350,30 +350,30 @@ class GuiApplication:
 
         # Change Logs Management
 
-        changes_tab = ttk.Frame(tab_control)
-        tab_control.add(changes_tab, text="Change Logs")
+        # changes_tab = ttk.Frame(tab_control)
+        # tab_control.add(changes_tab, text="Change Logs")
 
-        changes_inner_frame = tk.Frame(changes_tab)
-        changes_inner_frame.pack()
+        # changes_inner_frame = tk.Frame(changes_tab)
+        # changes_inner_frame.pack()
 
-        changes_tree = ttk.Treeview(changes_inner_frame)
+        # changes_tree = ttk.Treeview(changes_inner_frame)
 
-        changes_tree['columns'] = ("Old Product Name", "New Product Name")
+        # changes_tree['columns'] = ("Old Product Name", "New Product Name")
 
-        changes_tree.column("#0", width=0, stretch=tk.NO)
-        changes_tree.column("Old Product Name", anchor=tk.W, width=120)
-        changes_tree.column("New Product Name", anchor=tk.W, width=220)
+        # changes_tree.column("#0", width=0, stretch=tk.NO)
+        # changes_tree.column("Old Product Name", anchor=tk.W, width=120)
+        # changes_tree.column("New Product Name", anchor=tk.W, width=220)
 
-        changes_tree.heading("#0", text="", anchor=tk.W)
-        changes_tree.heading("Old Product Name",
-                             text="Old Product Name", anchor=tk.W)
-        changes_tree.heading("New Product Name",
-                             text="New Product Name", anchor=tk.W)
+        # changes_tree.heading("#0", text="", anchor=tk.W)
+        # changes_tree.heading("Old Product Name",
+        #                      text="Old Product Name", anchor=tk.W)
+        # changes_tree.heading("New Product Name",
+        #                      text="New Product Name", anchor=tk.W)
 
-        changes_tree.insert(parent='', index='end', iid=0, text="", values=(
-            "Spicey herb", "Mega Spicy Herb XL"))
+        # changes_tree.insert(parent='', index='end', iid=0, text="", values=(
+        #     "Spicey herb", "Mega Spicy Herb XL"))
 
-        changes_tree.pack()
+        # changes_tree.pack()
         # Check commands
 
         command_master_frame = tk.Frame(file_checking_tab)
@@ -418,6 +418,9 @@ class GuiApplication:
             # df = pd.read_csv(filename, thousands=',')
             df = pd.read_csv(filename)
             self.dataframeObj = FileCleanse(dataframe=df)
+            if len(self.dataframeObj.all_years_df.columns) == 0:
+                self.show_message("Looks like there was a problem sorting the column names, check the file")
+                return
             self.config_gui_on_upload(filename=filename)
             self.show_message("File uploaded successfully.")
         else:
@@ -472,9 +475,13 @@ class GuiApplication:
             self.dataframeObj.filename = self.filename_entry.get()
             self.dataframeObj.do_checks()
             print("we're all done!")
+            self.show_message("Checks Complete")
 
     def download_sample_file(self):
         filetype = self.sample_file_type_dropdown
+
+        # self.sample_files.export_file(filetype)
+        # self.show_message(f"Exported {filetype}!")
 
     def add_incomplete_data_listbox(self, errors):
         error_listbox = tk.Listbox(
@@ -511,7 +518,7 @@ class GuiApplication:
     def rename_field(self):
         old_field_name = self.fname_listbox.get(tk.ANCHOR)
         new_field_name = self.fname_entry.get()
-        self.dataframeObj.rename_product(old_field_name, new_field_name)
+        self.dataframeObj.rename_field(old_field_name, new_field_name)
         self.prime_listboxes_for_liftoff()
 
     def delete_fgroup(self):

@@ -61,6 +61,8 @@ class FileCleanse:
 
     # properties of the farm
     def get_croplist(self):
+        print("Columns below:")
+        print(self.all_years_df.columns)
         return sorted(self.all_years_df["Crop Group"].unique())
 
     def get_productlist(self):
@@ -86,18 +88,21 @@ class FileCleanse:
     separated_crops_list = property(get_separated_crops_list)
 
     def column_name_checks(self, dataframe):
+        print(dataframe.columns)
         mandatory_columns = [
-            "Quantity",
             "Heading Category",
             "Product Name",
             "Field Group",
             "Crop Group",
             "Variety",
             "Rate per Application Area ha",
+            "Application Area ha",
+            "Quantity",
             "Av Field Unit Price GBP"
         ]
         for name in mandatory_columns:
             if name not in dataframe.columns:
+                print(f"Column not found: {name}")
                 if name == "Av Field Unit Price GBP":
                     if "Unit Price GBP" in dataframe.columns:
                         dataframe.rename(columns={"Unit Price GBP": "Av Field Unit Price GBP"}, inplace=True)
@@ -110,6 +115,11 @@ class FileCleanse:
                     if "Crop" in dataframe.columns:
                         dataframe.rename(columns={"Crop": "Crop Group"}, inplace=True)
                         continue
+                elif name == "Quantity":
+                    dataframe["Quantity"] = dataframe["Rate per Application Area ha"] * dataframe["Application Area ha"]
+                    continue
+
+                print("Does this get executed if there was one missing and it got changed")
                 return dataframe, False
         return dataframe, True
 
@@ -126,17 +136,18 @@ class FileCleanse:
 
             working_df = SingleYearFile(self.adjust_df_for_year(year))
 
+            # Farm name
             farm_name = self.filename
-
-            macro_filename = farm_name + " - FPU - " + \
+            macro_filename = "OUTPUTS/" + farm_name + " - FPU - " + \
                 str(round(year)) + " - MACRO.xlsx"
 
+            # Set up
             book = Workbook()
             writer = pd.ExcelWriter(macro_filename, engine='openpyxl')
             writer.book = book
-
             writer.sheets = dict((ws.title, ws) for ws in book.worksheets)
 
+            # Data pages
             working_df.check_product_prices()
             working_df.fields_missing_seed.to_excel(
                 writer, "Missing Seed")
@@ -150,13 +161,22 @@ class FileCleanse:
                 writer, "Products Missing Price")
             working_df.original_data.to_excel(writer, "Original Data")
 
-            self.outputs_info.to_excel(writer, "Outputs")
+            # self.outputs_info.to_excel(writer, "Outputs")
 
+            # Needs inputs
+            working_df.problem_fields_data.to_excel(writer, "Needs Inputs")
+
+            # Farm data needed for these pages
             working_df.do_field_analysis()
             book = working_df.summary_page_format(book)
             book = working_df.change_logs_format(book)
             book, writer = working_df.inputs_page_format(book, year, writer)
 
+            # instructions and ref
+            book = working_df.contents_page_format(book)
+            book = working_df.methods_page_format(book)
+
+            # add to data verification
             self.dvf.add_year(year, working_df.get_data_for_verification(), working_df.field_analysis)
             self.dvf.save(farm_name)
 
@@ -205,11 +225,13 @@ class FileCleanse:
         self.changes_made["product"].append({"old_product_name": old_product, "new_product_name": new_product})
         self.all_years_df.loc[self.all_years_df[self.all_years_df["Product Name"]
                                                 == old_product].index, 'Product Name'] = new_product
+        print("renamed")
 
     def rename_field(self, old_field_name, new_field_name):
         print("renaming your god damn field from ", old_field_name, " to ", new_field_name)
         self.all_years_df.loc[self.all_years_df[self.all_years_df["Field Defined Name"]
                                                 == old_field_name].index, 'Field Defined Name'] = new_field_name
+        print("renamed!")
 
     def pre_commit(self):
         print("Running pre-commit")

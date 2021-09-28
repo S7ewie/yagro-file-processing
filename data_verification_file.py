@@ -166,7 +166,7 @@ class DataVerificationFile:
                     cell.alignment = Alignment(wrap_text=True)
 
     def save(self, name):
-        filename = name + " - Data Verification.xlsx"
+        filename = "OUTPUTS/" + name + " - Data Verification.xlsx"
         writer = pd.ExcelWriter(filename, engine='openpyxl')
         writer.book = self.workbook
         writer.save()

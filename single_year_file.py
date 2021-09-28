@@ -97,12 +97,24 @@ class SingleYearFile:
     def get_file_year(self):
         return self.df["Year"].unique()[0]
 
+    def get_problem_fields_data(self):
+        prob_fields = self.fields_with_problems
+
+        df_to_return = self.df.loc[self.df['Field Defined Name'].isin(
+            prob_fields)].sort_values(
+                "Field Defined Name"
+            )
+        
+        return df_to_return
+
     year = property(get_file_year)
     fields = property(get_fields)
     croplist = property(get_croplist)
     varietylist = property(get_varietylist)
     crop_variety_obj = property(get_crop_variety_obj)
     units = property(get_unitlist)
+
+    problem_fields_data = property(get_problem_fields_data)
 
     # missing data properties
     def get_missing_seed(self):
@@ -341,12 +353,24 @@ class SingleYearFile:
             },
             {
                 "name": "Complete Data",
-                "desc": "Any data associated with fields that "
+                "desc": "Any data associated with fields that contain all of the key info. This will include products that are missing price."
             },
-            "Products Missing Price",
-            "Original Data",
-            "Outputs",
-            "Inputs Page"
+            {
+                "name": "Products Missing Price",
+                "desc": "A list of products that could not have their price inferred."
+            },
+            {
+                "name": "Original Data",
+                "desc": "A copy of the original data uploaded should it need to be referred to."
+            },
+            {
+                "name": "Outputs",
+                "desc": "Any data labelled as outputs in the original file, doesn't have a huge amount of success so expect to be empty."
+            },
+            {
+                "name": "Inputs",
+                "desc": "A list of rows that are ready to have info put in for the fields that are missing key info."
+            }
         ]
 
         contents_sheet['A1'] = "Data Verification"
@@ -358,10 +382,66 @@ class SingleYearFile:
         col = 1
         
         for sheet in book_sheets:
-            contents_sheet.cell(column=col, row=row, value=sheet)
+            contents_sheet.cell(column=col, row=row, value=sheet["name"])
+            contents_sheet.cell(column=col+1, row=row, value=sheet["desc"])
             row += 1
 
+        contents_sheet.cell(column=col, row=row, value="Please see individual pages for more info as to how to understand this document.")
+
+        return book
+
+    def methods_page_format(self, book):
+        methods_sheet = book.create_sheet("Method", 1)
+
+        methods_sheet["A1"] = "Data Verification Steps"
+        methods_sheet["A2"] = "Below is a list of steps that should be followed to understand and use this document correctly."
+
+        steps = [
+            "Summary Page",
+            """
+            Check summary page to see the number of fields that are missing seed, fert or chem. As a rule of thumb, if it's over 50% (top left) then 
+            nothing more should be done and the data verification will be done in two steps
+            """,
+            "Check the varieties listed there make sense, you'll get to know common names but worth a check here and there to make sure they are of the correct crop",
+            "Check the units listed are only kg, g, t, L, mL; if any others are present then either convert or separate into a different sheet and label appropriately",
+            "Change Logs",
+            "Check that the changes make sense, mainly where new varieties have been selected",
+            "Missing Info",
+            "The following pages have all the rows associated with any field missing that info. If a field is missing both seed and fert it will appear on both pages, so it will be duplicated.",
+            "Use these pages as reference, to check if the rows supplied look like any kind of contract spraying (typically 1 or two rows of chemicals per field)",
+            "Use the Needs Inputs page to combine any of the missing field data when answers come back, this page doesn't have duplicated data and inputs can be copied straight in.",
+            "Complete Data",
+            "Checks here should be: units, varieties then prices. Units need to be on the list above, varieties must not be similar to the crop, they should be a distinct variety name.",
+            "A list of the products with no price can be found on the Products Missing Price.",
+            """
+            It's important to check the farm's price check data (if there is some) to see if these prices can be filled in. 
+            Prices should ideally be from the same harvest year, however you can go back 1 year for a price if it is not present for the current harvest year. 
+            So in 2021, prices from 2020 and 2021 are acceptable.
+            """,
+            """
+            Generally, if there any more than 10 rows left without a price they should be moved to a new sheet and labelled 
+            appropriately because it is awkward and time consuming to change many rows on the platform.
+            """,
+            "Original Data",
+            "Here for reference.",
+            "Outputs",
+            "Not implemented yet.",
+            "Inputs",
+            "When the farm's data verification has been returned the info can be put in here. Rates, dates, unit prices and product names, then value and quantity can be calculated.",
+            "For seed rows, the product name can be either the variety there or, if it was not labelled correctly, the new seed planted that the farm should have provided.",
+            "Often the farm will provide more than 1 fertiliser product/application, just copy the rows where appropriate.",
+            "Needs Inputs",
+            "The completed rows from Inputs can be copied into here and then the same checks that were completed on Complete Data can be done here (units, varieties, prices etc)."
+        ]
+
+        row = 4
+        col = 1
         
+        for step in steps:
+            methods_sheet.cell(column=col, row=row, value=step)
+            row += 1
+
+        return book
 
     def summary_page_format(self, book):
         
