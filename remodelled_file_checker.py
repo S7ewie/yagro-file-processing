@@ -429,8 +429,8 @@ class GuiApplication:
     def config_gui_on_upload(self, filename=None):
         text_to_write = "Mulitfile" if filename == None else filename
         self.file_name_label.config(text=text_to_write)
-        self.completeness_check_lbl.config(
-            text="Waiting to check...")
+        # self.completeness_check_lbl.config(
+        #     text="Waiting to check...")
         self.prime_listboxes_for_liftoff()
 
     def prime_listboxes_for_liftoff(self, invalidate=True):
@@ -495,19 +495,21 @@ class GuiApplication:
 
     def check_completeness(self):
         if self.dataframeObj.all_years_df.shape[0] != 0:
-            self.completeness_check_lbl.config(
-                text="Checking file for completeness...")
+            # self.completeness_check_lbl.config(
+            #     text="Checking file for completeness...")
             if self.dataframeObj.check_for_completeness():
-                self.completeness_check_lbl.config(text="You're all set!")
+                # self.completeness_check_lbl.config(text="You're all set!")
+                print("nope")
             else:
-                self.completeness_check_lbl.config(
-                    text="Looks like the data isn't all there, take a look below to see what's missing.")
+                # self.completeness_check_lbl.config(
+                #     text="Looks like the data isn't all there, take a look below to see what's missing.")
                 self.add_incomplete_data_listbox(
                     self.dataframeObj.incomplete_data)
 
         else:
-            self.completeness_check_lbl.config(
-                text="Looks like there's no file uploaded")
+            # self.completeness_check_lbl.config(
+            #     text="Looks like there's no file uploaded")
+            print("yep")
 
     def rename_product(self):
         old_product_name = self.product_listbox.get(tk.ANCHOR)
