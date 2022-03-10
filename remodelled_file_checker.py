@@ -8,6 +8,7 @@ from file_cleanse import FileCleanse
 from sample_files import SampleFiles
 from styles_and_what_not import YAGRO_GREEN
 from online_farm_check_gui import OnlineChecker
+from muddy_boots import MuddyBoots
 
 
 class GuiApplication:
@@ -15,6 +16,7 @@ class GuiApplication:
         self.master = root
         self.dataframeObj = FileCleanse()
         self.sample_files = SampleFiles()
+        self.muddy_boots_converter = MuddyBoots()
 
         root.configure(background=YAGRO_GREEN.colour)
 
@@ -101,11 +103,11 @@ class GuiApplication:
             "Muddy Boots"
         ]
 
-        initial_type = tk.StringVar(root)
-        initial_type.set(OPTIONS[0])  # default value
+        self.upload_file_type = tk.StringVar(root)
+        self.upload_file_type.set(OPTIONS[0])  # default value
 
         file_type_dropdown = tk.OptionMenu(
-            file_details_inner_frame, initial_type, *OPTIONS)
+            file_details_inner_frame, self.upload_file_type, *OPTIONS)
         file_type_dropdown.grid(row=1, column=1, padx=5, pady=5)
 
         sample_files_inner_frame = tk.Frame(file_details_holder)
@@ -120,11 +122,11 @@ class GuiApplication:
             "Yield"
         ]
 
-        initial_type = tk.StringVar(root)
-        initial_type.set(SAMPLE_FILES[0])  # default value
+        self.sample_file_type = tk.StringVar(root)
+        self.sample_file_type.set(SAMPLE_FILES[0])  # default value
 
         self.sample_file_type_dropdown = tk.OptionMenu(
-            sample_files_inner_frame, initial_type, *SAMPLE_FILES)
+            sample_files_inner_frame, self.sample_file_type, *SAMPLE_FILES)
         self.sample_file_type_dropdown.grid(row=1, column=0, padx=5, pady=5)
 
         sample_file_download_btn = tk.Button(
@@ -416,7 +418,22 @@ class GuiApplication:
         filename = tkinter.filedialog.askopenfilename()
         if filename != '':
             # df = pd.read_csv(filename, thousands=',')
+            print("LOADING FILE")
             df = pd.read_csv(filename)
+
+            file_type = self.upload_file_type.get()
+            print(file_type)
+            
+            if file_type == "Muddy Boots":
+                print("converting for muddy boots")
+                df = self.muddy_boots_converter.clean_dataframe(df)
+
+            print("AFTER ALL THAT")
+            print("COLUMNS")
+            print(df.columns)
+            print(df.dtypes)
+            print(df[["Units"]].head())
+
             self.dataframeObj = FileCleanse(dataframe=df)
             if len(self.dataframeObj.all_years_df.columns) == 0:
                 self.show_message("Looks like there was a problem sorting the column names, check the file")
@@ -478,7 +495,8 @@ class GuiApplication:
             self.show_message("Checks Complete")
 
     def download_sample_file(self):
-        filetype = self.sample_file_type_dropdown
+        print("things")
+
 
         # self.sample_files.export_file(filetype)
         # self.show_message(f"Exported {filetype}!")

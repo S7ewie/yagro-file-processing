@@ -219,11 +219,11 @@ class SingleYearFile:
             headings_present = field_df['Heading'].unique()
 
             if not (("Herbicides" in headings_present) and ("Fungicides" in headings_present)):
-                self.append_list_to_problem_list(field)
-                self.fields_missing_chem_list.append(field)
-                self.fields_missing_item["missing_chem"].append(field)
-                fields_missing_chem_df = fields_missing_chem_df.append(
-                    field_df)
+                if not ("Chemical" in headings_present):
+                    self.append_list_to_problem_list(field)
+                    self.fields_missing_chem_list.append(field)
+                    self.fields_missing_item["missing_chem"].append(field)
+                    fields_missing_chem_df = fields_missing_chem_df.append(field_df)
 
         return fields_missing_chem_df
 
