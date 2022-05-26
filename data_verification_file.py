@@ -1,7 +1,6 @@
 from openpyxl import Workbook
-from openpyxl.styles import PatternFill, GradientFill, Border, Side, Alignment, Protection, Font
+from openpyxl.styles import Alignment, Font
 import pandas as pd
-from styles_and_what_not import YAGRO_GREEN
 
 
 class DataVerificationFile:

@@ -3,7 +3,6 @@ from data_verification_file import DataVerificationFile
 from single_year_file import SingleYearFile
 from collections import defaultdict
 from openpyxl import Workbook
-from database_operations import DatabaseOperations
 
 class FileCleanse:
     # Properties
@@ -19,14 +18,13 @@ class FileCleanse:
         self.mandatory_headings = ["seed", "fertiliser", "herbicide"]
         self.dvf = DataVerificationFile()
         self.validity = True
-        self.database_ops = DatabaseOperations()
 
     @property
     def all_years_df(self):
         return self._all_years_df
 
     @all_years_df.setter
-    def all_years_df(self, new_df):
+    def all_years_df(self, new_df: pd.DataFrame):
         new_df, validity = self.column_name_checks(new_df)
         self.validity = validity
         print("File is valid: ", validity)

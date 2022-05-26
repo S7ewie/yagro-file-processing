@@ -1,13 +1,7 @@
-from tkinter.messagebox import NO
 import pandas as pd
-import numpy as np
 import os
 
-from pandas.core.frame import DataFrame
-
 class MuddyBoots:
-
-    
 
     def __init__(self):
         self.wanted_columns = [
@@ -54,13 +48,6 @@ class MuddyBoots:
                 .pipe(self.split_unit_column)
                 .pipe(self.column_generation)
         )
-
-
-        print("CURRENT STATE OF AFFAIRS")
-        print("COLUMNS")
-        print(df.columns)
-        print("DATAFRAME")
-        print(df)
 
         return df
         
