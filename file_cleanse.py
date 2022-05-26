@@ -127,7 +127,6 @@ class FileCleanse:
     def do_checks(self):
         print("I'ma doing the checks :angry-italian-hand-gestures:")
 
-        self.dvf.add_problem_products(self.database_ops.compare_products_with_rules(self.productlist))
         self.dvf.add_fnames_for_checking(self.fnames)
 
         for year in self.years:

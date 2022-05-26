@@ -27,16 +27,6 @@ repos:
         args:
           - --autofix
       - id: check-yaml
-        args:
-          - --allow-multiple-documents
-        exclude: >
-          (?x)(
-            ^cms/app/cf/prod-cf.yaml$ # run with --unsafe below
-            | ^deploy/charts/.*/templates
-            | ^deploy/charts/.*/includes
-            | ^service-template/
-          )
-      - id: check-yaml
         name: Check Yaml --unsafe # for files with undefined constructors (e.g. AWS provides them)
         args:
           - --allow-multiple-documents
@@ -59,14 +49,6 @@ repos:
             ^service-template/
           )
 
-    #-   repo: https://github.com/kadrach/pre-commit-gitlabci-lint
-    #    rev: ab984c60414b012e294a65166691473047ccce49
-    #    hooks:
-    #    -   id: gitlabci-lint
-    #        args: ["https://yagro.githost.io"]
-    #-   repo: git://github.com/asottile/reorder_python_imports
-    #rev: v1.4.0
-
   - repo: git://github.com/pre-commit/mirrors-pylint
     rev: v2.6.0
     hooks:
@@ -79,126 +61,6 @@ repos:
             ^service-template/
           )
 
-  - repo: git://github.com/Lucas-C/pre-commit-hooks-bandit
-    rev: v1.0.4
-    hooks:
-      - id: python-bandit-vulnerability-check
-        args:
-          - -lll
-          - -ii
-          - -sB322
-          - -sB701
-        files: \/.*\.py$
-        exclude: >
-          (?x)(
-            ^webservice\/apps\/gui\/vue\/node_modules\/
-          )
-
-  - repo: local
-    hooks:
-      - id: eslint
-        name: Lint javascript
-        language: script
-        entry: pre-commit-hooks/eslint.sh
-        pass_filenames: true
-        files: \/.*\.(js|vue)$
-        exclude: >
-          (?x)(
-            ^frontend/vue/build
-            | \.min\.js$
-          )
-        require_serial: true
-
-  - repo: https://github.com/pre-commit/mirrors-mypy
-    rev: v0.812
-    hooks:
-      - id: mypy
-        name: mypy-webservice
-        args:
-          - --config=tox.ini
-        files: ^webservice/apps/
-        entry: mypy webservice/apps
-        pass_filenames: false
-      - id: mypy
-        name: mypy-rel
-        args:
-          - --config=tox.ini
-        files: ^relationship-service
-        entry: mypy relationship-service
-        pass_filenames: false
-      - id: mypy
-        name: mypy-notifications
-        args:
-          - --config=tox.ini
-        files: ^notifications
-        entry: mypy notifications
-        pass_filenames: false
-      - id: mypy
-        name: mypy-trading
-        args:
-          - --config=tox.ini
-        files: ^trading
-        entry: mypy trading
-        pass_filenames: false
-      - id: mypy
-        name: mypy-business
-        args:
-          - --config=tox.ini
-        files: ^business
-        entry: mypy business
-        pass_filenames: false
-      - id: mypy
-        name: mypy-products
-        args:
-          - --config=tox.ini
-        files: ^products
-        entry: mypy products
-        pass_filenames: false
-      - id: mypy
-        name: mypy-pdfs
-        args:
-          - --config=tox.ini
-        files: ^pdfs
-        entry: mypy pdfs
-        pass_filenames: false
-      - id: mypy
-        name: mypy-sdk
-        args:
-          - --config=tox.ini
-        files: ^libs/yagro-sdk
-        entry: mypy libs/yagro-sdk
-        pass_filenames: false
-      - id: mypy
-        name: mypy-vg
-        args:
-          - --config=tox.ini
-        files: ^virtualgroups
-        entry: mypy virtualgroups
-        pass_filenames: false
-
-      - id: mypy
-        name: mypy-djangocommon
-        args:
-          - --config=tox.ini
-        files: ^yagro-django-common
-        entry: mypy yagro-django-common
-        pass_filenames: false
-
-      - id: mypy
-        name: mypy-nondjangocommon
-        args:
-          - --config=tox.ini
-          - --exclude=libs/yagro-nondjango-common/build
-        files: ^libs/yagro-nondjango-common
-        entry: mypy libs/yagro-nondjango-common
-        pass_filenames: false
-      - id: mypy
-        name: mypy-content
-        args:
-          - --config=tox.ini
-        files: ^content
-        entry: mypy content
-        pass_filenames: false
   - repo: https://github.com/psf/black
     rev: 20.8b1
     hooks:

@@ -3,7 +3,7 @@ from tkinter import messagebox
 import pandas as pd
 from file_cleanse import FileCleanse
 from muddy_boots import MuddyBoots
-
+from datetime import datetime
 
 class GuiApplication:
     def __init__(self):
@@ -25,13 +25,15 @@ class GuiApplication:
                 self.show_message("Looks like there was a problem sorting the column names, check the file")
                 return
             self.show_message("File uploaded successfully.")
-        else:
-            self.show_message("No file selected!")
+            return True
+        self.show_message("No file selected!")
+        return False
 
     def run_checks(self):
         if self.dataframeObj.all_years_df.shape[0] != 0:
             print("running checks")
-            self.dataframeObj.filename = self.filename_entry.get()
+            todays_date = datetime.today().strftime('%Y-%m-%d')
+            self.dataframeObj.filename = f"{todays_date}-new-farm"
             self.dataframeObj.do_checks()
             print("we're all done!")
             self.show_message("Checks Complete")
@@ -43,7 +45,8 @@ class GuiApplication:
 
 def execute_order_66():
     app = GuiApplication()
-    app.upload_action()
+    if app.upload_action():
+        app.run_checks()
 
 
 if __name__ == '__main__':
