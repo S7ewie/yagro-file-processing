@@ -86,36 +86,39 @@ class FileCleanse:
     separated_crops_list = property(get_separated_crops_list)
 
     def column_name_checks(self, dataframe):
-        print(dataframe.columns)
-        mandatory_columns = [
-            "Heading Category",
-            "Product Name",
-            "Field Group",
-            "Crop Group",
-            "Variety",
-            "Rate per Application Area ha",
-            "Application Area ha",
-            "Quantity",
-            "Av Field Unit Price GBP"
-        ]
-        for name in mandatory_columns:
-            if name not in dataframe.columns:
-                print(f"Column not found: {name}")
-                if name == "Av Field Unit Price GBP":
-                    if "Unit Price GBP" in dataframe.columns:
-                        dataframe.rename(columns={"Unit Price GBP": "Av Field Unit Price GBP"}, inplace=True)
+        if dataframe.empty:
+            return dataframe, False
+        else:
+            print(dataframe.columns)
+            mandatory_columns = [
+                "Heading Category",
+                "Product Name",
+                "Field Group",
+                "Crop Group",
+                "Variety",
+                "Rate per Application Area ha",
+                "Application Area ha",
+                "Quantity",
+                "Av Field Unit Price GBP"
+            ]
+            for name in mandatory_columns:
+                if name not in dataframe.columns:
+                    print(f"Column not found: {name}")
+                    if name == "Av Field Unit Price GBP":
+                        if "Unit Price GBP" in dataframe.columns:
+                            dataframe.rename(columns={"Unit Price GBP": "Av Field Unit Price GBP"}, inplace=True)
+                            continue
+                    elif name == "Rate per Application Area ha":
+                        if "Quantity per Application Area ha" in dataframe.columns:
+                            dataframe.rename(columns={"Quantity per Application Area ha": "Rate per Application Area ha"}, inplace=True)
+                            continue
+                    elif name == "Crop Group":
+                        if "Crop" in dataframe.columns:
+                            dataframe.rename(columns={"Crop": "Crop Group"}, inplace=True)
+                            continue
+                    elif name == "Quantity":
+                        dataframe["Quantity"] = dataframe["Rate per Application Area ha"] * dataframe["Application Area ha"]
                         continue
-                elif name == "Rate per Application Area ha":
-                    if "Quantity per Application Area ha" in dataframe.columns:
-                        dataframe.rename(columns={"Quantity per Application Area ha": "Rate per Application Area ha"}, inplace=True)
-                        continue
-                elif name == "Crop Group":
-                    if "Crop" in dataframe.columns:
-                        dataframe.rename(columns={"Crop": "Crop Group"}, inplace=True)
-                        continue
-                elif name == "Quantity":
-                    dataframe["Quantity"] = dataframe["Rate per Application Area ha"] * dataframe["Application Area ha"]
-                    continue
 
                 print("Does this get executed if there was one missing and it got changed")
                 return dataframe, False
@@ -142,7 +145,7 @@ class FileCleanse:
             book = Workbook()
             writer = pd.ExcelWriter(macro_filename, engine='openpyxl')
             writer.book = book
-            writer.sheets = dict((ws.title, ws) for ws in book.worksheets)
+            writer.sheets.update((ws.title, ws) for ws in book.worksheets)
 
             # Data pages
             working_df.check_product_prices()

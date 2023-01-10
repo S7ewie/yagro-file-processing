@@ -38,8 +38,9 @@ class GuiApplication:
             self.show_message("Checks Complete")
 
     def show_message(self, message):
-        messagebox.showinfo(
-            title="Warning, Warning, High Voltage!", message=message)
+        pass
+        # messagebox.showinfo(
+        #     title="Warning, Warning, High Voltage!", message=message)
 
 
 def execute_order_66():

@@ -1,6 +1,7 @@
 .DS_Store
 __pycache__/
 
+OUTPUTS/*.xlsx
 database.ini
 .idea/
 Brewfile.lock.json
