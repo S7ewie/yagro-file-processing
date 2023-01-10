@@ -1,5 +1,4 @@
-import tkinter.filedialog
-from tkinter import messagebox
+from tkinter import messagebox, filedialog as fd
 import pandas as pd
 from file_cleanse import FileCleanse
 from muddy_boots import MuddyBoots
@@ -11,7 +10,7 @@ class GuiApplication:
         self.muddy_boots_converter = MuddyBoots()
 
     def upload_action(self):
-        filename = tkinter.filedialog.askopenfilename()
+        filename = fd.askopenfilename()
         if filename != '':
             # df = pd.read_csv(filename, thousands=',')
             print("LOADING FILE")

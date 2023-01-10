@@ -1,2 +1,2 @@
 cd ~/Desktop/ygr-file-processing
-python remodelled_file_checker.py
+pyenv exec python remodelled_file_checker.py

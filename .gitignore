@@ -2,3 +2,6 @@
 __pycache__/
 
 database.ini
+.idea/
+Brewfile.lock.json
+Run

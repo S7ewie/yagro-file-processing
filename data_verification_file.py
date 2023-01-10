@@ -40,7 +40,7 @@ class DataVerificationFile:
                 ]
             },
             "missing_chem": {
-                "question": "The following fields are missing chemical information, could you provide your chemical information.",
+                "question": "The following fields are missing spray records, could you provide your spray records.",
                 "input_headings": [
                     "Chemical Product",
                     "Application Rate",
