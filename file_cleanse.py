@@ -120,8 +120,8 @@ class FileCleanse:
                         dataframe["Quantity"] = dataframe["Rate per Application Area ha"] * dataframe["Application Area ha"]
                         continue
 
-                print("Does this get executed if there was one missing and it got changed")
-                return dataframe, False
+                    print("Does this get executed if there was one missing and it got changed")
+                    return dataframe, False
         return dataframe, True
 
     def adjust_df_for_year(self, year):
